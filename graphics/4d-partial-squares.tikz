@@ -1,0 +1,92 @@
+\begin{figure}[ht]
+    \centering
+    \begin{subfigure}[b]{0.220\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.068]
+\filldraw[fill=custom-blue, draw=black] (0,0) rectangle (8,12);
+\filldraw[fill=custom-red, draw=black] (0,12) rectangle (8,21);
+\filldraw[fill=custom-red, draw=black] (0,21) rectangle (9,29);
+\filldraw[fill=custom-orange, draw=black] (0,29) rectangle (9,39);
+\filldraw[fill=custom-violet, draw=black] (8,0) rectangle (18,12);
+\filldraw[fill=custom-orange, draw=black] (8,12) rectangle (18,21);
+\filldraw[fill=custom-blue, draw=black] (9,21) rectangle (21,29);
+\filldraw[fill=custom-violet, draw=black] (9,29) rectangle (21,39);
+\filldraw[fill=custom-blue, draw=black] (18,0) rectangle (30,8);
+\filldraw[fill=custom-violet, draw=black] (18,8) rectangle (30,18);
+\filldraw[fill=custom-blue, draw=black] (21,18) rectangle (29,30);
+\filldraw[fill=custom-red, draw=black] (21,30) rectangle (29,39);
+\filldraw[fill=custom-red, draw=black] (30,0) rectangle (39,8);
+\filldraw[fill=custom-orange, draw=black] (30,8) rectangle (39,18);
+\filldraw[fill=custom-violet, draw=black] (29,18) rectangle (39,30);
+\filldraw[fill=custom-orange, draw=black] (29,30) rectangle (39,39);
+        \end{tikzpicture}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.220\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.068]
+\filldraw[fill=custom-blue, draw=black] (0,0) rectangle (8,12);
+\filldraw[fill=custom-red, draw=black] (0,12) rectangle (8,21);
+\filldraw[fill=custom-blue, draw=black] (0,21) rectangle (12,29);
+\filldraw[fill=custom-orange, draw=black] (0,29) rectangle (9,39);
+\filldraw[fill=custom-orange, draw=black] (8,0) rectangle (18,9);
+\filldraw[fill=custom-violet, draw=black] (8,9) rectangle (18,21);
+\filldraw[fill=custom-red, draw=black] (12,21) rectangle (21,29);
+\filldraw[fill=custom-violet, draw=black] (9,29) rectangle (21,39);
+\filldraw[fill=custom-blue, draw=black] (18,0) rectangle (30,8);
+\filldraw[fill=custom-violet, draw=black] (18,8) rectangle (30,18);
+\filldraw[fill=custom-blue, draw=black] (21,18) rectangle (29,30);
+\filldraw[fill=custom-red, draw=black] (21,30) rectangle (29,39);
+\filldraw[fill=custom-red, draw=black] (30,0) rectangle (39,8);
+\filldraw[fill=custom-orange, draw=black] (30,8) rectangle (39,18);
+\filldraw[fill=custom-violet, draw=black] (29,18) rectangle (39,30);
+\filldraw[fill=custom-orange, draw=black] (29,30) rectangle (39,39);
+        \end{tikzpicture}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.220\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.068]
+\filldraw[fill=custom-blue, draw=black] (0,0) rectangle (8,12);
+\filldraw[fill=custom-red, draw=black] (0,12) rectangle (8,21);
+\filldraw[fill=custom-blue, draw=black] (0,21) rectangle (12,29);
+\filldraw[fill=custom-violet, draw=black] (0,29) rectangle (12,39);
+\filldraw[fill=custom-orange, draw=black] (8,0) rectangle (18,9);
+\filldraw[fill=custom-violet, draw=black] (8,9) rectangle (18,21);
+\filldraw[fill=custom-red, draw=black] (12,21) rectangle (21,29);
+\filldraw[fill=custom-orange, draw=black] (12,29) rectangle (21,39);
+\filldraw[fill=custom-red, draw=black] (18,0) rectangle (27,8);
+\filldraw[fill=custom-violet, draw=black] (18,8) rectangle (30,18);
+\filldraw[fill=custom-blue, draw=black] (21,18) rectangle (29,30);
+\filldraw[fill=custom-red, draw=black] (21,30) rectangle (29,39);
+\filldraw[fill=custom-blue, draw=black] (27,0) rectangle (39,8);
+\filldraw[fill=custom-orange, draw=black] (30,8) rectangle (39,18);
+\filldraw[fill=custom-violet, draw=black] (29,18) rectangle (39,30);
+\filldraw[fill=custom-orange, draw=black] (29,30) rectangle (39,39);
+        \end{tikzpicture}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.220\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.068]
+\filldraw[fill=custom-blue, draw=black] (0,0) rectangle (8,12);
+\filldraw[fill=custom-red, draw=black] (0,12) rectangle (8,21);
+\filldraw[fill=custom-blue, draw=black] (0,21) rectangle (12,29);
+\filldraw[fill=custom-orange, draw=black] (0,29) rectangle (9,39);
+\filldraw[fill=custom-orange, draw=black] (8,0) rectangle (18,9);
+\filldraw[fill=custom-violet, draw=black] (8,9) rectangle (18,21);
+\filldraw[fill=custom-red, draw=black] (12,21) rectangle (21,29);
+\filldraw[fill=custom-violet, draw=black] (9,29) rectangle (21,39);
+\filldraw[fill=custom-red, draw=black] (18,0) rectangle (27,8);
+\filldraw[fill=custom-violet, draw=black] (18,8) rectangle (30,18);
+\filldraw[fill=custom-blue, draw=black] (21,18) rectangle (29,30);
+\filldraw[fill=custom-red, draw=black] (21,30) rectangle (29,39);
+\filldraw[fill=custom-blue, draw=black] (27,0) rectangle (39,8);
+\filldraw[fill=custom-orange, draw=black] (30,8) rectangle (39,18);
+\filldraw[fill=custom-violet, draw=black] (29,18) rectangle (39,30);
+\filldraw[fill=custom-orange, draw=black] (29,30) rectangle (39,39);
+        \end{tikzpicture}
+    \end{subfigure}
+    \caption{Example of how completing a partial solution in multiple ways might lead to a swapping of some of the hyperrectangles.}
+    \label{fig:4d-partial-swaps}
+\end{figure}

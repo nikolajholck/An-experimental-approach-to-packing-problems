@@ -1,0 +1,2239 @@
+\vspace*{\fill}
+\begin{figure}[h]
+    \centering
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-violet, draw=black] (0,0) rectangle (10,12);
+\filldraw[fill=custom-orange, draw=black] (0,12) rectangle (10,21);
+\filldraw[fill=custom-violet, draw=black] (0,21) rectangle (12,31);
+\filldraw[fill=custom-blue, draw=black] (0,31) rectangle (12,39);
+\filldraw[fill=custom-blue, draw=black] (10,0) rectangle (18,12);
+\filldraw[fill=custom-red, draw=black] (10,12) rectangle (18,21);
+\filldraw[fill=custom-orange, draw=black] (12,21) rectangle (21,31);
+\filldraw[fill=custom-red, draw=black] (12,31) rectangle (21,39);
+\filldraw[fill=custom-violet, draw=black] (18,0) rectangle (30,10);
+\filldraw[fill=custom-blue, draw=black] (18,10) rectangle (30,18);
+\filldraw[fill=custom-violet, draw=black] (21,18) rectangle (31,30);
+\filldraw[fill=custom-orange, draw=black] (21,30) rectangle (31,39);
+\filldraw[fill=custom-orange, draw=black] (30,0) rectangle (39,10);
+\filldraw[fill=custom-red, draw=black] (30,10) rectangle (39,18);
+\filldraw[fill=custom-blue, draw=black] (31,18) rectangle (39,30);
+\filldraw[fill=custom-red, draw=black] (31,30) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$x = 1$ and $y = 1$.}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-orange, draw=black] (0,0) rectangle (10,9);
+\filldraw[fill=custom-violet, draw=black] (0,9) rectangle (10,21);
+\filldraw[fill=custom-orange, draw=black] (0,21) rectangle (9,31);
+\filldraw[fill=custom-red, draw=black] (0,31) rectangle (9,39);
+\filldraw[fill=custom-red, draw=black] (10,0) rectangle (18,9);
+\filldraw[fill=custom-blue, draw=black] (10,9) rectangle (18,21);
+\filldraw[fill=custom-violet, draw=black] (9,21) rectangle (21,31);
+\filldraw[fill=custom-blue, draw=black] (9,31) rectangle (21,39);
+\filldraw[fill=custom-orange, draw=black] (18,0) rectangle (27,10);
+\filldraw[fill=custom-red, draw=black] (18,10) rectangle (27,18);
+\filldraw[fill=custom-orange, draw=black] (21,18) rectangle (31,27);
+\filldraw[fill=custom-violet, draw=black] (21,27) rectangle (31,39);
+\filldraw[fill=custom-violet, draw=black] (27,0) rectangle (39,10);
+\filldraw[fill=custom-blue, draw=black] (27,10) rectangle (39,18);
+\filldraw[fill=custom-red, draw=black] (31,18) rectangle (39,27);
+\filldraw[fill=custom-blue, draw=black] (31,27) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$x = 1$ and $y = 2$.}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-violet, draw=black] (0,0) rectangle (10,12);
+\filldraw[fill=custom-orange, draw=black] (0,12) rectangle (10,21);
+\filldraw[fill=custom-violet, draw=black] (0,21) rectangle (12,31);
+\filldraw[fill=custom-blue, draw=black] (0,31) rectangle (12,39);
+\filldraw[fill=custom-blue, draw=black] (10,0) rectangle (18,12);
+\filldraw[fill=custom-red, draw=black] (10,12) rectangle (18,21);
+\filldraw[fill=custom-orange, draw=black] (12,21) rectangle (21,31);
+\filldraw[fill=custom-red, draw=black] (12,31) rectangle (21,39);
+\filldraw[fill=custom-violet, draw=black] (18,0) rectangle (30,10);
+\filldraw[fill=custom-blue, draw=black] (18,10) rectangle (30,18);
+\filldraw[fill=custom-violet, draw=black] (21,18) rectangle (31,30);
+\filldraw[fill=custom-orange, draw=black] (21,30) rectangle (31,39);
+\filldraw[fill=custom-orange, draw=black] (30,0) rectangle (39,10);
+\filldraw[fill=custom-red, draw=black] (30,10) rectangle (39,18);
+\filldraw[fill=custom-blue, draw=black] (31,18) rectangle (39,30);
+\filldraw[fill=custom-red, draw=black] (31,30) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$x = 1$ and $y = 3$.}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-blue, draw=black] (0,0) rectangle (8,12);
+\filldraw[fill=custom-red, draw=black] (0,12) rectangle (8,21);
+\filldraw[fill=custom-blue, draw=black] (0,21) rectangle (12,29);
+\filldraw[fill=custom-violet, draw=black] (0,29) rectangle (12,39);
+\filldraw[fill=custom-violet, draw=black] (8,0) rectangle (18,12);
+\filldraw[fill=custom-orange, draw=black] (8,12) rectangle (18,21);
+\filldraw[fill=custom-red, draw=black] (12,21) rectangle (21,29);
+\filldraw[fill=custom-orange, draw=black] (12,29) rectangle (21,39);
+\filldraw[fill=custom-blue, draw=black] (18,0) rectangle (30,8);
+\filldraw[fill=custom-violet, draw=black] (18,8) rectangle (30,18);
+\filldraw[fill=custom-blue, draw=black] (21,18) rectangle (29,30);
+\filldraw[fill=custom-red, draw=black] (21,30) rectangle (29,39);
+\filldraw[fill=custom-red, draw=black] (30,0) rectangle (39,8);
+\filldraw[fill=custom-orange, draw=black] (30,8) rectangle (39,18);
+\filldraw[fill=custom-violet, draw=black] (29,18) rectangle (39,30);
+\filldraw[fill=custom-orange, draw=black] (29,30) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$x = 1$ and $y = 4$.}
+    \end{subfigure}
+    \par\bigskip
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-blue, draw=black] (0,0) rectangle (8,12);
+\filldraw[fill=custom-red, draw=black] (0,12) rectangle (8,21);
+\filldraw[fill=custom-blue, draw=black] (0,21) rectangle (12,29);
+\filldraw[fill=custom-violet, draw=black] (0,29) rectangle (12,39);
+\filldraw[fill=custom-violet, draw=black] (8,0) rectangle (18,12);
+\filldraw[fill=custom-orange, draw=black] (8,12) rectangle (18,21);
+\filldraw[fill=custom-red, draw=black] (12,21) rectangle (21,29);
+\filldraw[fill=custom-orange, draw=black] (12,29) rectangle (21,39);
+\filldraw[fill=custom-blue, draw=black] (18,0) rectangle (30,8);
+\filldraw[fill=custom-violet, draw=black] (18,8) rectangle (30,18);
+\filldraw[fill=custom-blue, draw=black] (21,18) rectangle (29,30);
+\filldraw[fill=custom-red, draw=black] (21,30) rectangle (29,39);
+\filldraw[fill=custom-red, draw=black] (30,0) rectangle (39,8);
+\filldraw[fill=custom-orange, draw=black] (30,8) rectangle (39,18);
+\filldraw[fill=custom-violet, draw=black] (29,18) rectangle (39,30);
+\filldraw[fill=custom-orange, draw=black] (29,30) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$x = 2$ and $y = 1$.}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-red, draw=black] (0,0) rectangle (8,9);
+\filldraw[fill=custom-blue, draw=black] (0,9) rectangle (8,21);
+\filldraw[fill=custom-red, draw=black] (0,21) rectangle (9,29);
+\filldraw[fill=custom-orange, draw=black] (0,29) rectangle (9,39);
+\filldraw[fill=custom-orange, draw=black] (8,0) rectangle (18,9);
+\filldraw[fill=custom-violet, draw=black] (8,9) rectangle (18,21);
+\filldraw[fill=custom-blue, draw=black] (9,21) rectangle (21,29);
+\filldraw[fill=custom-violet, draw=black] (9,29) rectangle (21,39);
+\filldraw[fill=custom-red, draw=black] (18,0) rectangle (27,8);
+\filldraw[fill=custom-orange, draw=black] (18,8) rectangle (27,18);
+\filldraw[fill=custom-red, draw=black] (21,18) rectangle (29,27);
+\filldraw[fill=custom-blue, draw=black] (21,27) rectangle (29,39);
+\filldraw[fill=custom-blue, draw=black] (27,0) rectangle (39,8);
+\filldraw[fill=custom-violet, draw=black] (27,8) rectangle (39,18);
+\filldraw[fill=custom-orange, draw=black] (29,18) rectangle (39,27);
+\filldraw[fill=custom-violet, draw=black] (29,27) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$x = 2$ and $y = 2$.}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-orange, draw=black] (0,0) rectangle (10,9);
+\filldraw[fill=custom-violet, draw=black] (0,9) rectangle (10,21);
+\filldraw[fill=custom-orange, draw=black] (0,21) rectangle (9,31);
+\filldraw[fill=custom-red, draw=black] (0,31) rectangle (9,39);
+\filldraw[fill=custom-red, draw=black] (10,0) rectangle (18,9);
+\filldraw[fill=custom-blue, draw=black] (10,9) rectangle (18,21);
+\filldraw[fill=custom-violet, draw=black] (9,21) rectangle (21,31);
+\filldraw[fill=custom-blue, draw=black] (9,31) rectangle (21,39);
+\filldraw[fill=custom-orange, draw=black] (18,0) rectangle (27,10);
+\filldraw[fill=custom-red, draw=black] (18,10) rectangle (27,18);
+\filldraw[fill=custom-orange, draw=black] (21,18) rectangle (31,27);
+\filldraw[fill=custom-violet, draw=black] (21,27) rectangle (31,39);
+\filldraw[fill=custom-violet, draw=black] (27,0) rectangle (39,10);
+\filldraw[fill=custom-blue, draw=black] (27,10) rectangle (39,18);
+\filldraw[fill=custom-red, draw=black] (31,18) rectangle (39,27);
+\filldraw[fill=custom-blue, draw=black] (31,27) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$x = 2$ and $y = 3$.}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-red, draw=black] (0,0) rectangle (8,9);
+\filldraw[fill=custom-blue, draw=black] (0,9) rectangle (8,21);
+\filldraw[fill=custom-red, draw=black] (0,21) rectangle (9,29);
+\filldraw[fill=custom-orange, draw=black] (0,29) rectangle (9,39);
+\filldraw[fill=custom-orange, draw=black] (8,0) rectangle (18,9);
+\filldraw[fill=custom-violet, draw=black] (8,9) rectangle (18,21);
+\filldraw[fill=custom-blue, draw=black] (9,21) rectangle (21,29);
+\filldraw[fill=custom-violet, draw=black] (9,29) rectangle (21,39);
+\filldraw[fill=custom-red, draw=black] (18,0) rectangle (27,8);
+\filldraw[fill=custom-orange, draw=black] (18,8) rectangle (27,18);
+\filldraw[fill=custom-red, draw=black] (21,18) rectangle (29,27);
+\filldraw[fill=custom-blue, draw=black] (21,27) rectangle (29,39);
+\filldraw[fill=custom-blue, draw=black] (27,0) rectangle (39,8);
+\filldraw[fill=custom-violet, draw=black] (27,8) rectangle (39,18);
+\filldraw[fill=custom-orange, draw=black] (29,18) rectangle (39,27);
+\filldraw[fill=custom-violet, draw=black] (29,27) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$x = 2$ and $y = 4$.}
+    \end{subfigure}
+    \par\bigskip
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-violet, draw=black] (0,0) rectangle (10,12);
+\filldraw[fill=custom-orange, draw=black] (0,12) rectangle (10,21);
+\filldraw[fill=custom-violet, draw=black] (0,21) rectangle (12,31);
+\filldraw[fill=custom-blue, draw=black] (0,31) rectangle (12,39);
+\filldraw[fill=custom-blue, draw=black] (10,0) rectangle (18,12);
+\filldraw[fill=custom-red, draw=black] (10,12) rectangle (18,21);
+\filldraw[fill=custom-orange, draw=black] (12,21) rectangle (21,31);
+\filldraw[fill=custom-red, draw=black] (12,31) rectangle (21,39);
+\filldraw[fill=custom-violet, draw=black] (18,0) rectangle (30,10);
+\filldraw[fill=custom-blue, draw=black] (18,10) rectangle (30,18);
+\filldraw[fill=custom-violet, draw=black] (21,18) rectangle (31,30);
+\filldraw[fill=custom-orange, draw=black] (21,30) rectangle (31,39);
+\filldraw[fill=custom-orange, draw=black] (30,0) rectangle (39,10);
+\filldraw[fill=custom-red, draw=black] (30,10) rectangle (39,18);
+\filldraw[fill=custom-blue, draw=black] (31,18) rectangle (39,30);
+\filldraw[fill=custom-red, draw=black] (31,30) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$x = 3$ and $y = 1$.}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-blue, draw=black] (0,0) rectangle (8,12);
+\filldraw[fill=custom-red, draw=black] (0,12) rectangle (8,21);
+\filldraw[fill=custom-blue, draw=black] (0,21) rectangle (12,29);
+\filldraw[fill=custom-violet, draw=black] (0,29) rectangle (12,39);
+\filldraw[fill=custom-violet, draw=black] (8,0) rectangle (18,12);
+\filldraw[fill=custom-orange, draw=black] (8,12) rectangle (18,21);
+\filldraw[fill=custom-red, draw=black] (12,21) rectangle (21,29);
+\filldraw[fill=custom-orange, draw=black] (12,29) rectangle (21,39);
+\filldraw[fill=custom-blue, draw=black] (18,0) rectangle (30,8);
+\filldraw[fill=custom-violet, draw=black] (18,8) rectangle (30,18);
+\filldraw[fill=custom-blue, draw=black] (21,18) rectangle (29,30);
+\filldraw[fill=custom-red, draw=black] (21,30) rectangle (29,39);
+\filldraw[fill=custom-red, draw=black] (30,0) rectangle (39,8);
+\filldraw[fill=custom-orange, draw=black] (30,8) rectangle (39,18);
+\filldraw[fill=custom-violet, draw=black] (29,18) rectangle (39,30);
+\filldraw[fill=custom-orange, draw=black] (29,30) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$x = 3$ and $y = 2$.}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-violet, draw=black] (0,0) rectangle (10,12);
+\filldraw[fill=custom-orange, draw=black] (0,12) rectangle (10,21);
+\filldraw[fill=custom-violet, draw=black] (0,21) rectangle (12,31);
+\filldraw[fill=custom-blue, draw=black] (0,31) rectangle (12,39);
+\filldraw[fill=custom-blue, draw=black] (10,0) rectangle (18,12);
+\filldraw[fill=custom-red, draw=black] (10,12) rectangle (18,21);
+\filldraw[fill=custom-orange, draw=black] (12,21) rectangle (21,31);
+\filldraw[fill=custom-red, draw=black] (12,31) rectangle (21,39);
+\filldraw[fill=custom-violet, draw=black] (18,0) rectangle (30,10);
+\filldraw[fill=custom-blue, draw=black] (18,10) rectangle (30,18);
+\filldraw[fill=custom-violet, draw=black] (21,18) rectangle (31,30);
+\filldraw[fill=custom-orange, draw=black] (21,30) rectangle (31,39);
+\filldraw[fill=custom-orange, draw=black] (30,0) rectangle (39,10);
+\filldraw[fill=custom-red, draw=black] (30,10) rectangle (39,18);
+\filldraw[fill=custom-blue, draw=black] (31,18) rectangle (39,30);
+\filldraw[fill=custom-red, draw=black] (31,30) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$x = 3$ and $y = 3$.}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-orange, draw=black] (0,0) rectangle (10,9);
+\filldraw[fill=custom-violet, draw=black] (0,9) rectangle (10,21);
+\filldraw[fill=custom-orange, draw=black] (0,21) rectangle (9,31);
+\filldraw[fill=custom-red, draw=black] (0,31) rectangle (9,39);
+\filldraw[fill=custom-red, draw=black] (10,0) rectangle (18,9);
+\filldraw[fill=custom-blue, draw=black] (10,9) rectangle (18,21);
+\filldraw[fill=custom-violet, draw=black] (9,21) rectangle (21,31);
+\filldraw[fill=custom-blue, draw=black] (9,31) rectangle (21,39);
+\filldraw[fill=custom-orange, draw=black] (18,0) rectangle (27,10);
+\filldraw[fill=custom-red, draw=black] (18,10) rectangle (27,18);
+\filldraw[fill=custom-orange, draw=black] (21,18) rectangle (31,27);
+\filldraw[fill=custom-violet, draw=black] (21,27) rectangle (31,39);
+\filldraw[fill=custom-violet, draw=black] (27,0) rectangle (39,10);
+\filldraw[fill=custom-blue, draw=black] (27,10) rectangle (39,18);
+\filldraw[fill=custom-red, draw=black] (31,18) rectangle (39,27);
+\filldraw[fill=custom-blue, draw=black] (31,27) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$x = 3$ and $y = 4$.}
+    \end{subfigure}
+    \par\bigskip
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-orange, draw=black] (0,0) rectangle (10,9);
+\filldraw[fill=custom-violet, draw=black] (0,9) rectangle (10,21);
+\filldraw[fill=custom-orange, draw=black] (0,21) rectangle (9,31);
+\filldraw[fill=custom-red, draw=black] (0,31) rectangle (9,39);
+\filldraw[fill=custom-red, draw=black] (10,0) rectangle (18,9);
+\filldraw[fill=custom-blue, draw=black] (10,9) rectangle (18,21);
+\filldraw[fill=custom-violet, draw=black] (9,21) rectangle (21,31);
+\filldraw[fill=custom-blue, draw=black] (9,31) rectangle (21,39);
+\filldraw[fill=custom-orange, draw=black] (18,0) rectangle (27,10);
+\filldraw[fill=custom-red, draw=black] (18,10) rectangle (27,18);
+\filldraw[fill=custom-orange, draw=black] (21,18) rectangle (31,27);
+\filldraw[fill=custom-violet, draw=black] (21,27) rectangle (31,39);
+\filldraw[fill=custom-violet, draw=black] (27,0) rectangle (39,10);
+\filldraw[fill=custom-blue, draw=black] (27,10) rectangle (39,18);
+\filldraw[fill=custom-red, draw=black] (31,18) rectangle (39,27);
+\filldraw[fill=custom-blue, draw=black] (31,27) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$x = 4$ and $y = 1$.}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-red, draw=black] (0,0) rectangle (8,9);
+\filldraw[fill=custom-blue, draw=black] (0,9) rectangle (8,21);
+\filldraw[fill=custom-red, draw=black] (0,21) rectangle (9,29);
+\filldraw[fill=custom-orange, draw=black] (0,29) rectangle (9,39);
+\filldraw[fill=custom-orange, draw=black] (8,0) rectangle (18,9);
+\filldraw[fill=custom-violet, draw=black] (8,9) rectangle (18,21);
+\filldraw[fill=custom-blue, draw=black] (9,21) rectangle (21,29);
+\filldraw[fill=custom-violet, draw=black] (9,29) rectangle (21,39);
+\filldraw[fill=custom-red, draw=black] (18,0) rectangle (27,8);
+\filldraw[fill=custom-orange, draw=black] (18,8) rectangle (27,18);
+\filldraw[fill=custom-red, draw=black] (21,18) rectangle (29,27);
+\filldraw[fill=custom-blue, draw=black] (21,27) rectangle (29,39);
+\filldraw[fill=custom-blue, draw=black] (27,0) rectangle (39,8);
+\filldraw[fill=custom-violet, draw=black] (27,8) rectangle (39,18);
+\filldraw[fill=custom-orange, draw=black] (29,18) rectangle (39,27);
+\filldraw[fill=custom-violet, draw=black] (29,27) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$x = 4$ and $y = 2$.}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-blue, draw=black] (0,0) rectangle (8,12);
+\filldraw[fill=custom-red, draw=black] (0,12) rectangle (8,21);
+\filldraw[fill=custom-blue, draw=black] (0,21) rectangle (12,29);
+\filldraw[fill=custom-violet, draw=black] (0,29) rectangle (12,39);
+\filldraw[fill=custom-violet, draw=black] (8,0) rectangle (18,12);
+\filldraw[fill=custom-orange, draw=black] (8,12) rectangle (18,21);
+\filldraw[fill=custom-red, draw=black] (12,21) rectangle (21,29);
+\filldraw[fill=custom-orange, draw=black] (12,29) rectangle (21,39);
+\filldraw[fill=custom-blue, draw=black] (18,0) rectangle (30,8);
+\filldraw[fill=custom-violet, draw=black] (18,8) rectangle (30,18);
+\filldraw[fill=custom-blue, draw=black] (21,18) rectangle (29,30);
+\filldraw[fill=custom-red, draw=black] (21,30) rectangle (29,39);
+\filldraw[fill=custom-red, draw=black] (30,0) rectangle (39,8);
+\filldraw[fill=custom-orange, draw=black] (30,8) rectangle (39,18);
+\filldraw[fill=custom-violet, draw=black] (29,18) rectangle (39,30);
+\filldraw[fill=custom-orange, draw=black] (29,30) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$x = 4$ and $y = 3$.}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-red, draw=black] (0,0) rectangle (8,9);
+\filldraw[fill=custom-blue, draw=black] (0,9) rectangle (8,21);
+\filldraw[fill=custom-red, draw=black] (0,21) rectangle (9,29);
+\filldraw[fill=custom-orange, draw=black] (0,29) rectangle (9,39);
+\filldraw[fill=custom-orange, draw=black] (8,0) rectangle (18,9);
+\filldraw[fill=custom-violet, draw=black] (8,9) rectangle (18,21);
+\filldraw[fill=custom-blue, draw=black] (9,21) rectangle (21,29);
+\filldraw[fill=custom-violet, draw=black] (9,29) rectangle (21,39);
+\filldraw[fill=custom-red, draw=black] (18,0) rectangle (27,8);
+\filldraw[fill=custom-orange, draw=black] (18,8) rectangle (27,18);
+\filldraw[fill=custom-red, draw=black] (21,18) rectangle (29,27);
+\filldraw[fill=custom-blue, draw=black] (21,27) rectangle (29,39);
+\filldraw[fill=custom-blue, draw=black] (27,0) rectangle (39,8);
+\filldraw[fill=custom-violet, draw=black] (27,8) rectangle (39,18);
+\filldraw[fill=custom-orange, draw=black] (29,18) rectangle (39,27);
+\filldraw[fill=custom-violet, draw=black] (29,27) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$x = 4$ and $y = 4$.}
+    \end{subfigure}
+    \caption*{Squares where the $x$- and $y$-axes are fixed.}
+\end{figure}
+\vspace*{\fill}
+\clearpage
+% Allow break
+\begin{figure}[p]
+    \ContinuedFloat % Continue from previous page.
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-yellow, draw=black] (0,0) rectangle (9,12);
+\filldraw[fill=custom-yellow, draw=black] (0,12) rectangle (12,21);
+\filldraw[fill=custom-orange, draw=black] (0,21) rectangle (9,31);
+\filldraw[fill=custom-red, draw=black] (0,31) rectangle (9,39);
+\filldraw[fill=custom-yellow, draw=black] (9,0) rectangle (21,9);
+\filldraw[fill=custom-yellow, draw=black] (12,9) rectangle (21,21);
+\filldraw[fill=custom-violet, draw=black] (9,21) rectangle (21,31);
+\filldraw[fill=custom-blue, draw=black] (9,31) rectangle (21,39);
+\filldraw[fill=custom-blue, draw=black] (21,0) rectangle (29,12);
+\filldraw[fill=custom-red, draw=black] (21,12) rectangle (29,21);
+\filldraw[fill=custom-green, draw=black] (21,21) rectangle (29,31);
+\filldraw[fill=custom-green, draw=black] (21,31) rectangle (31,39);
+\filldraw[fill=custom-violet, draw=black] (29,0) rectangle (39,12);
+\filldraw[fill=custom-orange, draw=black] (29,12) rectangle (39,21);
+\filldraw[fill=custom-green, draw=black] (29,21) rectangle (39,29);
+\filldraw[fill=custom-green, draw=black] (31,29) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$x = 1$ and $z = 1$.}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-yellow, draw=black] (0,0) rectangle (9,12);
+\filldraw[fill=custom-yellow, draw=black] (0,12) rectangle (12,21);
+\filldraw[fill=custom-violet, draw=black] (0,21) rectangle (12,31);
+\filldraw[fill=custom-blue, draw=black] (0,31) rectangle (12,39);
+\filldraw[fill=custom-yellow, draw=black] (9,0) rectangle (21,9);
+\filldraw[fill=custom-yellow, draw=black] (12,9) rectangle (21,21);
+\filldraw[fill=custom-orange, draw=black] (12,21) rectangle (21,31);
+\filldraw[fill=custom-red, draw=black] (12,31) rectangle (21,39);
+\filldraw[fill=custom-violet, draw=black] (21,0) rectangle (31,12);
+\filldraw[fill=custom-orange, draw=black] (21,12) rectangle (31,21);
+\filldraw[fill=custom-green, draw=black] (21,21) rectangle (29,31);
+\filldraw[fill=custom-green, draw=black] (21,31) rectangle (31,39);
+\filldraw[fill=custom-blue, draw=black] (31,0) rectangle (39,12);
+\filldraw[fill=custom-red, draw=black] (31,12) rectangle (39,21);
+\filldraw[fill=custom-green, draw=black] (29,21) rectangle (39,29);
+\filldraw[fill=custom-green, draw=black] (31,29) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$x = 1$ and $z = 2$.}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-orange, draw=black] (0,0) rectangle (9,10);
+\filldraw[fill=custom-red, draw=black] (0,10) rectangle (9,18);
+\filldraw[fill=custom-yellow, draw=black] (0,18) rectangle (9,30);
+\filldraw[fill=custom-yellow, draw=black] (0,30) rectangle (12,39);
+\filldraw[fill=custom-violet, draw=black] (9,0) rectangle (21,10);
+\filldraw[fill=custom-blue, draw=black] (9,10) rectangle (21,18);
+\filldraw[fill=custom-yellow, draw=black] (9,18) rectangle (21,27);
+\filldraw[fill=custom-yellow, draw=black] (12,27) rectangle (21,39);
+\filldraw[fill=custom-green, draw=black] (21,0) rectangle (29,10);
+\filldraw[fill=custom-green, draw=black] (21,10) rectangle (31,18);
+\filldraw[fill=custom-blue, draw=black] (21,18) rectangle (29,30);
+\filldraw[fill=custom-red, draw=black] (21,30) rectangle (29,39);
+\filldraw[fill=custom-green, draw=black] (29,0) rectangle (39,8);
+\filldraw[fill=custom-green, draw=black] (31,8) rectangle (39,18);
+\filldraw[fill=custom-violet, draw=black] (29,18) rectangle (39,30);
+\filldraw[fill=custom-orange, draw=black] (29,30) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$x = 1$ and $z = 3$.}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-violet, draw=black] (0,0) rectangle (12,10);
+\filldraw[fill=custom-blue, draw=black] (0,10) rectangle (12,18);
+\filldraw[fill=custom-yellow, draw=black] (0,18) rectangle (9,30);
+\filldraw[fill=custom-yellow, draw=black] (0,30) rectangle (12,39);
+\filldraw[fill=custom-orange, draw=black] (12,0) rectangle (21,10);
+\filldraw[fill=custom-red, draw=black] (12,10) rectangle (21,18);
+\filldraw[fill=custom-yellow, draw=black] (9,18) rectangle (21,27);
+\filldraw[fill=custom-yellow, draw=black] (12,27) rectangle (21,39);
+\filldraw[fill=custom-green, draw=black] (21,0) rectangle (29,10);
+\filldraw[fill=custom-green, draw=black] (21,10) rectangle (31,18);
+\filldraw[fill=custom-violet, draw=black] (21,18) rectangle (31,30);
+\filldraw[fill=custom-orange, draw=black] (21,30) rectangle (31,39);
+\filldraw[fill=custom-green, draw=black] (29,0) rectangle (39,8);
+\filldraw[fill=custom-green, draw=black] (31,8) rectangle (39,18);
+\filldraw[fill=custom-blue, draw=black] (31,18) rectangle (39,30);
+\filldraw[fill=custom-red, draw=black] (31,30) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$x = 1$ and $z = 4$.}
+    \end{subfigure}
+    \par\bigskip
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-yellow, draw=black] (0,0) rectangle (9,12);
+\filldraw[fill=custom-yellow, draw=black] (0,12) rectangle (12,21);
+\filldraw[fill=custom-red, draw=black] (0,21) rectangle (9,29);
+\filldraw[fill=custom-orange, draw=black] (0,29) rectangle (9,39);
+\filldraw[fill=custom-yellow, draw=black] (9,0) rectangle (21,9);
+\filldraw[fill=custom-yellow, draw=black] (12,9) rectangle (21,21);
+\filldraw[fill=custom-blue, draw=black] (9,21) rectangle (21,29);
+\filldraw[fill=custom-violet, draw=black] (9,29) rectangle (21,39);
+\filldraw[fill=custom-red, draw=black] (21,0) rectangle (29,9);
+\filldraw[fill=custom-blue, draw=black] (21,9) rectangle (29,21);
+\filldraw[fill=custom-green, draw=black] (21,21) rectangle (29,31);
+\filldraw[fill=custom-green, draw=black] (21,31) rectangle (31,39);
+\filldraw[fill=custom-orange, draw=black] (29,0) rectangle (39,9);
+\filldraw[fill=custom-violet, draw=black] (29,9) rectangle (39,21);
+\filldraw[fill=custom-green, draw=black] (29,21) rectangle (39,29);
+\filldraw[fill=custom-green, draw=black] (31,29) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$x = 2$ and $z = 1$.}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-yellow, draw=black] (0,0) rectangle (9,12);
+\filldraw[fill=custom-yellow, draw=black] (0,12) rectangle (12,21);
+\filldraw[fill=custom-blue, draw=black] (0,21) rectangle (12,29);
+\filldraw[fill=custom-violet, draw=black] (0,29) rectangle (12,39);
+\filldraw[fill=custom-yellow, draw=black] (9,0) rectangle (21,9);
+\filldraw[fill=custom-yellow, draw=black] (12,9) rectangle (21,21);
+\filldraw[fill=custom-red, draw=black] (12,21) rectangle (21,29);
+\filldraw[fill=custom-orange, draw=black] (12,29) rectangle (21,39);
+\filldraw[fill=custom-orange, draw=black] (21,0) rectangle (31,9);
+\filldraw[fill=custom-violet, draw=black] (21,9) rectangle (31,21);
+\filldraw[fill=custom-green, draw=black] (21,21) rectangle (29,31);
+\filldraw[fill=custom-green, draw=black] (21,31) rectangle (31,39);
+\filldraw[fill=custom-red, draw=black] (31,0) rectangle (39,9);
+\filldraw[fill=custom-blue, draw=black] (31,9) rectangle (39,21);
+\filldraw[fill=custom-green, draw=black] (29,21) rectangle (39,29);
+\filldraw[fill=custom-green, draw=black] (31,29) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$x = 2$ and $z = 2$.}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-red, draw=black] (0,0) rectangle (9,8);
+\filldraw[fill=custom-orange, draw=black] (0,8) rectangle (9,18);
+\filldraw[fill=custom-yellow, draw=black] (0,18) rectangle (9,30);
+\filldraw[fill=custom-yellow, draw=black] (0,30) rectangle (12,39);
+\filldraw[fill=custom-blue, draw=black] (9,0) rectangle (21,8);
+\filldraw[fill=custom-violet, draw=black] (9,8) rectangle (21,18);
+\filldraw[fill=custom-yellow, draw=black] (9,18) rectangle (21,27);
+\filldraw[fill=custom-yellow, draw=black] (12,27) rectangle (21,39);
+\filldraw[fill=custom-green, draw=black] (21,0) rectangle (29,10);
+\filldraw[fill=custom-green, draw=black] (21,10) rectangle (31,18);
+\filldraw[fill=custom-red, draw=black] (21,18) rectangle (29,27);
+\filldraw[fill=custom-blue, draw=black] (21,27) rectangle (29,39);
+\filldraw[fill=custom-green, draw=black] (29,0) rectangle (39,8);
+\filldraw[fill=custom-green, draw=black] (31,8) rectangle (39,18);
+\filldraw[fill=custom-orange, draw=black] (29,18) rectangle (39,27);
+\filldraw[fill=custom-violet, draw=black] (29,27) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$x = 2$ and $z = 3$.}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-blue, draw=black] (0,0) rectangle (12,8);
+\filldraw[fill=custom-violet, draw=black] (0,8) rectangle (12,18);
+\filldraw[fill=custom-yellow, draw=black] (0,18) rectangle (9,30);
+\filldraw[fill=custom-yellow, draw=black] (0,30) rectangle (12,39);
+\filldraw[fill=custom-red, draw=black] (12,0) rectangle (21,8);
+\filldraw[fill=custom-orange, draw=black] (12,8) rectangle (21,18);
+\filldraw[fill=custom-yellow, draw=black] (9,18) rectangle (21,27);
+\filldraw[fill=custom-yellow, draw=black] (12,27) rectangle (21,39);
+\filldraw[fill=custom-green, draw=black] (21,0) rectangle (29,10);
+\filldraw[fill=custom-green, draw=black] (21,10) rectangle (31,18);
+\filldraw[fill=custom-orange, draw=black] (21,18) rectangle (31,27);
+\filldraw[fill=custom-violet, draw=black] (21,27) rectangle (31,39);
+\filldraw[fill=custom-green, draw=black] (29,0) rectangle (39,8);
+\filldraw[fill=custom-green, draw=black] (31,8) rectangle (39,18);
+\filldraw[fill=custom-red, draw=black] (31,18) rectangle (39,27);
+\filldraw[fill=custom-blue, draw=black] (31,27) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$x = 2$ and $z = 4$.}
+    \end{subfigure}
+    \par\bigskip
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-blue, draw=black] (0,0) rectangle (8,12);
+\filldraw[fill=custom-red, draw=black] (0,12) rectangle (8,21);
+\filldraw[fill=custom-green, draw=black] (0,21) rectangle (8,31);
+\filldraw[fill=custom-green, draw=black] (0,31) rectangle (10,39);
+\filldraw[fill=custom-violet, draw=black] (8,0) rectangle (18,12);
+\filldraw[fill=custom-orange, draw=black] (8,12) rectangle (18,21);
+\filldraw[fill=custom-green, draw=black] (8,21) rectangle (18,29);
+\filldraw[fill=custom-green, draw=black] (10,29) rectangle (18,39);
+\filldraw[fill=custom-yellow, draw=black] (18,0) rectangle (27,12);
+\filldraw[fill=custom-yellow, draw=black] (18,12) rectangle (30,21);
+\filldraw[fill=custom-orange, draw=black] (18,21) rectangle (27,31);
+\filldraw[fill=custom-red, draw=black] (18,31) rectangle (27,39);
+\filldraw[fill=custom-yellow, draw=black] (27,0) rectangle (39,9);
+\filldraw[fill=custom-yellow, draw=black] (30,9) rectangle (39,21);
+\filldraw[fill=custom-violet, draw=black] (27,21) rectangle (39,31);
+\filldraw[fill=custom-blue, draw=black] (27,31) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$x = 3$ and $z = 1$.}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-violet, draw=black] (0,0) rectangle (10,12);
+\filldraw[fill=custom-orange, draw=black] (0,12) rectangle (10,21);
+\filldraw[fill=custom-green, draw=black] (0,21) rectangle (8,31);
+\filldraw[fill=custom-green, draw=black] (0,31) rectangle (10,39);
+\filldraw[fill=custom-blue, draw=black] (10,0) rectangle (18,12);
+\filldraw[fill=custom-red, draw=black] (10,12) rectangle (18,21);
+\filldraw[fill=custom-green, draw=black] (8,21) rectangle (18,29);
+\filldraw[fill=custom-green, draw=black] (10,29) rectangle (18,39);
+\filldraw[fill=custom-yellow, draw=black] (18,0) rectangle (27,12);
+\filldraw[fill=custom-yellow, draw=black] (18,12) rectangle (30,21);
+\filldraw[fill=custom-violet, draw=black] (18,21) rectangle (30,31);
+\filldraw[fill=custom-blue, draw=black] (18,31) rectangle (30,39);
+\filldraw[fill=custom-yellow, draw=black] (27,0) rectangle (39,9);
+\filldraw[fill=custom-yellow, draw=black] (30,9) rectangle (39,21);
+\filldraw[fill=custom-orange, draw=black] (30,21) rectangle (39,31);
+\filldraw[fill=custom-red, draw=black] (30,31) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$x = 3$ and $z = 2$.}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-green, draw=black] (0,0) rectangle (8,10);
+\filldraw[fill=custom-green, draw=black] (0,10) rectangle (10,18);
+\filldraw[fill=custom-blue, draw=black] (0,18) rectangle (8,30);
+\filldraw[fill=custom-red, draw=black] (0,30) rectangle (8,39);
+\filldraw[fill=custom-green, draw=black] (8,0) rectangle (18,8);
+\filldraw[fill=custom-green, draw=black] (10,8) rectangle (18,18);
+\filldraw[fill=custom-violet, draw=black] (8,18) rectangle (18,30);
+\filldraw[fill=custom-orange, draw=black] (8,30) rectangle (18,39);
+\filldraw[fill=custom-orange, draw=black] (18,0) rectangle (27,10);
+\filldraw[fill=custom-red, draw=black] (18,10) rectangle (27,18);
+\filldraw[fill=custom-yellow, draw=black] (18,18) rectangle (27,30);
+\filldraw[fill=custom-yellow, draw=black] (18,30) rectangle (30,39);
+\filldraw[fill=custom-violet, draw=black] (27,0) rectangle (39,10);
+\filldraw[fill=custom-blue, draw=black] (27,10) rectangle (39,18);
+\filldraw[fill=custom-yellow, draw=black] (27,18) rectangle (39,27);
+\filldraw[fill=custom-yellow, draw=black] (30,27) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$x = 3$ and $z = 3$.}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-green, draw=black] (0,0) rectangle (8,10);
+\filldraw[fill=custom-green, draw=black] (0,10) rectangle (10,18);
+\filldraw[fill=custom-violet, draw=black] (0,18) rectangle (10,30);
+\filldraw[fill=custom-orange, draw=black] (0,30) rectangle (10,39);
+\filldraw[fill=custom-green, draw=black] (8,0) rectangle (18,8);
+\filldraw[fill=custom-green, draw=black] (10,8) rectangle (18,18);
+\filldraw[fill=custom-blue, draw=black] (10,18) rectangle (18,30);
+\filldraw[fill=custom-red, draw=black] (10,30) rectangle (18,39);
+\filldraw[fill=custom-violet, draw=black] (18,0) rectangle (30,10);
+\filldraw[fill=custom-blue, draw=black] (18,10) rectangle (30,18);
+\filldraw[fill=custom-yellow, draw=black] (18,18) rectangle (27,30);
+\filldraw[fill=custom-yellow, draw=black] (18,30) rectangle (30,39);
+\filldraw[fill=custom-orange, draw=black] (30,0) rectangle (39,10);
+\filldraw[fill=custom-red, draw=black] (30,10) rectangle (39,18);
+\filldraw[fill=custom-yellow, draw=black] (27,18) rectangle (39,27);
+\filldraw[fill=custom-yellow, draw=black] (30,27) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$x = 3$ and $z = 4$.}
+    \end{subfigure}
+    \par\bigskip
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-red, draw=black] (0,0) rectangle (8,9);
+\filldraw[fill=custom-blue, draw=black] (0,9) rectangle (8,21);
+\filldraw[fill=custom-green, draw=black] (0,21) rectangle (8,31);
+\filldraw[fill=custom-green, draw=black] (0,31) rectangle (10,39);
+\filldraw[fill=custom-orange, draw=black] (8,0) rectangle (18,9);
+\filldraw[fill=custom-violet, draw=black] (8,9) rectangle (18,21);
+\filldraw[fill=custom-green, draw=black] (8,21) rectangle (18,29);
+\filldraw[fill=custom-green, draw=black] (10,29) rectangle (18,39);
+\filldraw[fill=custom-yellow, draw=black] (18,0) rectangle (27,12);
+\filldraw[fill=custom-yellow, draw=black] (18,12) rectangle (30,21);
+\filldraw[fill=custom-red, draw=black] (18,21) rectangle (27,29);
+\filldraw[fill=custom-orange, draw=black] (18,29) rectangle (27,39);
+\filldraw[fill=custom-yellow, draw=black] (27,0) rectangle (39,9);
+\filldraw[fill=custom-yellow, draw=black] (30,9) rectangle (39,21);
+\filldraw[fill=custom-blue, draw=black] (27,21) rectangle (39,29);
+\filldraw[fill=custom-violet, draw=black] (27,29) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$x = 4$ and $z = 1$.}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-orange, draw=black] (0,0) rectangle (10,9);
+\filldraw[fill=custom-violet, draw=black] (0,9) rectangle (10,21);
+\filldraw[fill=custom-green, draw=black] (0,21) rectangle (8,31);
+\filldraw[fill=custom-green, draw=black] (0,31) rectangle (10,39);
+\filldraw[fill=custom-red, draw=black] (10,0) rectangle (18,9);
+\filldraw[fill=custom-blue, draw=black] (10,9) rectangle (18,21);
+\filldraw[fill=custom-green, draw=black] (8,21) rectangle (18,29);
+\filldraw[fill=custom-green, draw=black] (10,29) rectangle (18,39);
+\filldraw[fill=custom-yellow, draw=black] (18,0) rectangle (27,12);
+\filldraw[fill=custom-yellow, draw=black] (18,12) rectangle (30,21);
+\filldraw[fill=custom-blue, draw=black] (18,21) rectangle (30,29);
+\filldraw[fill=custom-violet, draw=black] (18,29) rectangle (30,39);
+\filldraw[fill=custom-yellow, draw=black] (27,0) rectangle (39,9);
+\filldraw[fill=custom-yellow, draw=black] (30,9) rectangle (39,21);
+\filldraw[fill=custom-red, draw=black] (30,21) rectangle (39,29);
+\filldraw[fill=custom-orange, draw=black] (30,29) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$x = 4$ and $z = 2$.}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-green, draw=black] (0,0) rectangle (8,10);
+\filldraw[fill=custom-green, draw=black] (0,10) rectangle (10,18);
+\filldraw[fill=custom-red, draw=black] (0,18) rectangle (8,27);
+\filldraw[fill=custom-blue, draw=black] (0,27) rectangle (8,39);
+\filldraw[fill=custom-green, draw=black] (8,0) rectangle (18,8);
+\filldraw[fill=custom-green, draw=black] (10,8) rectangle (18,18);
+\filldraw[fill=custom-orange, draw=black] (8,18) rectangle (18,27);
+\filldraw[fill=custom-violet, draw=black] (8,27) rectangle (18,39);
+\filldraw[fill=custom-red, draw=black] (18,0) rectangle (27,8);
+\filldraw[fill=custom-orange, draw=black] (18,8) rectangle (27,18);
+\filldraw[fill=custom-yellow, draw=black] (18,18) rectangle (27,30);
+\filldraw[fill=custom-yellow, draw=black] (18,30) rectangle (30,39);
+\filldraw[fill=custom-blue, draw=black] (27,0) rectangle (39,8);
+\filldraw[fill=custom-violet, draw=black] (27,8) rectangle (39,18);
+\filldraw[fill=custom-yellow, draw=black] (27,18) rectangle (39,27);
+\filldraw[fill=custom-yellow, draw=black] (30,27) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$x = 4$ and $z = 3$.}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-green, draw=black] (0,0) rectangle (8,10);
+\filldraw[fill=custom-green, draw=black] (0,10) rectangle (10,18);
+\filldraw[fill=custom-orange, draw=black] (0,18) rectangle (10,27);
+\filldraw[fill=custom-violet, draw=black] (0,27) rectangle (10,39);
+\filldraw[fill=custom-green, draw=black] (8,0) rectangle (18,8);
+\filldraw[fill=custom-green, draw=black] (10,8) rectangle (18,18);
+\filldraw[fill=custom-red, draw=black] (10,18) rectangle (18,27);
+\filldraw[fill=custom-blue, draw=black] (10,27) rectangle (18,39);
+\filldraw[fill=custom-blue, draw=black] (18,0) rectangle (30,8);
+\filldraw[fill=custom-violet, draw=black] (18,8) rectangle (30,18);
+\filldraw[fill=custom-yellow, draw=black] (18,18) rectangle (27,30);
+\filldraw[fill=custom-yellow, draw=black] (18,30) rectangle (30,39);
+\filldraw[fill=custom-red, draw=black] (30,0) rectangle (39,8);
+\filldraw[fill=custom-orange, draw=black] (30,8) rectangle (39,18);
+\filldraw[fill=custom-yellow, draw=black] (27,18) rectangle (39,27);
+\filldraw[fill=custom-yellow, draw=black] (30,27) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$x = 4$ and $z = 4$.}
+    \end{subfigure}
+    \caption*{Squares where the $x$- and $z$-axes are fixed.}
+\end{figure}
+\clearpage
+% Allow break
+\begin{figure}[p]
+    \ContinuedFloat % Continue from previous page.
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-orange, draw=black] (0,0) rectangle (9,10);
+\filldraw[fill=custom-red, draw=black] (0,10) rectangle (9,18);
+\filldraw[fill=custom-yellow, draw=black] (0,18) rectangle (9,30);
+\filldraw[fill=custom-yellow, draw=black] (0,30) rectangle (12,39);
+\filldraw[fill=custom-violet, draw=black] (9,0) rectangle (21,10);
+\filldraw[fill=custom-blue, draw=black] (9,10) rectangle (21,18);
+\filldraw[fill=custom-yellow, draw=black] (9,18) rectangle (21,27);
+\filldraw[fill=custom-yellow, draw=black] (12,27) rectangle (21,39);
+\filldraw[fill=custom-green, draw=black] (21,0) rectangle (29,10);
+\filldraw[fill=custom-green, draw=black] (21,10) rectangle (31,18);
+\filldraw[fill=custom-blue, draw=black] (21,18) rectangle (29,30);
+\filldraw[fill=custom-red, draw=black] (21,30) rectangle (29,39);
+\filldraw[fill=custom-green, draw=black] (29,0) rectangle (39,8);
+\filldraw[fill=custom-green, draw=black] (31,8) rectangle (39,18);
+\filldraw[fill=custom-violet, draw=black] (29,18) rectangle (39,30);
+\filldraw[fill=custom-orange, draw=black] (29,30) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$x = 1$ and $w = 1$.}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-violet, draw=black] (0,0) rectangle (12,10);
+\filldraw[fill=custom-blue, draw=black] (0,10) rectangle (12,18);
+\filldraw[fill=custom-yellow, draw=black] (0,18) rectangle (9,30);
+\filldraw[fill=custom-yellow, draw=black] (0,30) rectangle (12,39);
+\filldraw[fill=custom-orange, draw=black] (12,0) rectangle (21,10);
+\filldraw[fill=custom-red, draw=black] (12,10) rectangle (21,18);
+\filldraw[fill=custom-yellow, draw=black] (9,18) rectangle (21,27);
+\filldraw[fill=custom-yellow, draw=black] (12,27) rectangle (21,39);
+\filldraw[fill=custom-green, draw=black] (21,0) rectangle (29,10);
+\filldraw[fill=custom-green, draw=black] (21,10) rectangle (31,18);
+\filldraw[fill=custom-violet, draw=black] (21,18) rectangle (31,30);
+\filldraw[fill=custom-orange, draw=black] (21,30) rectangle (31,39);
+\filldraw[fill=custom-green, draw=black] (29,0) rectangle (39,8);
+\filldraw[fill=custom-green, draw=black] (31,8) rectangle (39,18);
+\filldraw[fill=custom-blue, draw=black] (31,18) rectangle (39,30);
+\filldraw[fill=custom-red, draw=black] (31,30) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$x = 1$ and $w = 2$.}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-yellow, draw=black] (0,0) rectangle (9,12);
+\filldraw[fill=custom-yellow, draw=black] (0,12) rectangle (12,21);
+\filldraw[fill=custom-orange, draw=black] (0,21) rectangle (9,31);
+\filldraw[fill=custom-red, draw=black] (0,31) rectangle (9,39);
+\filldraw[fill=custom-yellow, draw=black] (9,0) rectangle (21,9);
+\filldraw[fill=custom-yellow, draw=black] (12,9) rectangle (21,21);
+\filldraw[fill=custom-violet, draw=black] (9,21) rectangle (21,31);
+\filldraw[fill=custom-blue, draw=black] (9,31) rectangle (21,39);
+\filldraw[fill=custom-blue, draw=black] (21,0) rectangle (29,12);
+\filldraw[fill=custom-red, draw=black] (21,12) rectangle (29,21);
+\filldraw[fill=custom-green, draw=black] (21,21) rectangle (29,31);
+\filldraw[fill=custom-green, draw=black] (21,31) rectangle (31,39);
+\filldraw[fill=custom-violet, draw=black] (29,0) rectangle (39,12);
+\filldraw[fill=custom-orange, draw=black] (29,12) rectangle (39,21);
+\filldraw[fill=custom-green, draw=black] (29,21) rectangle (39,29);
+\filldraw[fill=custom-green, draw=black] (31,29) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$x = 1$ and $w = 3$.}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-yellow, draw=black] (0,0) rectangle (9,12);
+\filldraw[fill=custom-yellow, draw=black] (0,12) rectangle (12,21);
+\filldraw[fill=custom-violet, draw=black] (0,21) rectangle (12,31);
+\filldraw[fill=custom-blue, draw=black] (0,31) rectangle (12,39);
+\filldraw[fill=custom-yellow, draw=black] (9,0) rectangle (21,9);
+\filldraw[fill=custom-yellow, draw=black] (12,9) rectangle (21,21);
+\filldraw[fill=custom-orange, draw=black] (12,21) rectangle (21,31);
+\filldraw[fill=custom-red, draw=black] (12,31) rectangle (21,39);
+\filldraw[fill=custom-violet, draw=black] (21,0) rectangle (31,12);
+\filldraw[fill=custom-orange, draw=black] (21,12) rectangle (31,21);
+\filldraw[fill=custom-green, draw=black] (21,21) rectangle (29,31);
+\filldraw[fill=custom-green, draw=black] (21,31) rectangle (31,39);
+\filldraw[fill=custom-blue, draw=black] (31,0) rectangle (39,12);
+\filldraw[fill=custom-red, draw=black] (31,12) rectangle (39,21);
+\filldraw[fill=custom-green, draw=black] (29,21) rectangle (39,29);
+\filldraw[fill=custom-green, draw=black] (31,29) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$x = 1$ and $w = 4$.}
+    \end{subfigure}
+    \par\bigskip
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-red, draw=black] (0,0) rectangle (9,8);
+\filldraw[fill=custom-orange, draw=black] (0,8) rectangle (9,18);
+\filldraw[fill=custom-yellow, draw=black] (0,18) rectangle (9,30);
+\filldraw[fill=custom-yellow, draw=black] (0,30) rectangle (12,39);
+\filldraw[fill=custom-blue, draw=black] (9,0) rectangle (21,8);
+\filldraw[fill=custom-violet, draw=black] (9,8) rectangle (21,18);
+\filldraw[fill=custom-yellow, draw=black] (9,18) rectangle (21,27);
+\filldraw[fill=custom-yellow, draw=black] (12,27) rectangle (21,39);
+\filldraw[fill=custom-green, draw=black] (21,0) rectangle (29,10);
+\filldraw[fill=custom-green, draw=black] (21,10) rectangle (31,18);
+\filldraw[fill=custom-red, draw=black] (21,18) rectangle (29,27);
+\filldraw[fill=custom-blue, draw=black] (21,27) rectangle (29,39);
+\filldraw[fill=custom-green, draw=black] (29,0) rectangle (39,8);
+\filldraw[fill=custom-green, draw=black] (31,8) rectangle (39,18);
+\filldraw[fill=custom-orange, draw=black] (29,18) rectangle (39,27);
+\filldraw[fill=custom-violet, draw=black] (29,27) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$x = 2$ and $w = 1$.}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-blue, draw=black] (0,0) rectangle (12,8);
+\filldraw[fill=custom-violet, draw=black] (0,8) rectangle (12,18);
+\filldraw[fill=custom-yellow, draw=black] (0,18) rectangle (9,30);
+\filldraw[fill=custom-yellow, draw=black] (0,30) rectangle (12,39);
+\filldraw[fill=custom-red, draw=black] (12,0) rectangle (21,8);
+\filldraw[fill=custom-orange, draw=black] (12,8) rectangle (21,18);
+\filldraw[fill=custom-yellow, draw=black] (9,18) rectangle (21,27);
+\filldraw[fill=custom-yellow, draw=black] (12,27) rectangle (21,39);
+\filldraw[fill=custom-green, draw=black] (21,0) rectangle (29,10);
+\filldraw[fill=custom-green, draw=black] (21,10) rectangle (31,18);
+\filldraw[fill=custom-orange, draw=black] (21,18) rectangle (31,27);
+\filldraw[fill=custom-violet, draw=black] (21,27) rectangle (31,39);
+\filldraw[fill=custom-green, draw=black] (29,0) rectangle (39,8);
+\filldraw[fill=custom-green, draw=black] (31,8) rectangle (39,18);
+\filldraw[fill=custom-red, draw=black] (31,18) rectangle (39,27);
+\filldraw[fill=custom-blue, draw=black] (31,27) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$x = 2$ and $w = 2$.}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-yellow, draw=black] (0,0) rectangle (9,12);
+\filldraw[fill=custom-yellow, draw=black] (0,12) rectangle (12,21);
+\filldraw[fill=custom-red, draw=black] (0,21) rectangle (9,29);
+\filldraw[fill=custom-orange, draw=black] (0,29) rectangle (9,39);
+\filldraw[fill=custom-yellow, draw=black] (9,0) rectangle (21,9);
+\filldraw[fill=custom-yellow, draw=black] (12,9) rectangle (21,21);
+\filldraw[fill=custom-blue, draw=black] (9,21) rectangle (21,29);
+\filldraw[fill=custom-violet, draw=black] (9,29) rectangle (21,39);
+\filldraw[fill=custom-red, draw=black] (21,0) rectangle (29,9);
+\filldraw[fill=custom-blue, draw=black] (21,9) rectangle (29,21);
+\filldraw[fill=custom-green, draw=black] (21,21) rectangle (29,31);
+\filldraw[fill=custom-green, draw=black] (21,31) rectangle (31,39);
+\filldraw[fill=custom-orange, draw=black] (29,0) rectangle (39,9);
+\filldraw[fill=custom-violet, draw=black] (29,9) rectangle (39,21);
+\filldraw[fill=custom-green, draw=black] (29,21) rectangle (39,29);
+\filldraw[fill=custom-green, draw=black] (31,29) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$x = 2$ and $w = 3$.}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-yellow, draw=black] (0,0) rectangle (9,12);
+\filldraw[fill=custom-yellow, draw=black] (0,12) rectangle (12,21);
+\filldraw[fill=custom-blue, draw=black] (0,21) rectangle (12,29);
+\filldraw[fill=custom-violet, draw=black] (0,29) rectangle (12,39);
+\filldraw[fill=custom-yellow, draw=black] (9,0) rectangle (21,9);
+\filldraw[fill=custom-yellow, draw=black] (12,9) rectangle (21,21);
+\filldraw[fill=custom-red, draw=black] (12,21) rectangle (21,29);
+\filldraw[fill=custom-orange, draw=black] (12,29) rectangle (21,39);
+\filldraw[fill=custom-orange, draw=black] (21,0) rectangle (31,9);
+\filldraw[fill=custom-violet, draw=black] (21,9) rectangle (31,21);
+\filldraw[fill=custom-green, draw=black] (21,21) rectangle (29,31);
+\filldraw[fill=custom-green, draw=black] (21,31) rectangle (31,39);
+\filldraw[fill=custom-red, draw=black] (31,0) rectangle (39,9);
+\filldraw[fill=custom-blue, draw=black] (31,9) rectangle (39,21);
+\filldraw[fill=custom-green, draw=black] (29,21) rectangle (39,29);
+\filldraw[fill=custom-green, draw=black] (31,29) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$x = 2$ and $w = 4$.}
+    \end{subfigure}
+    \par\bigskip
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-green, draw=black] (0,0) rectangle (8,10);
+\filldraw[fill=custom-green, draw=black] (0,10) rectangle (10,18);
+\filldraw[fill=custom-blue, draw=black] (0,18) rectangle (8,30);
+\filldraw[fill=custom-red, draw=black] (0,30) rectangle (8,39);
+\filldraw[fill=custom-green, draw=black] (8,0) rectangle (18,8);
+\filldraw[fill=custom-green, draw=black] (10,8) rectangle (18,18);
+\filldraw[fill=custom-violet, draw=black] (8,18) rectangle (18,30);
+\filldraw[fill=custom-orange, draw=black] (8,30) rectangle (18,39);
+\filldraw[fill=custom-orange, draw=black] (18,0) rectangle (27,10);
+\filldraw[fill=custom-red, draw=black] (18,10) rectangle (27,18);
+\filldraw[fill=custom-yellow, draw=black] (18,18) rectangle (27,30);
+\filldraw[fill=custom-yellow, draw=black] (18,30) rectangle (30,39);
+\filldraw[fill=custom-violet, draw=black] (27,0) rectangle (39,10);
+\filldraw[fill=custom-blue, draw=black] (27,10) rectangle (39,18);
+\filldraw[fill=custom-yellow, draw=black] (27,18) rectangle (39,27);
+\filldraw[fill=custom-yellow, draw=black] (30,27) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$x = 3$ and $w = 1$.}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-green, draw=black] (0,0) rectangle (8,10);
+\filldraw[fill=custom-green, draw=black] (0,10) rectangle (10,18);
+\filldraw[fill=custom-violet, draw=black] (0,18) rectangle (10,30);
+\filldraw[fill=custom-orange, draw=black] (0,30) rectangle (10,39);
+\filldraw[fill=custom-green, draw=black] (8,0) rectangle (18,8);
+\filldraw[fill=custom-green, draw=black] (10,8) rectangle (18,18);
+\filldraw[fill=custom-blue, draw=black] (10,18) rectangle (18,30);
+\filldraw[fill=custom-red, draw=black] (10,30) rectangle (18,39);
+\filldraw[fill=custom-violet, draw=black] (18,0) rectangle (30,10);
+\filldraw[fill=custom-blue, draw=black] (18,10) rectangle (30,18);
+\filldraw[fill=custom-yellow, draw=black] (18,18) rectangle (27,30);
+\filldraw[fill=custom-yellow, draw=black] (18,30) rectangle (30,39);
+\filldraw[fill=custom-orange, draw=black] (30,0) rectangle (39,10);
+\filldraw[fill=custom-red, draw=black] (30,10) rectangle (39,18);
+\filldraw[fill=custom-yellow, draw=black] (27,18) rectangle (39,27);
+\filldraw[fill=custom-yellow, draw=black] (30,27) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$x = 3$ and $w = 2$.}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-blue, draw=black] (0,0) rectangle (8,12);
+\filldraw[fill=custom-red, draw=black] (0,12) rectangle (8,21);
+\filldraw[fill=custom-green, draw=black] (0,21) rectangle (8,31);
+\filldraw[fill=custom-green, draw=black] (0,31) rectangle (10,39);
+\filldraw[fill=custom-violet, draw=black] (8,0) rectangle (18,12);
+\filldraw[fill=custom-orange, draw=black] (8,12) rectangle (18,21);
+\filldraw[fill=custom-green, draw=black] (8,21) rectangle (18,29);
+\filldraw[fill=custom-green, draw=black] (10,29) rectangle (18,39);
+\filldraw[fill=custom-yellow, draw=black] (18,0) rectangle (27,12);
+\filldraw[fill=custom-yellow, draw=black] (18,12) rectangle (30,21);
+\filldraw[fill=custom-orange, draw=black] (18,21) rectangle (27,31);
+\filldraw[fill=custom-red, draw=black] (18,31) rectangle (27,39);
+\filldraw[fill=custom-yellow, draw=black] (27,0) rectangle (39,9);
+\filldraw[fill=custom-yellow, draw=black] (30,9) rectangle (39,21);
+\filldraw[fill=custom-violet, draw=black] (27,21) rectangle (39,31);
+\filldraw[fill=custom-blue, draw=black] (27,31) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$x = 3$ and $w = 3$.}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-violet, draw=black] (0,0) rectangle (10,12);
+\filldraw[fill=custom-orange, draw=black] (0,12) rectangle (10,21);
+\filldraw[fill=custom-green, draw=black] (0,21) rectangle (8,31);
+\filldraw[fill=custom-green, draw=black] (0,31) rectangle (10,39);
+\filldraw[fill=custom-blue, draw=black] (10,0) rectangle (18,12);
+\filldraw[fill=custom-red, draw=black] (10,12) rectangle (18,21);
+\filldraw[fill=custom-green, draw=black] (8,21) rectangle (18,29);
+\filldraw[fill=custom-green, draw=black] (10,29) rectangle (18,39);
+\filldraw[fill=custom-yellow, draw=black] (18,0) rectangle (27,12);
+\filldraw[fill=custom-yellow, draw=black] (18,12) rectangle (30,21);
+\filldraw[fill=custom-violet, draw=black] (18,21) rectangle (30,31);
+\filldraw[fill=custom-blue, draw=black] (18,31) rectangle (30,39);
+\filldraw[fill=custom-yellow, draw=black] (27,0) rectangle (39,9);
+\filldraw[fill=custom-yellow, draw=black] (30,9) rectangle (39,21);
+\filldraw[fill=custom-orange, draw=black] (30,21) rectangle (39,31);
+\filldraw[fill=custom-red, draw=black] (30,31) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$x = 3$ and $w = 4$.}
+    \end{subfigure}
+    \par\bigskip
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-green, draw=black] (0,0) rectangle (8,10);
+\filldraw[fill=custom-green, draw=black] (0,10) rectangle (10,18);
+\filldraw[fill=custom-red, draw=black] (0,18) rectangle (8,27);
+\filldraw[fill=custom-blue, draw=black] (0,27) rectangle (8,39);
+\filldraw[fill=custom-green, draw=black] (8,0) rectangle (18,8);
+\filldraw[fill=custom-green, draw=black] (10,8) rectangle (18,18);
+\filldraw[fill=custom-orange, draw=black] (8,18) rectangle (18,27);
+\filldraw[fill=custom-violet, draw=black] (8,27) rectangle (18,39);
+\filldraw[fill=custom-red, draw=black] (18,0) rectangle (27,8);
+\filldraw[fill=custom-orange, draw=black] (18,8) rectangle (27,18);
+\filldraw[fill=custom-yellow, draw=black] (18,18) rectangle (27,30);
+\filldraw[fill=custom-yellow, draw=black] (18,30) rectangle (30,39);
+\filldraw[fill=custom-blue, draw=black] (27,0) rectangle (39,8);
+\filldraw[fill=custom-violet, draw=black] (27,8) rectangle (39,18);
+\filldraw[fill=custom-yellow, draw=black] (27,18) rectangle (39,27);
+\filldraw[fill=custom-yellow, draw=black] (30,27) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$x = 4$ and $w = 1$.}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-green, draw=black] (0,0) rectangle (8,10);
+\filldraw[fill=custom-green, draw=black] (0,10) rectangle (10,18);
+\filldraw[fill=custom-orange, draw=black] (0,18) rectangle (10,27);
+\filldraw[fill=custom-violet, draw=black] (0,27) rectangle (10,39);
+\filldraw[fill=custom-green, draw=black] (8,0) rectangle (18,8);
+\filldraw[fill=custom-green, draw=black] (10,8) rectangle (18,18);
+\filldraw[fill=custom-red, draw=black] (10,18) rectangle (18,27);
+\filldraw[fill=custom-blue, draw=black] (10,27) rectangle (18,39);
+\filldraw[fill=custom-blue, draw=black] (18,0) rectangle (30,8);
+\filldraw[fill=custom-violet, draw=black] (18,8) rectangle (30,18);
+\filldraw[fill=custom-yellow, draw=black] (18,18) rectangle (27,30);
+\filldraw[fill=custom-yellow, draw=black] (18,30) rectangle (30,39);
+\filldraw[fill=custom-red, draw=black] (30,0) rectangle (39,8);
+\filldraw[fill=custom-orange, draw=black] (30,8) rectangle (39,18);
+\filldraw[fill=custom-yellow, draw=black] (27,18) rectangle (39,27);
+\filldraw[fill=custom-yellow, draw=black] (30,27) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$x = 4$ and $w = 2$.}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-red, draw=black] (0,0) rectangle (8,9);
+\filldraw[fill=custom-blue, draw=black] (0,9) rectangle (8,21);
+\filldraw[fill=custom-green, draw=black] (0,21) rectangle (8,31);
+\filldraw[fill=custom-green, draw=black] (0,31) rectangle (10,39);
+\filldraw[fill=custom-orange, draw=black] (8,0) rectangle (18,9);
+\filldraw[fill=custom-violet, draw=black] (8,9) rectangle (18,21);
+\filldraw[fill=custom-green, draw=black] (8,21) rectangle (18,29);
+\filldraw[fill=custom-green, draw=black] (10,29) rectangle (18,39);
+\filldraw[fill=custom-yellow, draw=black] (18,0) rectangle (27,12);
+\filldraw[fill=custom-yellow, draw=black] (18,12) rectangle (30,21);
+\filldraw[fill=custom-red, draw=black] (18,21) rectangle (27,29);
+\filldraw[fill=custom-orange, draw=black] (18,29) rectangle (27,39);
+\filldraw[fill=custom-yellow, draw=black] (27,0) rectangle (39,9);
+\filldraw[fill=custom-yellow, draw=black] (30,9) rectangle (39,21);
+\filldraw[fill=custom-blue, draw=black] (27,21) rectangle (39,29);
+\filldraw[fill=custom-violet, draw=black] (27,29) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$x = 4$ and $w = 3$.}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-orange, draw=black] (0,0) rectangle (10,9);
+\filldraw[fill=custom-violet, draw=black] (0,9) rectangle (10,21);
+\filldraw[fill=custom-green, draw=black] (0,21) rectangle (8,31);
+\filldraw[fill=custom-green, draw=black] (0,31) rectangle (10,39);
+\filldraw[fill=custom-red, draw=black] (10,0) rectangle (18,9);
+\filldraw[fill=custom-blue, draw=black] (10,9) rectangle (18,21);
+\filldraw[fill=custom-green, draw=black] (8,21) rectangle (18,29);
+\filldraw[fill=custom-green, draw=black] (10,29) rectangle (18,39);
+\filldraw[fill=custom-yellow, draw=black] (18,0) rectangle (27,12);
+\filldraw[fill=custom-yellow, draw=black] (18,12) rectangle (30,21);
+\filldraw[fill=custom-blue, draw=black] (18,21) rectangle (30,29);
+\filldraw[fill=custom-violet, draw=black] (18,29) rectangle (30,39);
+\filldraw[fill=custom-yellow, draw=black] (27,0) rectangle (39,9);
+\filldraw[fill=custom-yellow, draw=black] (30,9) rectangle (39,21);
+\filldraw[fill=custom-red, draw=black] (30,21) rectangle (39,29);
+\filldraw[fill=custom-orange, draw=black] (30,29) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$x = 4$ and $w = 4$.}
+    \end{subfigure}
+    \caption*{Squares where the $x$- and $w$-axes are fixed.}
+\end{figure}
+\clearpage
+% Allow break
+\begin{figure}[p]
+    \ContinuedFloat % Continue from previous page.
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-blue, draw=black] (0,0) rectangle (8,12);
+\filldraw[fill=custom-red, draw=black] (0,12) rectangle (8,21);
+\filldraw[fill=custom-green, draw=black] (0,21) rectangle (8,31);
+\filldraw[fill=custom-green, draw=black] (0,31) rectangle (10,39);
+\filldraw[fill=custom-violet, draw=black] (8,0) rectangle (18,12);
+\filldraw[fill=custom-orange, draw=black] (8,12) rectangle (18,21);
+\filldraw[fill=custom-green, draw=black] (8,21) rectangle (18,29);
+\filldraw[fill=custom-green, draw=black] (10,29) rectangle (18,39);
+\filldraw[fill=custom-yellow, draw=black] (18,0) rectangle (27,12);
+\filldraw[fill=custom-yellow, draw=black] (18,12) rectangle (30,21);
+\filldraw[fill=custom-orange, draw=black] (18,21) rectangle (27,31);
+\filldraw[fill=custom-red, draw=black] (18,31) rectangle (27,39);
+\filldraw[fill=custom-yellow, draw=black] (27,0) rectangle (39,9);
+\filldraw[fill=custom-yellow, draw=black] (30,9) rectangle (39,21);
+\filldraw[fill=custom-violet, draw=black] (27,21) rectangle (39,31);
+\filldraw[fill=custom-blue, draw=black] (27,31) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$y = 1$ and $z = 1$.}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-violet, draw=black] (0,0) rectangle (10,12);
+\filldraw[fill=custom-orange, draw=black] (0,12) rectangle (10,21);
+\filldraw[fill=custom-green, draw=black] (0,21) rectangle (8,31);
+\filldraw[fill=custom-green, draw=black] (0,31) rectangle (10,39);
+\filldraw[fill=custom-blue, draw=black] (10,0) rectangle (18,12);
+\filldraw[fill=custom-red, draw=black] (10,12) rectangle (18,21);
+\filldraw[fill=custom-green, draw=black] (8,21) rectangle (18,29);
+\filldraw[fill=custom-green, draw=black] (10,29) rectangle (18,39);
+\filldraw[fill=custom-yellow, draw=black] (18,0) rectangle (27,12);
+\filldraw[fill=custom-yellow, draw=black] (18,12) rectangle (30,21);
+\filldraw[fill=custom-violet, draw=black] (18,21) rectangle (30,31);
+\filldraw[fill=custom-blue, draw=black] (18,31) rectangle (30,39);
+\filldraw[fill=custom-yellow, draw=black] (27,0) rectangle (39,9);
+\filldraw[fill=custom-yellow, draw=black] (30,9) rectangle (39,21);
+\filldraw[fill=custom-orange, draw=black] (30,21) rectangle (39,31);
+\filldraw[fill=custom-red, draw=black] (30,31) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$y = 1$ and $z = 2$.}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-green, draw=black] (0,0) rectangle (8,10);
+\filldraw[fill=custom-green, draw=black] (0,10) rectangle (10,18);
+\filldraw[fill=custom-blue, draw=black] (0,18) rectangle (8,30);
+\filldraw[fill=custom-red, draw=black] (0,30) rectangle (8,39);
+\filldraw[fill=custom-green, draw=black] (8,0) rectangle (18,8);
+\filldraw[fill=custom-green, draw=black] (10,8) rectangle (18,18);
+\filldraw[fill=custom-violet, draw=black] (8,18) rectangle (18,30);
+\filldraw[fill=custom-orange, draw=black] (8,30) rectangle (18,39);
+\filldraw[fill=custom-orange, draw=black] (18,0) rectangle (27,10);
+\filldraw[fill=custom-red, draw=black] (18,10) rectangle (27,18);
+\filldraw[fill=custom-yellow, draw=black] (18,18) rectangle (27,30);
+\filldraw[fill=custom-yellow, draw=black] (18,30) rectangle (30,39);
+\filldraw[fill=custom-violet, draw=black] (27,0) rectangle (39,10);
+\filldraw[fill=custom-blue, draw=black] (27,10) rectangle (39,18);
+\filldraw[fill=custom-yellow, draw=black] (27,18) rectangle (39,27);
+\filldraw[fill=custom-yellow, draw=black] (30,27) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$y = 1$ and $z = 3$.}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-green, draw=black] (0,0) rectangle (8,10);
+\filldraw[fill=custom-green, draw=black] (0,10) rectangle (10,18);
+\filldraw[fill=custom-violet, draw=black] (0,18) rectangle (10,30);
+\filldraw[fill=custom-orange, draw=black] (0,30) rectangle (10,39);
+\filldraw[fill=custom-green, draw=black] (8,0) rectangle (18,8);
+\filldraw[fill=custom-green, draw=black] (10,8) rectangle (18,18);
+\filldraw[fill=custom-blue, draw=black] (10,18) rectangle (18,30);
+\filldraw[fill=custom-red, draw=black] (10,30) rectangle (18,39);
+\filldraw[fill=custom-violet, draw=black] (18,0) rectangle (30,10);
+\filldraw[fill=custom-blue, draw=black] (18,10) rectangle (30,18);
+\filldraw[fill=custom-yellow, draw=black] (18,18) rectangle (27,30);
+\filldraw[fill=custom-yellow, draw=black] (18,30) rectangle (30,39);
+\filldraw[fill=custom-orange, draw=black] (30,0) rectangle (39,10);
+\filldraw[fill=custom-red, draw=black] (30,10) rectangle (39,18);
+\filldraw[fill=custom-yellow, draw=black] (27,18) rectangle (39,27);
+\filldraw[fill=custom-yellow, draw=black] (30,27) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$y = 1$ and $z = 4$.}
+    \end{subfigure}
+    \par\bigskip
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-red, draw=black] (0,0) rectangle (8,9);
+\filldraw[fill=custom-blue, draw=black] (0,9) rectangle (8,21);
+\filldraw[fill=custom-green, draw=black] (0,21) rectangle (8,31);
+\filldraw[fill=custom-green, draw=black] (0,31) rectangle (10,39);
+\filldraw[fill=custom-orange, draw=black] (8,0) rectangle (18,9);
+\filldraw[fill=custom-violet, draw=black] (8,9) rectangle (18,21);
+\filldraw[fill=custom-green, draw=black] (8,21) rectangle (18,29);
+\filldraw[fill=custom-green, draw=black] (10,29) rectangle (18,39);
+\filldraw[fill=custom-yellow, draw=black] (18,0) rectangle (27,12);
+\filldraw[fill=custom-yellow, draw=black] (18,12) rectangle (30,21);
+\filldraw[fill=custom-red, draw=black] (18,21) rectangle (27,29);
+\filldraw[fill=custom-orange, draw=black] (18,29) rectangle (27,39);
+\filldraw[fill=custom-yellow, draw=black] (27,0) rectangle (39,9);
+\filldraw[fill=custom-yellow, draw=black] (30,9) rectangle (39,21);
+\filldraw[fill=custom-blue, draw=black] (27,21) rectangle (39,29);
+\filldraw[fill=custom-violet, draw=black] (27,29) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$y = 2$ and $z = 1$.}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-orange, draw=black] (0,0) rectangle (10,9);
+\filldraw[fill=custom-violet, draw=black] (0,9) rectangle (10,21);
+\filldraw[fill=custom-green, draw=black] (0,21) rectangle (8,31);
+\filldraw[fill=custom-green, draw=black] (0,31) rectangle (10,39);
+\filldraw[fill=custom-red, draw=black] (10,0) rectangle (18,9);
+\filldraw[fill=custom-blue, draw=black] (10,9) rectangle (18,21);
+\filldraw[fill=custom-green, draw=black] (8,21) rectangle (18,29);
+\filldraw[fill=custom-green, draw=black] (10,29) rectangle (18,39);
+\filldraw[fill=custom-yellow, draw=black] (18,0) rectangle (27,12);
+\filldraw[fill=custom-yellow, draw=black] (18,12) rectangle (30,21);
+\filldraw[fill=custom-blue, draw=black] (18,21) rectangle (30,29);
+\filldraw[fill=custom-violet, draw=black] (18,29) rectangle (30,39);
+\filldraw[fill=custom-yellow, draw=black] (27,0) rectangle (39,9);
+\filldraw[fill=custom-yellow, draw=black] (30,9) rectangle (39,21);
+\filldraw[fill=custom-red, draw=black] (30,21) rectangle (39,29);
+\filldraw[fill=custom-orange, draw=black] (30,29) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$y = 2$ and $z = 2$.}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-green, draw=black] (0,0) rectangle (8,10);
+\filldraw[fill=custom-green, draw=black] (0,10) rectangle (10,18);
+\filldraw[fill=custom-red, draw=black] (0,18) rectangle (8,27);
+\filldraw[fill=custom-blue, draw=black] (0,27) rectangle (8,39);
+\filldraw[fill=custom-green, draw=black] (8,0) rectangle (18,8);
+\filldraw[fill=custom-green, draw=black] (10,8) rectangle (18,18);
+\filldraw[fill=custom-orange, draw=black] (8,18) rectangle (18,27);
+\filldraw[fill=custom-violet, draw=black] (8,27) rectangle (18,39);
+\filldraw[fill=custom-red, draw=black] (18,0) rectangle (27,8);
+\filldraw[fill=custom-orange, draw=black] (18,8) rectangle (27,18);
+\filldraw[fill=custom-yellow, draw=black] (18,18) rectangle (27,30);
+\filldraw[fill=custom-yellow, draw=black] (18,30) rectangle (30,39);
+\filldraw[fill=custom-blue, draw=black] (27,0) rectangle (39,8);
+\filldraw[fill=custom-violet, draw=black] (27,8) rectangle (39,18);
+\filldraw[fill=custom-yellow, draw=black] (27,18) rectangle (39,27);
+\filldraw[fill=custom-yellow, draw=black] (30,27) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$y = 2$ and $z = 3$.}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-green, draw=black] (0,0) rectangle (8,10);
+\filldraw[fill=custom-green, draw=black] (0,10) rectangle (10,18);
+\filldraw[fill=custom-orange, draw=black] (0,18) rectangle (10,27);
+\filldraw[fill=custom-violet, draw=black] (0,27) rectangle (10,39);
+\filldraw[fill=custom-green, draw=black] (8,0) rectangle (18,8);
+\filldraw[fill=custom-green, draw=black] (10,8) rectangle (18,18);
+\filldraw[fill=custom-red, draw=black] (10,18) rectangle (18,27);
+\filldraw[fill=custom-blue, draw=black] (10,27) rectangle (18,39);
+\filldraw[fill=custom-blue, draw=black] (18,0) rectangle (30,8);
+\filldraw[fill=custom-violet, draw=black] (18,8) rectangle (30,18);
+\filldraw[fill=custom-yellow, draw=black] (18,18) rectangle (27,30);
+\filldraw[fill=custom-yellow, draw=black] (18,30) rectangle (30,39);
+\filldraw[fill=custom-red, draw=black] (30,0) rectangle (39,8);
+\filldraw[fill=custom-orange, draw=black] (30,8) rectangle (39,18);
+\filldraw[fill=custom-yellow, draw=black] (27,18) rectangle (39,27);
+\filldraw[fill=custom-yellow, draw=black] (30,27) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$y = 2$ and $z = 4$.}
+    \end{subfigure}
+    \par\bigskip
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-yellow, draw=black] (0,0) rectangle (9,12);
+\filldraw[fill=custom-yellow, draw=black] (0,12) rectangle (12,21);
+\filldraw[fill=custom-orange, draw=black] (0,21) rectangle (9,31);
+\filldraw[fill=custom-red, draw=black] (0,31) rectangle (9,39);
+\filldraw[fill=custom-yellow, draw=black] (9,0) rectangle (21,9);
+\filldraw[fill=custom-yellow, draw=black] (12,9) rectangle (21,21);
+\filldraw[fill=custom-violet, draw=black] (9,21) rectangle (21,31);
+\filldraw[fill=custom-blue, draw=black] (9,31) rectangle (21,39);
+\filldraw[fill=custom-blue, draw=black] (21,0) rectangle (29,12);
+\filldraw[fill=custom-red, draw=black] (21,12) rectangle (29,21);
+\filldraw[fill=custom-green, draw=black] (21,21) rectangle (29,31);
+\filldraw[fill=custom-green, draw=black] (21,31) rectangle (31,39);
+\filldraw[fill=custom-violet, draw=black] (29,0) rectangle (39,12);
+\filldraw[fill=custom-orange, draw=black] (29,12) rectangle (39,21);
+\filldraw[fill=custom-green, draw=black] (29,21) rectangle (39,29);
+\filldraw[fill=custom-green, draw=black] (31,29) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$y = 3$ and $z = 1$.}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-yellow, draw=black] (0,0) rectangle (9,12);
+\filldraw[fill=custom-yellow, draw=black] (0,12) rectangle (12,21);
+\filldraw[fill=custom-violet, draw=black] (0,21) rectangle (12,31);
+\filldraw[fill=custom-blue, draw=black] (0,31) rectangle (12,39);
+\filldraw[fill=custom-yellow, draw=black] (9,0) rectangle (21,9);
+\filldraw[fill=custom-yellow, draw=black] (12,9) rectangle (21,21);
+\filldraw[fill=custom-orange, draw=black] (12,21) rectangle (21,31);
+\filldraw[fill=custom-red, draw=black] (12,31) rectangle (21,39);
+\filldraw[fill=custom-violet, draw=black] (21,0) rectangle (31,12);
+\filldraw[fill=custom-orange, draw=black] (21,12) rectangle (31,21);
+\filldraw[fill=custom-green, draw=black] (21,21) rectangle (29,31);
+\filldraw[fill=custom-green, draw=black] (21,31) rectangle (31,39);
+\filldraw[fill=custom-blue, draw=black] (31,0) rectangle (39,12);
+\filldraw[fill=custom-red, draw=black] (31,12) rectangle (39,21);
+\filldraw[fill=custom-green, draw=black] (29,21) rectangle (39,29);
+\filldraw[fill=custom-green, draw=black] (31,29) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$y = 3$ and $z = 2$.}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-orange, draw=black] (0,0) rectangle (9,10);
+\filldraw[fill=custom-red, draw=black] (0,10) rectangle (9,18);
+\filldraw[fill=custom-yellow, draw=black] (0,18) rectangle (9,30);
+\filldraw[fill=custom-yellow, draw=black] (0,30) rectangle (12,39);
+\filldraw[fill=custom-violet, draw=black] (9,0) rectangle (21,10);
+\filldraw[fill=custom-blue, draw=black] (9,10) rectangle (21,18);
+\filldraw[fill=custom-yellow, draw=black] (9,18) rectangle (21,27);
+\filldraw[fill=custom-yellow, draw=black] (12,27) rectangle (21,39);
+\filldraw[fill=custom-green, draw=black] (21,0) rectangle (29,10);
+\filldraw[fill=custom-green, draw=black] (21,10) rectangle (31,18);
+\filldraw[fill=custom-blue, draw=black] (21,18) rectangle (29,30);
+\filldraw[fill=custom-red, draw=black] (21,30) rectangle (29,39);
+\filldraw[fill=custom-green, draw=black] (29,0) rectangle (39,8);
+\filldraw[fill=custom-green, draw=black] (31,8) rectangle (39,18);
+\filldraw[fill=custom-violet, draw=black] (29,18) rectangle (39,30);
+\filldraw[fill=custom-orange, draw=black] (29,30) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$y = 3$ and $z = 3$.}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-violet, draw=black] (0,0) rectangle (12,10);
+\filldraw[fill=custom-blue, draw=black] (0,10) rectangle (12,18);
+\filldraw[fill=custom-yellow, draw=black] (0,18) rectangle (9,30);
+\filldraw[fill=custom-yellow, draw=black] (0,30) rectangle (12,39);
+\filldraw[fill=custom-orange, draw=black] (12,0) rectangle (21,10);
+\filldraw[fill=custom-red, draw=black] (12,10) rectangle (21,18);
+\filldraw[fill=custom-yellow, draw=black] (9,18) rectangle (21,27);
+\filldraw[fill=custom-yellow, draw=black] (12,27) rectangle (21,39);
+\filldraw[fill=custom-green, draw=black] (21,0) rectangle (29,10);
+\filldraw[fill=custom-green, draw=black] (21,10) rectangle (31,18);
+\filldraw[fill=custom-violet, draw=black] (21,18) rectangle (31,30);
+\filldraw[fill=custom-orange, draw=black] (21,30) rectangle (31,39);
+\filldraw[fill=custom-green, draw=black] (29,0) rectangle (39,8);
+\filldraw[fill=custom-green, draw=black] (31,8) rectangle (39,18);
+\filldraw[fill=custom-blue, draw=black] (31,18) rectangle (39,30);
+\filldraw[fill=custom-red, draw=black] (31,30) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$y = 3$ and $z = 4$.}
+    \end{subfigure}
+    \par\bigskip
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-yellow, draw=black] (0,0) rectangle (9,12);
+\filldraw[fill=custom-yellow, draw=black] (0,12) rectangle (12,21);
+\filldraw[fill=custom-red, draw=black] (0,21) rectangle (9,29);
+\filldraw[fill=custom-orange, draw=black] (0,29) rectangle (9,39);
+\filldraw[fill=custom-yellow, draw=black] (9,0) rectangle (21,9);
+\filldraw[fill=custom-yellow, draw=black] (12,9) rectangle (21,21);
+\filldraw[fill=custom-blue, draw=black] (9,21) rectangle (21,29);
+\filldraw[fill=custom-violet, draw=black] (9,29) rectangle (21,39);
+\filldraw[fill=custom-red, draw=black] (21,0) rectangle (29,9);
+\filldraw[fill=custom-blue, draw=black] (21,9) rectangle (29,21);
+\filldraw[fill=custom-green, draw=black] (21,21) rectangle (29,31);
+\filldraw[fill=custom-green, draw=black] (21,31) rectangle (31,39);
+\filldraw[fill=custom-orange, draw=black] (29,0) rectangle (39,9);
+\filldraw[fill=custom-violet, draw=black] (29,9) rectangle (39,21);
+\filldraw[fill=custom-green, draw=black] (29,21) rectangle (39,29);
+\filldraw[fill=custom-green, draw=black] (31,29) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$y = 4$ and $z = 1$.}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-yellow, draw=black] (0,0) rectangle (9,12);
+\filldraw[fill=custom-yellow, draw=black] (0,12) rectangle (12,21);
+\filldraw[fill=custom-blue, draw=black] (0,21) rectangle (12,29);
+\filldraw[fill=custom-violet, draw=black] (0,29) rectangle (12,39);
+\filldraw[fill=custom-yellow, draw=black] (9,0) rectangle (21,9);
+\filldraw[fill=custom-yellow, draw=black] (12,9) rectangle (21,21);
+\filldraw[fill=custom-red, draw=black] (12,21) rectangle (21,29);
+\filldraw[fill=custom-orange, draw=black] (12,29) rectangle (21,39);
+\filldraw[fill=custom-orange, draw=black] (21,0) rectangle (31,9);
+\filldraw[fill=custom-violet, draw=black] (21,9) rectangle (31,21);
+\filldraw[fill=custom-green, draw=black] (21,21) rectangle (29,31);
+\filldraw[fill=custom-green, draw=black] (21,31) rectangle (31,39);
+\filldraw[fill=custom-red, draw=black] (31,0) rectangle (39,9);
+\filldraw[fill=custom-blue, draw=black] (31,9) rectangle (39,21);
+\filldraw[fill=custom-green, draw=black] (29,21) rectangle (39,29);
+\filldraw[fill=custom-green, draw=black] (31,29) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$y = 4$ and $z = 2$.}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-red, draw=black] (0,0) rectangle (9,8);
+\filldraw[fill=custom-orange, draw=black] (0,8) rectangle (9,18);
+\filldraw[fill=custom-yellow, draw=black] (0,18) rectangle (9,30);
+\filldraw[fill=custom-yellow, draw=black] (0,30) rectangle (12,39);
+\filldraw[fill=custom-blue, draw=black] (9,0) rectangle (21,8);
+\filldraw[fill=custom-violet, draw=black] (9,8) rectangle (21,18);
+\filldraw[fill=custom-yellow, draw=black] (9,18) rectangle (21,27);
+\filldraw[fill=custom-yellow, draw=black] (12,27) rectangle (21,39);
+\filldraw[fill=custom-green, draw=black] (21,0) rectangle (29,10);
+\filldraw[fill=custom-green, draw=black] (21,10) rectangle (31,18);
+\filldraw[fill=custom-red, draw=black] (21,18) rectangle (29,27);
+\filldraw[fill=custom-blue, draw=black] (21,27) rectangle (29,39);
+\filldraw[fill=custom-green, draw=black] (29,0) rectangle (39,8);
+\filldraw[fill=custom-green, draw=black] (31,8) rectangle (39,18);
+\filldraw[fill=custom-orange, draw=black] (29,18) rectangle (39,27);
+\filldraw[fill=custom-violet, draw=black] (29,27) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$y = 4$ and $z = 3$.}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-blue, draw=black] (0,0) rectangle (12,8);
+\filldraw[fill=custom-violet, draw=black] (0,8) rectangle (12,18);
+\filldraw[fill=custom-yellow, draw=black] (0,18) rectangle (9,30);
+\filldraw[fill=custom-yellow, draw=black] (0,30) rectangle (12,39);
+\filldraw[fill=custom-red, draw=black] (12,0) rectangle (21,8);
+\filldraw[fill=custom-orange, draw=black] (12,8) rectangle (21,18);
+\filldraw[fill=custom-yellow, draw=black] (9,18) rectangle (21,27);
+\filldraw[fill=custom-yellow, draw=black] (12,27) rectangle (21,39);
+\filldraw[fill=custom-green, draw=black] (21,0) rectangle (29,10);
+\filldraw[fill=custom-green, draw=black] (21,10) rectangle (31,18);
+\filldraw[fill=custom-orange, draw=black] (21,18) rectangle (31,27);
+\filldraw[fill=custom-violet, draw=black] (21,27) rectangle (31,39);
+\filldraw[fill=custom-green, draw=black] (29,0) rectangle (39,8);
+\filldraw[fill=custom-green, draw=black] (31,8) rectangle (39,18);
+\filldraw[fill=custom-red, draw=black] (31,18) rectangle (39,27);
+\filldraw[fill=custom-blue, draw=black] (31,27) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$y = 4$ and $z = 4$.}
+    \end{subfigure}
+    \caption*{Squares where the $y$- and $z$-axes are fixed.}
+\end{figure}
+\clearpage
+% Allow break
+\begin{figure}[p]
+    \ContinuedFloat % Continue from previous page.
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-green, draw=black] (0,0) rectangle (8,10);
+\filldraw[fill=custom-green, draw=black] (0,10) rectangle (10,18);
+\filldraw[fill=custom-blue, draw=black] (0,18) rectangle (8,30);
+\filldraw[fill=custom-red, draw=black] (0,30) rectangle (8,39);
+\filldraw[fill=custom-green, draw=black] (8,0) rectangle (18,8);
+\filldraw[fill=custom-green, draw=black] (10,8) rectangle (18,18);
+\filldraw[fill=custom-violet, draw=black] (8,18) rectangle (18,30);
+\filldraw[fill=custom-orange, draw=black] (8,30) rectangle (18,39);
+\filldraw[fill=custom-orange, draw=black] (18,0) rectangle (27,10);
+\filldraw[fill=custom-red, draw=black] (18,10) rectangle (27,18);
+\filldraw[fill=custom-yellow, draw=black] (18,18) rectangle (27,30);
+\filldraw[fill=custom-yellow, draw=black] (18,30) rectangle (30,39);
+\filldraw[fill=custom-violet, draw=black] (27,0) rectangle (39,10);
+\filldraw[fill=custom-blue, draw=black] (27,10) rectangle (39,18);
+\filldraw[fill=custom-yellow, draw=black] (27,18) rectangle (39,27);
+\filldraw[fill=custom-yellow, draw=black] (30,27) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$y = 1$ and $w = 1$.}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-green, draw=black] (0,0) rectangle (8,10);
+\filldraw[fill=custom-green, draw=black] (0,10) rectangle (10,18);
+\filldraw[fill=custom-violet, draw=black] (0,18) rectangle (10,30);
+\filldraw[fill=custom-orange, draw=black] (0,30) rectangle (10,39);
+\filldraw[fill=custom-green, draw=black] (8,0) rectangle (18,8);
+\filldraw[fill=custom-green, draw=black] (10,8) rectangle (18,18);
+\filldraw[fill=custom-blue, draw=black] (10,18) rectangle (18,30);
+\filldraw[fill=custom-red, draw=black] (10,30) rectangle (18,39);
+\filldraw[fill=custom-violet, draw=black] (18,0) rectangle (30,10);
+\filldraw[fill=custom-blue, draw=black] (18,10) rectangle (30,18);
+\filldraw[fill=custom-yellow, draw=black] (18,18) rectangle (27,30);
+\filldraw[fill=custom-yellow, draw=black] (18,30) rectangle (30,39);
+\filldraw[fill=custom-orange, draw=black] (30,0) rectangle (39,10);
+\filldraw[fill=custom-red, draw=black] (30,10) rectangle (39,18);
+\filldraw[fill=custom-yellow, draw=black] (27,18) rectangle (39,27);
+\filldraw[fill=custom-yellow, draw=black] (30,27) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$y = 1$ and $w = 2$.}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-blue, draw=black] (0,0) rectangle (8,12);
+\filldraw[fill=custom-red, draw=black] (0,12) rectangle (8,21);
+\filldraw[fill=custom-green, draw=black] (0,21) rectangle (8,31);
+\filldraw[fill=custom-green, draw=black] (0,31) rectangle (10,39);
+\filldraw[fill=custom-violet, draw=black] (8,0) rectangle (18,12);
+\filldraw[fill=custom-orange, draw=black] (8,12) rectangle (18,21);
+\filldraw[fill=custom-green, draw=black] (8,21) rectangle (18,29);
+\filldraw[fill=custom-green, draw=black] (10,29) rectangle (18,39);
+\filldraw[fill=custom-yellow, draw=black] (18,0) rectangle (27,12);
+\filldraw[fill=custom-yellow, draw=black] (18,12) rectangle (30,21);
+\filldraw[fill=custom-orange, draw=black] (18,21) rectangle (27,31);
+\filldraw[fill=custom-red, draw=black] (18,31) rectangle (27,39);
+\filldraw[fill=custom-yellow, draw=black] (27,0) rectangle (39,9);
+\filldraw[fill=custom-yellow, draw=black] (30,9) rectangle (39,21);
+\filldraw[fill=custom-violet, draw=black] (27,21) rectangle (39,31);
+\filldraw[fill=custom-blue, draw=black] (27,31) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$y = 1$ and $w = 3$.}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-violet, draw=black] (0,0) rectangle (10,12);
+\filldraw[fill=custom-orange, draw=black] (0,12) rectangle (10,21);
+\filldraw[fill=custom-green, draw=black] (0,21) rectangle (8,31);
+\filldraw[fill=custom-green, draw=black] (0,31) rectangle (10,39);
+\filldraw[fill=custom-blue, draw=black] (10,0) rectangle (18,12);
+\filldraw[fill=custom-red, draw=black] (10,12) rectangle (18,21);
+\filldraw[fill=custom-green, draw=black] (8,21) rectangle (18,29);
+\filldraw[fill=custom-green, draw=black] (10,29) rectangle (18,39);
+\filldraw[fill=custom-yellow, draw=black] (18,0) rectangle (27,12);
+\filldraw[fill=custom-yellow, draw=black] (18,12) rectangle (30,21);
+\filldraw[fill=custom-violet, draw=black] (18,21) rectangle (30,31);
+\filldraw[fill=custom-blue, draw=black] (18,31) rectangle (30,39);
+\filldraw[fill=custom-yellow, draw=black] (27,0) rectangle (39,9);
+\filldraw[fill=custom-yellow, draw=black] (30,9) rectangle (39,21);
+\filldraw[fill=custom-orange, draw=black] (30,21) rectangle (39,31);
+\filldraw[fill=custom-red, draw=black] (30,31) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$y = 1$ and $w = 4$.}
+    \end{subfigure}
+    \par\bigskip
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-green, draw=black] (0,0) rectangle (8,10);
+\filldraw[fill=custom-green, draw=black] (0,10) rectangle (10,18);
+\filldraw[fill=custom-red, draw=black] (0,18) rectangle (8,27);
+\filldraw[fill=custom-blue, draw=black] (0,27) rectangle (8,39);
+\filldraw[fill=custom-green, draw=black] (8,0) rectangle (18,8);
+\filldraw[fill=custom-green, draw=black] (10,8) rectangle (18,18);
+\filldraw[fill=custom-orange, draw=black] (8,18) rectangle (18,27);
+\filldraw[fill=custom-violet, draw=black] (8,27) rectangle (18,39);
+\filldraw[fill=custom-red, draw=black] (18,0) rectangle (27,8);
+\filldraw[fill=custom-orange, draw=black] (18,8) rectangle (27,18);
+\filldraw[fill=custom-yellow, draw=black] (18,18) rectangle (27,30);
+\filldraw[fill=custom-yellow, draw=black] (18,30) rectangle (30,39);
+\filldraw[fill=custom-blue, draw=black] (27,0) rectangle (39,8);
+\filldraw[fill=custom-violet, draw=black] (27,8) rectangle (39,18);
+\filldraw[fill=custom-yellow, draw=black] (27,18) rectangle (39,27);
+\filldraw[fill=custom-yellow, draw=black] (30,27) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$y = 2$ and $w = 1$.}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-green, draw=black] (0,0) rectangle (8,10);
+\filldraw[fill=custom-green, draw=black] (0,10) rectangle (10,18);
+\filldraw[fill=custom-orange, draw=black] (0,18) rectangle (10,27);
+\filldraw[fill=custom-violet, draw=black] (0,27) rectangle (10,39);
+\filldraw[fill=custom-green, draw=black] (8,0) rectangle (18,8);
+\filldraw[fill=custom-green, draw=black] (10,8) rectangle (18,18);
+\filldraw[fill=custom-red, draw=black] (10,18) rectangle (18,27);
+\filldraw[fill=custom-blue, draw=black] (10,27) rectangle (18,39);
+\filldraw[fill=custom-blue, draw=black] (18,0) rectangle (30,8);
+\filldraw[fill=custom-violet, draw=black] (18,8) rectangle (30,18);
+\filldraw[fill=custom-yellow, draw=black] (18,18) rectangle (27,30);
+\filldraw[fill=custom-yellow, draw=black] (18,30) rectangle (30,39);
+\filldraw[fill=custom-red, draw=black] (30,0) rectangle (39,8);
+\filldraw[fill=custom-orange, draw=black] (30,8) rectangle (39,18);
+\filldraw[fill=custom-yellow, draw=black] (27,18) rectangle (39,27);
+\filldraw[fill=custom-yellow, draw=black] (30,27) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$y = 2$ and $w = 2$.}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-red, draw=black] (0,0) rectangle (8,9);
+\filldraw[fill=custom-blue, draw=black] (0,9) rectangle (8,21);
+\filldraw[fill=custom-green, draw=black] (0,21) rectangle (8,31);
+\filldraw[fill=custom-green, draw=black] (0,31) rectangle (10,39);
+\filldraw[fill=custom-orange, draw=black] (8,0) rectangle (18,9);
+\filldraw[fill=custom-violet, draw=black] (8,9) rectangle (18,21);
+\filldraw[fill=custom-green, draw=black] (8,21) rectangle (18,29);
+\filldraw[fill=custom-green, draw=black] (10,29) rectangle (18,39);
+\filldraw[fill=custom-yellow, draw=black] (18,0) rectangle (27,12);
+\filldraw[fill=custom-yellow, draw=black] (18,12) rectangle (30,21);
+\filldraw[fill=custom-red, draw=black] (18,21) rectangle (27,29);
+\filldraw[fill=custom-orange, draw=black] (18,29) rectangle (27,39);
+\filldraw[fill=custom-yellow, draw=black] (27,0) rectangle (39,9);
+\filldraw[fill=custom-yellow, draw=black] (30,9) rectangle (39,21);
+\filldraw[fill=custom-blue, draw=black] (27,21) rectangle (39,29);
+\filldraw[fill=custom-violet, draw=black] (27,29) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$y = 2$ and $w = 3$.}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-orange, draw=black] (0,0) rectangle (10,9);
+\filldraw[fill=custom-violet, draw=black] (0,9) rectangle (10,21);
+\filldraw[fill=custom-green, draw=black] (0,21) rectangle (8,31);
+\filldraw[fill=custom-green, draw=black] (0,31) rectangle (10,39);
+\filldraw[fill=custom-red, draw=black] (10,0) rectangle (18,9);
+\filldraw[fill=custom-blue, draw=black] (10,9) rectangle (18,21);
+\filldraw[fill=custom-green, draw=black] (8,21) rectangle (18,29);
+\filldraw[fill=custom-green, draw=black] (10,29) rectangle (18,39);
+\filldraw[fill=custom-yellow, draw=black] (18,0) rectangle (27,12);
+\filldraw[fill=custom-yellow, draw=black] (18,12) rectangle (30,21);
+\filldraw[fill=custom-blue, draw=black] (18,21) rectangle (30,29);
+\filldraw[fill=custom-violet, draw=black] (18,29) rectangle (30,39);
+\filldraw[fill=custom-yellow, draw=black] (27,0) rectangle (39,9);
+\filldraw[fill=custom-yellow, draw=black] (30,9) rectangle (39,21);
+\filldraw[fill=custom-red, draw=black] (30,21) rectangle (39,29);
+\filldraw[fill=custom-orange, draw=black] (30,29) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$y = 2$ and $w = 4$.}
+    \end{subfigure}
+    \par\bigskip
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-orange, draw=black] (0,0) rectangle (9,10);
+\filldraw[fill=custom-red, draw=black] (0,10) rectangle (9,18);
+\filldraw[fill=custom-yellow, draw=black] (0,18) rectangle (9,30);
+\filldraw[fill=custom-yellow, draw=black] (0,30) rectangle (12,39);
+\filldraw[fill=custom-violet, draw=black] (9,0) rectangle (21,10);
+\filldraw[fill=custom-blue, draw=black] (9,10) rectangle (21,18);
+\filldraw[fill=custom-yellow, draw=black] (9,18) rectangle (21,27);
+\filldraw[fill=custom-yellow, draw=black] (12,27) rectangle (21,39);
+\filldraw[fill=custom-green, draw=black] (21,0) rectangle (29,10);
+\filldraw[fill=custom-green, draw=black] (21,10) rectangle (31,18);
+\filldraw[fill=custom-blue, draw=black] (21,18) rectangle (29,30);
+\filldraw[fill=custom-red, draw=black] (21,30) rectangle (29,39);
+\filldraw[fill=custom-green, draw=black] (29,0) rectangle (39,8);
+\filldraw[fill=custom-green, draw=black] (31,8) rectangle (39,18);
+\filldraw[fill=custom-violet, draw=black] (29,18) rectangle (39,30);
+\filldraw[fill=custom-orange, draw=black] (29,30) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$y = 3$ and $w = 1$.}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-violet, draw=black] (0,0) rectangle (12,10);
+\filldraw[fill=custom-blue, draw=black] (0,10) rectangle (12,18);
+\filldraw[fill=custom-yellow, draw=black] (0,18) rectangle (9,30);
+\filldraw[fill=custom-yellow, draw=black] (0,30) rectangle (12,39);
+\filldraw[fill=custom-orange, draw=black] (12,0) rectangle (21,10);
+\filldraw[fill=custom-red, draw=black] (12,10) rectangle (21,18);
+\filldraw[fill=custom-yellow, draw=black] (9,18) rectangle (21,27);
+\filldraw[fill=custom-yellow, draw=black] (12,27) rectangle (21,39);
+\filldraw[fill=custom-green, draw=black] (21,0) rectangle (29,10);
+\filldraw[fill=custom-green, draw=black] (21,10) rectangle (31,18);
+\filldraw[fill=custom-violet, draw=black] (21,18) rectangle (31,30);
+\filldraw[fill=custom-orange, draw=black] (21,30) rectangle (31,39);
+\filldraw[fill=custom-green, draw=black] (29,0) rectangle (39,8);
+\filldraw[fill=custom-green, draw=black] (31,8) rectangle (39,18);
+\filldraw[fill=custom-blue, draw=black] (31,18) rectangle (39,30);
+\filldraw[fill=custom-red, draw=black] (31,30) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$y = 3$ and $w = 2$.}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-yellow, draw=black] (0,0) rectangle (9,12);
+\filldraw[fill=custom-yellow, draw=black] (0,12) rectangle (12,21);
+\filldraw[fill=custom-orange, draw=black] (0,21) rectangle (9,31);
+\filldraw[fill=custom-red, draw=black] (0,31) rectangle (9,39);
+\filldraw[fill=custom-yellow, draw=black] (9,0) rectangle (21,9);
+\filldraw[fill=custom-yellow, draw=black] (12,9) rectangle (21,21);
+\filldraw[fill=custom-violet, draw=black] (9,21) rectangle (21,31);
+\filldraw[fill=custom-blue, draw=black] (9,31) rectangle (21,39);
+\filldraw[fill=custom-blue, draw=black] (21,0) rectangle (29,12);
+\filldraw[fill=custom-red, draw=black] (21,12) rectangle (29,21);
+\filldraw[fill=custom-green, draw=black] (21,21) rectangle (29,31);
+\filldraw[fill=custom-green, draw=black] (21,31) rectangle (31,39);
+\filldraw[fill=custom-violet, draw=black] (29,0) rectangle (39,12);
+\filldraw[fill=custom-orange, draw=black] (29,12) rectangle (39,21);
+\filldraw[fill=custom-green, draw=black] (29,21) rectangle (39,29);
+\filldraw[fill=custom-green, draw=black] (31,29) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$y = 3$ and $w = 3$.}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-yellow, draw=black] (0,0) rectangle (9,12);
+\filldraw[fill=custom-yellow, draw=black] (0,12) rectangle (12,21);
+\filldraw[fill=custom-violet, draw=black] (0,21) rectangle (12,31);
+\filldraw[fill=custom-blue, draw=black] (0,31) rectangle (12,39);
+\filldraw[fill=custom-yellow, draw=black] (9,0) rectangle (21,9);
+\filldraw[fill=custom-yellow, draw=black] (12,9) rectangle (21,21);
+\filldraw[fill=custom-orange, draw=black] (12,21) rectangle (21,31);
+\filldraw[fill=custom-red, draw=black] (12,31) rectangle (21,39);
+\filldraw[fill=custom-violet, draw=black] (21,0) rectangle (31,12);
+\filldraw[fill=custom-orange, draw=black] (21,12) rectangle (31,21);
+\filldraw[fill=custom-green, draw=black] (21,21) rectangle (29,31);
+\filldraw[fill=custom-green, draw=black] (21,31) rectangle (31,39);
+\filldraw[fill=custom-blue, draw=black] (31,0) rectangle (39,12);
+\filldraw[fill=custom-red, draw=black] (31,12) rectangle (39,21);
+\filldraw[fill=custom-green, draw=black] (29,21) rectangle (39,29);
+\filldraw[fill=custom-green, draw=black] (31,29) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$y = 3$ and $w = 4$.}
+    \end{subfigure}
+    \par\bigskip
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-red, draw=black] (0,0) rectangle (9,8);
+\filldraw[fill=custom-orange, draw=black] (0,8) rectangle (9,18);
+\filldraw[fill=custom-yellow, draw=black] (0,18) rectangle (9,30);
+\filldraw[fill=custom-yellow, draw=black] (0,30) rectangle (12,39);
+\filldraw[fill=custom-blue, draw=black] (9,0) rectangle (21,8);
+\filldraw[fill=custom-violet, draw=black] (9,8) rectangle (21,18);
+\filldraw[fill=custom-yellow, draw=black] (9,18) rectangle (21,27);
+\filldraw[fill=custom-yellow, draw=black] (12,27) rectangle (21,39);
+\filldraw[fill=custom-green, draw=black] (21,0) rectangle (29,10);
+\filldraw[fill=custom-green, draw=black] (21,10) rectangle (31,18);
+\filldraw[fill=custom-red, draw=black] (21,18) rectangle (29,27);
+\filldraw[fill=custom-blue, draw=black] (21,27) rectangle (29,39);
+\filldraw[fill=custom-green, draw=black] (29,0) rectangle (39,8);
+\filldraw[fill=custom-green, draw=black] (31,8) rectangle (39,18);
+\filldraw[fill=custom-orange, draw=black] (29,18) rectangle (39,27);
+\filldraw[fill=custom-violet, draw=black] (29,27) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$y = 4$ and $w = 1$.}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-blue, draw=black] (0,0) rectangle (12,8);
+\filldraw[fill=custom-violet, draw=black] (0,8) rectangle (12,18);
+\filldraw[fill=custom-yellow, draw=black] (0,18) rectangle (9,30);
+\filldraw[fill=custom-yellow, draw=black] (0,30) rectangle (12,39);
+\filldraw[fill=custom-red, draw=black] (12,0) rectangle (21,8);
+\filldraw[fill=custom-orange, draw=black] (12,8) rectangle (21,18);
+\filldraw[fill=custom-yellow, draw=black] (9,18) rectangle (21,27);
+\filldraw[fill=custom-yellow, draw=black] (12,27) rectangle (21,39);
+\filldraw[fill=custom-green, draw=black] (21,0) rectangle (29,10);
+\filldraw[fill=custom-green, draw=black] (21,10) rectangle (31,18);
+\filldraw[fill=custom-orange, draw=black] (21,18) rectangle (31,27);
+\filldraw[fill=custom-violet, draw=black] (21,27) rectangle (31,39);
+\filldraw[fill=custom-green, draw=black] (29,0) rectangle (39,8);
+\filldraw[fill=custom-green, draw=black] (31,8) rectangle (39,18);
+\filldraw[fill=custom-red, draw=black] (31,18) rectangle (39,27);
+\filldraw[fill=custom-blue, draw=black] (31,27) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$y = 4$ and $w = 2$.}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-yellow, draw=black] (0,0) rectangle (9,12);
+\filldraw[fill=custom-yellow, draw=black] (0,12) rectangle (12,21);
+\filldraw[fill=custom-red, draw=black] (0,21) rectangle (9,29);
+\filldraw[fill=custom-orange, draw=black] (0,29) rectangle (9,39);
+\filldraw[fill=custom-yellow, draw=black] (9,0) rectangle (21,9);
+\filldraw[fill=custom-yellow, draw=black] (12,9) rectangle (21,21);
+\filldraw[fill=custom-blue, draw=black] (9,21) rectangle (21,29);
+\filldraw[fill=custom-violet, draw=black] (9,29) rectangle (21,39);
+\filldraw[fill=custom-red, draw=black] (21,0) rectangle (29,9);
+\filldraw[fill=custom-blue, draw=black] (21,9) rectangle (29,21);
+\filldraw[fill=custom-green, draw=black] (21,21) rectangle (29,31);
+\filldraw[fill=custom-green, draw=black] (21,31) rectangle (31,39);
+\filldraw[fill=custom-orange, draw=black] (29,0) rectangle (39,9);
+\filldraw[fill=custom-violet, draw=black] (29,9) rectangle (39,21);
+\filldraw[fill=custom-green, draw=black] (29,21) rectangle (39,29);
+\filldraw[fill=custom-green, draw=black] (31,29) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$y = 4$ and $w = 3$.}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-yellow, draw=black] (0,0) rectangle (9,12);
+\filldraw[fill=custom-yellow, draw=black] (0,12) rectangle (12,21);
+\filldraw[fill=custom-blue, draw=black] (0,21) rectangle (12,29);
+\filldraw[fill=custom-violet, draw=black] (0,29) rectangle (12,39);
+\filldraw[fill=custom-yellow, draw=black] (9,0) rectangle (21,9);
+\filldraw[fill=custom-yellow, draw=black] (12,9) rectangle (21,21);
+\filldraw[fill=custom-red, draw=black] (12,21) rectangle (21,29);
+\filldraw[fill=custom-orange, draw=black] (12,29) rectangle (21,39);
+\filldraw[fill=custom-orange, draw=black] (21,0) rectangle (31,9);
+\filldraw[fill=custom-violet, draw=black] (21,9) rectangle (31,21);
+\filldraw[fill=custom-green, draw=black] (21,21) rectangle (29,31);
+\filldraw[fill=custom-green, draw=black] (21,31) rectangle (31,39);
+\filldraw[fill=custom-red, draw=black] (31,0) rectangle (39,9);
+\filldraw[fill=custom-blue, draw=black] (31,9) rectangle (39,21);
+\filldraw[fill=custom-green, draw=black] (29,21) rectangle (39,29);
+\filldraw[fill=custom-green, draw=black] (31,29) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$y = 4$ and $w = 4$.}
+    \end{subfigure}
+        \caption*{Squares where the $y$- and $w$-axes are fixed.}
+\end{figure}
+\clearpage
+% Allow break
+\begin{figure}[p]
+    \ContinuedFloat % Continue from previous page.
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-red, draw=black] (0,0) rectangle (8,9);
+\filldraw[fill=custom-blue, draw=black] (0,9) rectangle (8,21);
+\filldraw[fill=custom-red, draw=black] (0,21) rectangle (9,29);
+\filldraw[fill=custom-orange, draw=black] (0,29) rectangle (9,39);
+\filldraw[fill=custom-orange, draw=black] (8,0) rectangle (18,9);
+\filldraw[fill=custom-violet, draw=black] (8,9) rectangle (18,21);
+\filldraw[fill=custom-blue, draw=black] (9,21) rectangle (21,29);
+\filldraw[fill=custom-violet, draw=black] (9,29) rectangle (21,39);
+\filldraw[fill=custom-red, draw=black] (18,0) rectangle (27,8);
+\filldraw[fill=custom-orange, draw=black] (18,8) rectangle (27,18);
+\filldraw[fill=custom-red, draw=black] (21,18) rectangle (29,27);
+\filldraw[fill=custom-blue, draw=black] (21,27) rectangle (29,39);
+\filldraw[fill=custom-blue, draw=black] (27,0) rectangle (39,8);
+\filldraw[fill=custom-violet, draw=black] (27,8) rectangle (39,18);
+\filldraw[fill=custom-orange, draw=black] (29,18) rectangle (39,27);
+\filldraw[fill=custom-violet, draw=black] (29,27) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$z = 1$ and $w = 1$.}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-blue, draw=black] (0,0) rectangle (8,12);
+\filldraw[fill=custom-red, draw=black] (0,12) rectangle (8,21);
+\filldraw[fill=custom-blue, draw=black] (0,21) rectangle (12,29);
+\filldraw[fill=custom-violet, draw=black] (0,29) rectangle (12,39);
+\filldraw[fill=custom-violet, draw=black] (8,0) rectangle (18,12);
+\filldraw[fill=custom-orange, draw=black] (8,12) rectangle (18,21);
+\filldraw[fill=custom-red, draw=black] (12,21) rectangle (21,29);
+\filldraw[fill=custom-orange, draw=black] (12,29) rectangle (21,39);
+\filldraw[fill=custom-blue, draw=black] (18,0) rectangle (30,8);
+\filldraw[fill=custom-violet, draw=black] (18,8) rectangle (30,18);
+\filldraw[fill=custom-blue, draw=black] (21,18) rectangle (29,30);
+\filldraw[fill=custom-red, draw=black] (21,30) rectangle (29,39);
+\filldraw[fill=custom-red, draw=black] (30,0) rectangle (39,8);
+\filldraw[fill=custom-orange, draw=black] (30,8) rectangle (39,18);
+\filldraw[fill=custom-violet, draw=black] (29,18) rectangle (39,30);
+\filldraw[fill=custom-orange, draw=black] (29,30) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$z = 1$ and $w = 2$.}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-red, draw=black] (0,0) rectangle (8,9);
+\filldraw[fill=custom-blue, draw=black] (0,9) rectangle (8,21);
+\filldraw[fill=custom-red, draw=black] (0,21) rectangle (9,29);
+\filldraw[fill=custom-orange, draw=black] (0,29) rectangle (9,39);
+\filldraw[fill=custom-orange, draw=black] (8,0) rectangle (18,9);
+\filldraw[fill=custom-violet, draw=black] (8,9) rectangle (18,21);
+\filldraw[fill=custom-blue, draw=black] (9,21) rectangle (21,29);
+\filldraw[fill=custom-violet, draw=black] (9,29) rectangle (21,39);
+\filldraw[fill=custom-red, draw=black] (18,0) rectangle (27,8);
+\filldraw[fill=custom-orange, draw=black] (18,8) rectangle (27,18);
+\filldraw[fill=custom-red, draw=black] (21,18) rectangle (29,27);
+\filldraw[fill=custom-blue, draw=black] (21,27) rectangle (29,39);
+\filldraw[fill=custom-blue, draw=black] (27,0) rectangle (39,8);
+\filldraw[fill=custom-violet, draw=black] (27,8) rectangle (39,18);
+\filldraw[fill=custom-orange, draw=black] (29,18) rectangle (39,27);
+\filldraw[fill=custom-violet, draw=black] (29,27) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$z = 1$ and $w = 3$.}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-orange, draw=black] (0,0) rectangle (10,9);
+\filldraw[fill=custom-violet, draw=black] (0,9) rectangle (10,21);
+\filldraw[fill=custom-orange, draw=black] (0,21) rectangle (9,31);
+\filldraw[fill=custom-red, draw=black] (0,31) rectangle (9,39);
+\filldraw[fill=custom-red, draw=black] (10,0) rectangle (18,9);
+\filldraw[fill=custom-blue, draw=black] (10,9) rectangle (18,21);
+\filldraw[fill=custom-violet, draw=black] (9,21) rectangle (21,31);
+\filldraw[fill=custom-blue, draw=black] (9,31) rectangle (21,39);
+\filldraw[fill=custom-orange, draw=black] (18,0) rectangle (27,10);
+\filldraw[fill=custom-red, draw=black] (18,10) rectangle (27,18);
+\filldraw[fill=custom-orange, draw=black] (21,18) rectangle (31,27);
+\filldraw[fill=custom-violet, draw=black] (21,27) rectangle (31,39);
+\filldraw[fill=custom-violet, draw=black] (27,0) rectangle (39,10);
+\filldraw[fill=custom-blue, draw=black] (27,10) rectangle (39,18);
+\filldraw[fill=custom-red, draw=black] (31,18) rectangle (39,27);
+\filldraw[fill=custom-blue, draw=black] (31,27) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$z = 1$ and $w = 4$.}
+    \end{subfigure}
+    \par\bigskip
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-orange, draw=black] (0,0) rectangle (10,9);
+\filldraw[fill=custom-violet, draw=black] (0,9) rectangle (10,21);
+\filldraw[fill=custom-orange, draw=black] (0,21) rectangle (9,31);
+\filldraw[fill=custom-red, draw=black] (0,31) rectangle (9,39);
+\filldraw[fill=custom-red, draw=black] (10,0) rectangle (18,9);
+\filldraw[fill=custom-blue, draw=black] (10,9) rectangle (18,21);
+\filldraw[fill=custom-violet, draw=black] (9,21) rectangle (21,31);
+\filldraw[fill=custom-blue, draw=black] (9,31) rectangle (21,39);
+\filldraw[fill=custom-orange, draw=black] (18,0) rectangle (27,10);
+\filldraw[fill=custom-red, draw=black] (18,10) rectangle (27,18);
+\filldraw[fill=custom-orange, draw=black] (21,18) rectangle (31,27);
+\filldraw[fill=custom-violet, draw=black] (21,27) rectangle (31,39);
+\filldraw[fill=custom-violet, draw=black] (27,0) rectangle (39,10);
+\filldraw[fill=custom-blue, draw=black] (27,10) rectangle (39,18);
+\filldraw[fill=custom-red, draw=black] (31,18) rectangle (39,27);
+\filldraw[fill=custom-blue, draw=black] (31,27) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$z = 2$ and $w = 1$.}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-violet, draw=black] (0,0) rectangle (10,12);
+\filldraw[fill=custom-orange, draw=black] (0,12) rectangle (10,21);
+\filldraw[fill=custom-violet, draw=black] (0,21) rectangle (12,31);
+\filldraw[fill=custom-blue, draw=black] (0,31) rectangle (12,39);
+\filldraw[fill=custom-blue, draw=black] (10,0) rectangle (18,12);
+\filldraw[fill=custom-red, draw=black] (10,12) rectangle (18,21);
+\filldraw[fill=custom-orange, draw=black] (12,21) rectangle (21,31);
+\filldraw[fill=custom-red, draw=black] (12,31) rectangle (21,39);
+\filldraw[fill=custom-violet, draw=black] (18,0) rectangle (30,10);
+\filldraw[fill=custom-blue, draw=black] (18,10) rectangle (30,18);
+\filldraw[fill=custom-violet, draw=black] (21,18) rectangle (31,30);
+\filldraw[fill=custom-orange, draw=black] (21,30) rectangle (31,39);
+\filldraw[fill=custom-orange, draw=black] (30,0) rectangle (39,10);
+\filldraw[fill=custom-red, draw=black] (30,10) rectangle (39,18);
+\filldraw[fill=custom-blue, draw=black] (31,18) rectangle (39,30);
+\filldraw[fill=custom-red, draw=black] (31,30) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$z = 2$ and $w = 2$.}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-blue, draw=black] (0,0) rectangle (8,12);
+\filldraw[fill=custom-red, draw=black] (0,12) rectangle (8,21);
+\filldraw[fill=custom-blue, draw=black] (0,21) rectangle (12,29);
+\filldraw[fill=custom-violet, draw=black] (0,29) rectangle (12,39);
+\filldraw[fill=custom-violet, draw=black] (8,0) rectangle (18,12);
+\filldraw[fill=custom-orange, draw=black] (8,12) rectangle (18,21);
+\filldraw[fill=custom-red, draw=black] (12,21) rectangle (21,29);
+\filldraw[fill=custom-orange, draw=black] (12,29) rectangle (21,39);
+\filldraw[fill=custom-blue, draw=black] (18,0) rectangle (30,8);
+\filldraw[fill=custom-violet, draw=black] (18,8) rectangle (30,18);
+\filldraw[fill=custom-blue, draw=black] (21,18) rectangle (29,30);
+\filldraw[fill=custom-red, draw=black] (21,30) rectangle (29,39);
+\filldraw[fill=custom-red, draw=black] (30,0) rectangle (39,8);
+\filldraw[fill=custom-orange, draw=black] (30,8) rectangle (39,18);
+\filldraw[fill=custom-violet, draw=black] (29,18) rectangle (39,30);
+\filldraw[fill=custom-orange, draw=black] (29,30) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$z = 2$ and $w = 3$.}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-violet, draw=black] (0,0) rectangle (10,12);
+\filldraw[fill=custom-orange, draw=black] (0,12) rectangle (10,21);
+\filldraw[fill=custom-violet, draw=black] (0,21) rectangle (12,31);
+\filldraw[fill=custom-blue, draw=black] (0,31) rectangle (12,39);
+\filldraw[fill=custom-blue, draw=black] (10,0) rectangle (18,12);
+\filldraw[fill=custom-red, draw=black] (10,12) rectangle (18,21);
+\filldraw[fill=custom-orange, draw=black] (12,21) rectangle (21,31);
+\filldraw[fill=custom-red, draw=black] (12,31) rectangle (21,39);
+\filldraw[fill=custom-violet, draw=black] (18,0) rectangle (30,10);
+\filldraw[fill=custom-blue, draw=black] (18,10) rectangle (30,18);
+\filldraw[fill=custom-violet, draw=black] (21,18) rectangle (31,30);
+\filldraw[fill=custom-orange, draw=black] (21,30) rectangle (31,39);
+\filldraw[fill=custom-orange, draw=black] (30,0) rectangle (39,10);
+\filldraw[fill=custom-red, draw=black] (30,10) rectangle (39,18);
+\filldraw[fill=custom-blue, draw=black] (31,18) rectangle (39,30);
+\filldraw[fill=custom-red, draw=black] (31,30) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$z = 2$ and $w = 4$.}
+    \end{subfigure}
+    \par\bigskip
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-red, draw=black] (0,0) rectangle (8,9);
+\filldraw[fill=custom-blue, draw=black] (0,9) rectangle (8,21);
+\filldraw[fill=custom-red, draw=black] (0,21) rectangle (9,29);
+\filldraw[fill=custom-orange, draw=black] (0,29) rectangle (9,39);
+\filldraw[fill=custom-orange, draw=black] (8,0) rectangle (18,9);
+\filldraw[fill=custom-violet, draw=black] (8,9) rectangle (18,21);
+\filldraw[fill=custom-blue, draw=black] (9,21) rectangle (21,29);
+\filldraw[fill=custom-violet, draw=black] (9,29) rectangle (21,39);
+\filldraw[fill=custom-red, draw=black] (18,0) rectangle (27,8);
+\filldraw[fill=custom-orange, draw=black] (18,8) rectangle (27,18);
+\filldraw[fill=custom-red, draw=black] (21,18) rectangle (29,27);
+\filldraw[fill=custom-blue, draw=black] (21,27) rectangle (29,39);
+\filldraw[fill=custom-blue, draw=black] (27,0) rectangle (39,8);
+\filldraw[fill=custom-violet, draw=black] (27,8) rectangle (39,18);
+\filldraw[fill=custom-orange, draw=black] (29,18) rectangle (39,27);
+\filldraw[fill=custom-violet, draw=black] (29,27) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$z = 3$ and $w = 1$.}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-orange, draw=black] (0,0) rectangle (10,9);
+\filldraw[fill=custom-violet, draw=black] (0,9) rectangle (10,21);
+\filldraw[fill=custom-orange, draw=black] (0,21) rectangle (9,31);
+\filldraw[fill=custom-red, draw=black] (0,31) rectangle (9,39);
+\filldraw[fill=custom-red, draw=black] (10,0) rectangle (18,9);
+\filldraw[fill=custom-blue, draw=black] (10,9) rectangle (18,21);
+\filldraw[fill=custom-violet, draw=black] (9,21) rectangle (21,31);
+\filldraw[fill=custom-blue, draw=black] (9,31) rectangle (21,39);
+\filldraw[fill=custom-orange, draw=black] (18,0) rectangle (27,10);
+\filldraw[fill=custom-red, draw=black] (18,10) rectangle (27,18);
+\filldraw[fill=custom-orange, draw=black] (21,18) rectangle (31,27);
+\filldraw[fill=custom-violet, draw=black] (21,27) rectangle (31,39);
+\filldraw[fill=custom-violet, draw=black] (27,0) rectangle (39,10);
+\filldraw[fill=custom-blue, draw=black] (27,10) rectangle (39,18);
+\filldraw[fill=custom-red, draw=black] (31,18) rectangle (39,27);
+\filldraw[fill=custom-blue, draw=black] (31,27) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$z = 3$ and $w = 2$.}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-red, draw=black] (0,0) rectangle (8,9);
+\filldraw[fill=custom-blue, draw=black] (0,9) rectangle (8,21);
+\filldraw[fill=custom-red, draw=black] (0,21) rectangle (9,29);
+\filldraw[fill=custom-orange, draw=black] (0,29) rectangle (9,39);
+\filldraw[fill=custom-orange, draw=black] (8,0) rectangle (18,9);
+\filldraw[fill=custom-violet, draw=black] (8,9) rectangle (18,21);
+\filldraw[fill=custom-blue, draw=black] (9,21) rectangle (21,29);
+\filldraw[fill=custom-violet, draw=black] (9,29) rectangle (21,39);
+\filldraw[fill=custom-red, draw=black] (18,0) rectangle (27,8);
+\filldraw[fill=custom-orange, draw=black] (18,8) rectangle (27,18);
+\filldraw[fill=custom-red, draw=black] (21,18) rectangle (29,27);
+\filldraw[fill=custom-blue, draw=black] (21,27) rectangle (29,39);
+\filldraw[fill=custom-blue, draw=black] (27,0) rectangle (39,8);
+\filldraw[fill=custom-violet, draw=black] (27,8) rectangle (39,18);
+\filldraw[fill=custom-orange, draw=black] (29,18) rectangle (39,27);
+\filldraw[fill=custom-violet, draw=black] (29,27) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$z = 3$ and $w = 3$.}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-blue, draw=black] (0,0) rectangle (8,12);
+\filldraw[fill=custom-red, draw=black] (0,12) rectangle (8,21);
+\filldraw[fill=custom-blue, draw=black] (0,21) rectangle (12,29);
+\filldraw[fill=custom-violet, draw=black] (0,29) rectangle (12,39);
+\filldraw[fill=custom-violet, draw=black] (8,0) rectangle (18,12);
+\filldraw[fill=custom-orange, draw=black] (8,12) rectangle (18,21);
+\filldraw[fill=custom-red, draw=black] (12,21) rectangle (21,29);
+\filldraw[fill=custom-orange, draw=black] (12,29) rectangle (21,39);
+\filldraw[fill=custom-blue, draw=black] (18,0) rectangle (30,8);
+\filldraw[fill=custom-violet, draw=black] (18,8) rectangle (30,18);
+\filldraw[fill=custom-blue, draw=black] (21,18) rectangle (29,30);
+\filldraw[fill=custom-red, draw=black] (21,30) rectangle (29,39);
+\filldraw[fill=custom-red, draw=black] (30,0) rectangle (39,8);
+\filldraw[fill=custom-orange, draw=black] (30,8) rectangle (39,18);
+\filldraw[fill=custom-violet, draw=black] (29,18) rectangle (39,30);
+\filldraw[fill=custom-orange, draw=black] (29,30) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$z = 3$ and $w = 4$.}
+    \end{subfigure}
+    \par\bigskip
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-blue, draw=black] (0,0) rectangle (8,12);
+\filldraw[fill=custom-red, draw=black] (0,12) rectangle (8,21);
+\filldraw[fill=custom-blue, draw=black] (0,21) rectangle (12,29);
+\filldraw[fill=custom-violet, draw=black] (0,29) rectangle (12,39);
+\filldraw[fill=custom-violet, draw=black] (8,0) rectangle (18,12);
+\filldraw[fill=custom-orange, draw=black] (8,12) rectangle (18,21);
+\filldraw[fill=custom-red, draw=black] (12,21) rectangle (21,29);
+\filldraw[fill=custom-orange, draw=black] (12,29) rectangle (21,39);
+\filldraw[fill=custom-blue, draw=black] (18,0) rectangle (30,8);
+\filldraw[fill=custom-violet, draw=black] (18,8) rectangle (30,18);
+\filldraw[fill=custom-blue, draw=black] (21,18) rectangle (29,30);
+\filldraw[fill=custom-red, draw=black] (21,30) rectangle (29,39);
+\filldraw[fill=custom-red, draw=black] (30,0) rectangle (39,8);
+\filldraw[fill=custom-orange, draw=black] (30,8) rectangle (39,18);
+\filldraw[fill=custom-violet, draw=black] (29,18) rectangle (39,30);
+\filldraw[fill=custom-orange, draw=black] (29,30) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$z = 4$ and $w = 1$.}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-violet, draw=black] (0,0) rectangle (10,12);
+\filldraw[fill=custom-orange, draw=black] (0,12) rectangle (10,21);
+\filldraw[fill=custom-violet, draw=black] (0,21) rectangle (12,31);
+\filldraw[fill=custom-blue, draw=black] (0,31) rectangle (12,39);
+\filldraw[fill=custom-blue, draw=black] (10,0) rectangle (18,12);
+\filldraw[fill=custom-red, draw=black] (10,12) rectangle (18,21);
+\filldraw[fill=custom-orange, draw=black] (12,21) rectangle (21,31);
+\filldraw[fill=custom-red, draw=black] (12,31) rectangle (21,39);
+\filldraw[fill=custom-violet, draw=black] (18,0) rectangle (30,10);
+\filldraw[fill=custom-blue, draw=black] (18,10) rectangle (30,18);
+\filldraw[fill=custom-violet, draw=black] (21,18) rectangle (31,30);
+\filldraw[fill=custom-orange, draw=black] (21,30) rectangle (31,39);
+\filldraw[fill=custom-orange, draw=black] (30,0) rectangle (39,10);
+\filldraw[fill=custom-red, draw=black] (30,10) rectangle (39,18);
+\filldraw[fill=custom-blue, draw=black] (31,18) rectangle (39,30);
+\filldraw[fill=custom-red, draw=black] (31,30) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$z = 4$ and $w = 2$.}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-orange, draw=black] (0,0) rectangle (10,9);
+\filldraw[fill=custom-violet, draw=black] (0,9) rectangle (10,21);
+\filldraw[fill=custom-orange, draw=black] (0,21) rectangle (9,31);
+\filldraw[fill=custom-red, draw=black] (0,31) rectangle (9,39);
+\filldraw[fill=custom-red, draw=black] (10,0) rectangle (18,9);
+\filldraw[fill=custom-blue, draw=black] (10,9) rectangle (18,21);
+\filldraw[fill=custom-violet, draw=black] (9,21) rectangle (21,31);
+\filldraw[fill=custom-blue, draw=black] (9,31) rectangle (21,39);
+\filldraw[fill=custom-orange, draw=black] (18,0) rectangle (27,10);
+\filldraw[fill=custom-red, draw=black] (18,10) rectangle (27,18);
+\filldraw[fill=custom-orange, draw=black] (21,18) rectangle (31,27);
+\filldraw[fill=custom-violet, draw=black] (21,27) rectangle (31,39);
+\filldraw[fill=custom-violet, draw=black] (27,0) rectangle (39,10);
+\filldraw[fill=custom-blue, draw=black] (27,10) rectangle (39,18);
+\filldraw[fill=custom-red, draw=black] (31,18) rectangle (39,27);
+\filldraw[fill=custom-blue, draw=black] (31,27) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$z = 4$ and $w = 3$.}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.230\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.071]
+\filldraw[fill=custom-violet, draw=black] (0,0) rectangle (10,12);
+\filldraw[fill=custom-orange, draw=black] (0,12) rectangle (10,21);
+\filldraw[fill=custom-violet, draw=black] (0,21) rectangle (12,31);
+\filldraw[fill=custom-blue, draw=black] (0,31) rectangle (12,39);
+\filldraw[fill=custom-blue, draw=black] (10,0) rectangle (18,12);
+\filldraw[fill=custom-red, draw=black] (10,12) rectangle (18,21);
+\filldraw[fill=custom-orange, draw=black] (12,21) rectangle (21,31);
+\filldraw[fill=custom-red, draw=black] (12,31) rectangle (21,39);
+\filldraw[fill=custom-violet, draw=black] (18,0) rectangle (30,10);
+\filldraw[fill=custom-blue, draw=black] (18,10) rectangle (30,18);
+\filldraw[fill=custom-violet, draw=black] (21,18) rectangle (31,30);
+\filldraw[fill=custom-orange, draw=black] (21,30) rectangle (31,39);
+\filldraw[fill=custom-orange, draw=black] (30,0) rectangle (39,10);
+\filldraw[fill=custom-red, draw=black] (30,10) rectangle (39,18);
+\filldraw[fill=custom-blue, draw=black] (31,18) rectangle (39,30);
+\filldraw[fill=custom-red, draw=black] (31,30) rectangle (39,39);
+        \end{tikzpicture}
+        \caption*{$z = 4$ and $w = 4$.}
+    \end{subfigure}
+    \caption*{Squares where the $z$- and $w$-axes are fixed.}
+    \label{}
+\end{figure}

@@ -1,0 +1,968 @@
+\begin{figure}[ht]
+    \centering
+    \begin{subfigure}[b]{0.113\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.090]
+\filldraw[fill=custom-blue, draw=black] (0,0) rectangle (5,6);
+\filldraw[fill=custom-blue, draw=black] (0,6) rectangle (6,11);
+\filldraw[fill=custom-green, draw=black] (0,11) rectangle (6,15);
+\filldraw[fill=custom-blue, draw=black] (5,0) rectangle (11,5);
+\filldraw[fill=custom-green, draw=black] (6,5) rectangle (10,11);
+\filldraw[fill=custom-red, draw=black] (6,11) rectangle (11,15);
+\filldraw[fill=custom-green, draw=black] (11,0) rectangle (15,6);
+\filldraw[fill=custom-red, draw=black] (10,6) rectangle (15,10);
+\filldraw[fill=custom-red, draw=black] (11,10) rectangle (15,15);
+        \end{tikzpicture}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.113\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.090]
+\filldraw[fill=custom-blue, draw=black] (0,0) rectangle (5,6);
+\filldraw[fill=custom-blue, draw=black] (0,6) rectangle (6,11);
+\filldraw[fill=custom-green, draw=black] (0,11) rectangle (6,15);
+\filldraw[fill=custom-blue, draw=black] (5,0) rectangle (11,5);
+\filldraw[fill=custom-green, draw=black] (6,5) rectangle (10,11);
+\filldraw[fill=custom-red, draw=black] (6,11) rectangle (11,15);
+\filldraw[fill=custom-green, draw=black] (11,0) rectangle (15,6);
+\filldraw[fill=custom-red, draw=black] (10,6) rectangle (15,10);
+\filldraw[fill=custom-red, draw=black] (11,10) rectangle (15,15);
+        \end{tikzpicture}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.113\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.090]
+\filldraw[fill=custom-blue, draw=black] (0,0) rectangle (5,6);
+\filldraw[fill=custom-blue, draw=black] (0,6) rectangle (6,11);
+\filldraw[fill=custom-green, draw=black] (0,11) rectangle (6,15);
+\filldraw[fill=custom-blue, draw=black] (5,0) rectangle (11,5);
+\filldraw[fill=custom-green, draw=black] (6,5) rectangle (10,11);
+\filldraw[fill=custom-red, draw=black] (6,11) rectangle (11,15);
+\filldraw[fill=custom-green, draw=black] (11,0) rectangle (15,6);
+\filldraw[fill=custom-red, draw=black] (10,6) rectangle (15,10);
+\filldraw[fill=custom-red, draw=black] (11,10) rectangle (15,15);
+        \end{tikzpicture}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.113\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.090]
+\filldraw[fill=custom-blue, draw=black] (0,0) rectangle (5,6);
+\filldraw[fill=custom-blue, draw=black] (0,6) rectangle (6,11);
+\filldraw[fill=custom-green, draw=black] (0,11) rectangle (6,15);
+\filldraw[fill=custom-blue, draw=black] (5,0) rectangle (11,5);
+\filldraw[fill=custom-green, draw=black] (6,5) rectangle (10,11);
+\filldraw[fill=custom-red, draw=black] (6,11) rectangle (11,15);
+\filldraw[fill=custom-green, draw=black] (11,0) rectangle (15,6);
+\filldraw[fill=custom-red, draw=black] (10,6) rectangle (15,10);
+\filldraw[fill=custom-red, draw=black] (11,10) rectangle (15,15);
+        \end{tikzpicture}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.113\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.090]
+\filldraw[fill=custom-blue, draw=black] (0,0) rectangle (5,6);
+\filldraw[fill=custom-blue, draw=black] (0,6) rectangle (6,11);
+\filldraw[fill=custom-green, draw=black] (0,11) rectangle (6,15);
+\filldraw[fill=custom-blue, draw=black] (5,0) rectangle (11,5);
+\filldraw[fill=custom-green, draw=black] (6,5) rectangle (10,11);
+\filldraw[fill=custom-red, draw=black] (6,11) rectangle (11,15);
+\filldraw[fill=custom-green, draw=black] (11,0) rectangle (15,6);
+\filldraw[fill=custom-red, draw=black] (10,6) rectangle (15,10);
+\filldraw[fill=custom-red, draw=black] (11,10) rectangle (15,15);
+        \end{tikzpicture}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.113\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.090]
+\filldraw[fill=custom-blue, draw=black] (0,0) rectangle (5,6);
+\filldraw[fill=custom-blue, draw=black] (0,6) rectangle (6,11);
+\filldraw[fill=custom-green, draw=black] (0,11) rectangle (6,15);
+\filldraw[fill=custom-blue, draw=black] (5,0) rectangle (11,5);
+\filldraw[fill=custom-green, draw=black] (6,5) rectangle (10,11);
+\filldraw[fill=custom-red, draw=black] (6,11) rectangle (11,15);
+\filldraw[fill=custom-green, draw=black] (11,0) rectangle (15,6);
+\filldraw[fill=custom-red, draw=black] (10,6) rectangle (15,10);
+\filldraw[fill=custom-red, draw=black] (11,10) rectangle (15,15);
+        \end{tikzpicture}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.113\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.090]
+\filldraw[fill=custom-blue, draw=black] (0,0) rectangle (5,6);
+\filldraw[fill=custom-blue, draw=black] (0,6) rectangle (6,11);
+\filldraw[fill=custom-green, draw=black] (0,11) rectangle (6,15);
+\filldraw[fill=custom-blue, draw=black] (5,0) rectangle (11,5);
+\filldraw[fill=custom-green, draw=black] (6,5) rectangle (10,11);
+\filldraw[fill=custom-red, draw=black] (6,11) rectangle (11,15);
+\filldraw[fill=custom-green, draw=black] (11,0) rectangle (15,6);
+\filldraw[fill=custom-red, draw=black] (10,6) rectangle (15,10);
+\filldraw[fill=custom-red, draw=black] (11,10) rectangle (15,15);
+        \end{tikzpicture}
+    \end{subfigure}
+    \par\medskip
+    \begin{subfigure}[b]{0.113\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.090]
+\filldraw[fill=custom-green, draw=black] (0,0) rectangle (4,6);
+\filldraw[fill=custom-red, draw=black] (0,6) rectangle (4,11);
+\filldraw[fill=custom-red, draw=black] (0,11) rectangle (5,15);
+\filldraw[fill=custom-green, draw=black] (4,0) rectangle (10,4);
+\filldraw[fill=custom-blue, draw=black] (4,4) rectangle (9,10);
+\filldraw[fill=custom-blue, draw=black] (5,10) rectangle (11,15);
+\filldraw[fill=custom-red, draw=black] (10,0) rectangle (15,4);
+\filldraw[fill=custom-blue, draw=black] (9,4) rectangle (15,9);
+\filldraw[fill=custom-green, draw=black] (11,9) rectangle (15,15);
+        \end{tikzpicture}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.113\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.090]
+\filldraw[fill=custom-green, draw=black] (0,0) rectangle (4,6);
+\filldraw[fill=custom-red, draw=black] (0,6) rectangle (4,11);
+\filldraw[fill=custom-red, draw=black] (0,11) rectangle (5,15);
+\filldraw[fill=custom-green, draw=black] (4,0) rectangle (10,4);
+\filldraw[fill=custom-blue, draw=black] (4,4) rectangle (10,9);
+\filldraw[fill=custom-green, draw=black] (5,9) rectangle (9,15);
+\filldraw[fill=custom-red, draw=black] (10,0) rectangle (15,4);
+\filldraw[fill=custom-blue, draw=black] (10,4) rectangle (15,10);
+\filldraw[fill=custom-blue, draw=black] (9,10) rectangle (15,15);
+        \end{tikzpicture}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.113\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.090]
+\filldraw[fill=custom-green, draw=black] (0,0) rectangle (4,6);
+\filldraw[fill=custom-red, draw=black] (0,6) rectangle (5,10);
+\filldraw[fill=custom-blue, draw=black] (0,10) rectangle (6,15);
+\filldraw[fill=custom-red, draw=black] (4,0) rectangle (9,4);
+\filldraw[fill=custom-red, draw=black] (5,4) rectangle (9,9);
+\filldraw[fill=custom-blue, draw=black] (6,9) rectangle (11,15);
+\filldraw[fill=custom-blue, draw=black] (9,0) rectangle (15,5);
+\filldraw[fill=custom-green, draw=black] (9,5) rectangle (15,9);
+\filldraw[fill=custom-green, draw=black] (11,9) rectangle (15,15);
+        \end{tikzpicture}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.113\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.090]
+\filldraw[fill=custom-green, draw=black] (0,0) rectangle (4,6);
+\filldraw[fill=custom-red, draw=black] (0,6) rectangle (5,10);
+\filldraw[fill=custom-blue, draw=black] (0,10) rectangle (6,15);
+\filldraw[fill=custom-red, draw=black] (4,0) rectangle (9,4);
+\filldraw[fill=custom-red, draw=black] (5,4) rectangle (9,9);
+\filldraw[fill=custom-green, draw=black] (6,9) rectangle (10,15);
+\filldraw[fill=custom-blue, draw=black] (9,0) rectangle (15,5);
+\filldraw[fill=custom-green, draw=black] (9,5) rectangle (15,9);
+\filldraw[fill=custom-blue, draw=black] (10,9) rectangle (15,15);
+        \end{tikzpicture}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.113\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.090]
+\filldraw[fill=custom-green, draw=black] (0,0) rectangle (6,4);
+\filldraw[fill=custom-green, draw=black] (0,4) rectangle (4,10);
+\filldraw[fill=custom-red, draw=black] (0,10) rectangle (4,15);
+\filldraw[fill=custom-red, draw=black] (6,0) rectangle (10,5);
+\filldraw[fill=custom-red, draw=black] (4,5) rectangle (9,9);
+\filldraw[fill=custom-blue, draw=black] (4,9) rectangle (9,15);
+\filldraw[fill=custom-blue, draw=black] (10,0) rectangle (15,6);
+\filldraw[fill=custom-green, draw=black] (9,6) rectangle (15,10);
+\filldraw[fill=custom-blue, draw=black] (9,10) rectangle (15,15);
+        \end{tikzpicture}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.113\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.090]
+\filldraw[fill=custom-green, draw=black] (0,0) rectangle (6,4);
+\filldraw[fill=custom-green, draw=black] (0,4) rectangle (4,10);
+\filldraw[fill=custom-red, draw=black] (0,10) rectangle (4,15);
+\filldraw[fill=custom-red, draw=black] (6,0) rectangle (11,4);
+\filldraw[fill=custom-blue, draw=black] (4,4) rectangle (9,10);
+\filldraw[fill=custom-blue, draw=black] (4,10) rectangle (10,15);
+\filldraw[fill=custom-red, draw=black] (11,0) rectangle (15,5);
+\filldraw[fill=custom-green, draw=black] (9,5) rectangle (15,9);
+\filldraw[fill=custom-blue, draw=black] (10,9) rectangle (15,15);
+        \end{tikzpicture}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.113\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.090]
+\filldraw[fill=custom-green, draw=black] (0,0) rectangle (6,4);
+\filldraw[fill=custom-green, draw=black] (0,4) rectangle (4,10);
+\filldraw[fill=custom-red, draw=black] (0,10) rectangle (4,15);
+\filldraw[fill=custom-red, draw=black] (6,0) rectangle (11,4);
+\filldraw[fill=custom-blue, draw=black] (4,4) rectangle (10,9);
+\filldraw[fill=custom-blue, draw=black] (4,9) rectangle (9,15);
+\filldraw[fill=custom-red, draw=black] (11,0) rectangle (15,5);
+\filldraw[fill=custom-blue, draw=black] (10,5) rectangle (15,11);
+\filldraw[fill=custom-green, draw=black] (9,11) rectangle (15,15);
+        \end{tikzpicture}
+    \end{subfigure}
+    \par\medskip
+    \begin{subfigure}[b]{0.113\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.090]
+\filldraw[fill=custom-red, draw=black] (0,0) rectangle (5,4);
+\filldraw[fill=custom-green, draw=black] (0,4) rectangle (4,10);
+\filldraw[fill=custom-blue, draw=black] (0,10) rectangle (6,15);
+\filldraw[fill=custom-red, draw=black] (5,0) rectangle (9,5);
+\filldraw[fill=custom-red, draw=black] (4,5) rectangle (9,9);
+\filldraw[fill=custom-green, draw=black] (6,9) rectangle (10,15);
+\filldraw[fill=custom-blue, draw=black] (9,0) rectangle (15,5);
+\filldraw[fill=custom-green, draw=black] (9,5) rectangle (15,9);
+\filldraw[fill=custom-blue, draw=black] (10,9) rectangle (15,15);
+        \end{tikzpicture}
+        \caption*{1}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.113\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.090]
+\filldraw[fill=custom-red, draw=black] (0,0) rectangle (5,4);
+\filldraw[fill=custom-green, draw=black] (0,4) rectangle (4,10);
+\filldraw[fill=custom-blue, draw=black] (0,10) rectangle (6,15);
+\filldraw[fill=custom-red, draw=black] (5,0) rectangle (9,5);
+\filldraw[fill=custom-red, draw=black] (4,5) rectangle (9,9);
+\filldraw[fill=custom-blue, draw=black] (6,9) rectangle (11,15);
+\filldraw[fill=custom-blue, draw=black] (9,0) rectangle (15,5);
+\filldraw[fill=custom-green, draw=black] (9,5) rectangle (15,9);
+\filldraw[fill=custom-green, draw=black] (11,9) rectangle (15,15);
+        \end{tikzpicture}
+        \caption*{2}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.113\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.090]
+\filldraw[fill=custom-red, draw=black] (0,0) rectangle (4,5);
+\filldraw[fill=custom-green, draw=black] (0,5) rectangle (4,11);
+\filldraw[fill=custom-red, draw=black] (0,11) rectangle (5,15);
+\filldraw[fill=custom-green, draw=black] (4,0) rectangle (10,4);
+\filldraw[fill=custom-blue, draw=black] (4,4) rectangle (10,9);
+\filldraw[fill=custom-green, draw=black] (5,9) rectangle (9,15);
+\filldraw[fill=custom-red, draw=black] (10,0) rectangle (15,4);
+\filldraw[fill=custom-blue, draw=black] (10,4) rectangle (15,10);
+\filldraw[fill=custom-blue, draw=black] (9,10) rectangle (15,15);
+        \end{tikzpicture}
+        \caption*{3}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.113\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.090]
+\filldraw[fill=custom-red, draw=black] (0,0) rectangle (4,5);
+\filldraw[fill=custom-green, draw=black] (0,5) rectangle (4,11);
+\filldraw[fill=custom-red, draw=black] (0,11) rectangle (5,15);
+\filldraw[fill=custom-green, draw=black] (4,0) rectangle (10,4);
+\filldraw[fill=custom-blue, draw=black] (4,4) rectangle (9,10);
+\filldraw[fill=custom-blue, draw=black] (5,10) rectangle (11,15);
+\filldraw[fill=custom-red, draw=black] (10,0) rectangle (15,4);
+\filldraw[fill=custom-blue, draw=black] (9,4) rectangle (15,9);
+\filldraw[fill=custom-green, draw=black] (11,9) rectangle (15,15);
+        \end{tikzpicture}
+        \caption*{4}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.113\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.090]
+\filldraw[fill=custom-red, draw=black] (0,0) rectangle (5,4);
+\filldraw[fill=custom-red, draw=black] (0,4) rectangle (4,9);
+\filldraw[fill=custom-blue, draw=black] (0,9) rectangle (5,15);
+\filldraw[fill=custom-green, draw=black] (5,0) rectangle (11,4);
+\filldraw[fill=custom-blue, draw=black] (4,4) rectangle (10,9);
+\filldraw[fill=custom-green, draw=black] (5,9) rectangle (9,15);
+\filldraw[fill=custom-red, draw=black] (11,0) rectangle (15,5);
+\filldraw[fill=custom-blue, draw=black] (10,5) rectangle (15,11);
+\filldraw[fill=custom-green, draw=black] (9,11) rectangle (15,15);
+        \end{tikzpicture}
+        \caption*{5}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.113\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.090]
+\filldraw[fill=custom-red, draw=black] (0,0) rectangle (4,5);
+\filldraw[fill=custom-red, draw=black] (0,5) rectangle (5,9);
+\filldraw[fill=custom-blue, draw=black] (0,9) rectangle (5,15);
+\filldraw[fill=custom-green, draw=black] (4,0) rectangle (10,4);
+\filldraw[fill=custom-red, draw=black] (5,4) rectangle (9,9);
+\filldraw[fill=custom-green, draw=black] (5,9) rectangle (9,15);
+\filldraw[fill=custom-blue, draw=black] (10,0) rectangle (15,6);
+\filldraw[fill=custom-blue, draw=black] (9,6) rectangle (15,11);
+\filldraw[fill=custom-green, draw=black] (9,11) rectangle (15,15);
+        \end{tikzpicture}
+        \caption*{6}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.113\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.090]
+\filldraw[fill=custom-red, draw=black] (0,0) rectangle (4,5);
+\filldraw[fill=custom-red, draw=black] (0,5) rectangle (5,9);
+\filldraw[fill=custom-blue, draw=black] (0,9) rectangle (5,15);
+\filldraw[fill=custom-green, draw=black] (4,0) rectangle (10,4);
+\filldraw[fill=custom-red, draw=black] (5,4) rectangle (9,9);
+\filldraw[fill=custom-green, draw=black] (5,9) rectangle (9,15);
+\filldraw[fill=custom-blue, draw=black] (10,0) rectangle (15,6);
+\filldraw[fill=custom-green, draw=black] (9,6) rectangle (15,10);
+\filldraw[fill=custom-blue, draw=black] (9,10) rectangle (15,15);
+        \end{tikzpicture}
+        \caption*{7}
+    \end{subfigure}
+    \par\bigskip\bigskip
+    \begin{subfigure}[b]{0.113\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.090]
+\filldraw[fill=custom-blue, draw=black] (0,0) rectangle (5,6);
+\filldraw[fill=custom-blue, draw=black] (0,6) rectangle (6,11);
+\filldraw[fill=custom-green, draw=black] (0,11) rectangle (6,15);
+\filldraw[fill=custom-blue, draw=black] (5,0) rectangle (11,5);
+\filldraw[fill=custom-green, draw=black] (6,5) rectangle (10,11);
+\filldraw[fill=custom-red, draw=black] (6,11) rectangle (11,15);
+\filldraw[fill=custom-green, draw=black] (11,0) rectangle (15,6);
+\filldraw[fill=custom-red, draw=black] (10,6) rectangle (15,10);
+\filldraw[fill=custom-red, draw=black] (11,10) rectangle (15,15);
+        \end{tikzpicture}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.113\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.090]
+\filldraw[fill=custom-blue, draw=black] (0,0) rectangle (5,6);
+\filldraw[fill=custom-blue, draw=black] (0,6) rectangle (6,11);
+\filldraw[fill=custom-green, draw=black] (0,11) rectangle (6,15);
+\filldraw[fill=custom-blue, draw=black] (5,0) rectangle (11,5);
+\filldraw[fill=custom-green, draw=black] (6,5) rectangle (10,11);
+\filldraw[fill=custom-red, draw=black] (6,11) rectangle (11,15);
+\filldraw[fill=custom-green, draw=black] (11,0) rectangle (15,6);
+\filldraw[fill=custom-red, draw=black] (10,6) rectangle (15,10);
+\filldraw[fill=custom-red, draw=black] (11,10) rectangle (15,15);
+        \end{tikzpicture}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.113\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.090]
+\filldraw[fill=custom-blue, draw=black] (0,0) rectangle (5,6);
+\filldraw[fill=custom-blue, draw=black] (0,6) rectangle (6,11);
+\filldraw[fill=custom-green, draw=black] (0,11) rectangle (6,15);
+\filldraw[fill=custom-blue, draw=black] (5,0) rectangle (11,5);
+\filldraw[fill=custom-green, draw=black] (6,5) rectangle (10,11);
+\filldraw[fill=custom-red, draw=black] (6,11) rectangle (11,15);
+\filldraw[fill=custom-green, draw=black] (11,0) rectangle (15,6);
+\filldraw[fill=custom-red, draw=black] (10,6) rectangle (15,10);
+\filldraw[fill=custom-red, draw=black] (11,10) rectangle (15,15);
+        \end{tikzpicture}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.113\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.090]
+\filldraw[fill=custom-blue, draw=black] (0,0) rectangle (5,6);
+\filldraw[fill=custom-blue, draw=black] (0,6) rectangle (6,11);
+\filldraw[fill=custom-green, draw=black] (0,11) rectangle (6,15);
+\filldraw[fill=custom-blue, draw=black] (5,0) rectangle (11,5);
+\filldraw[fill=custom-green, draw=black] (6,5) rectangle (10,11);
+\filldraw[fill=custom-red, draw=black] (6,11) rectangle (11,15);
+\filldraw[fill=custom-green, draw=black] (11,0) rectangle (15,6);
+\filldraw[fill=custom-red, draw=black] (10,6) rectangle (15,10);
+\filldraw[fill=custom-red, draw=black] (11,10) rectangle (15,15);
+        \end{tikzpicture}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.113\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.090]
+\filldraw[fill=custom-blue, draw=black] (0,0) rectangle (5,6);
+\filldraw[fill=custom-blue, draw=black] (0,6) rectangle (6,11);
+\filldraw[fill=custom-green, draw=black] (0,11) rectangle (6,15);
+\filldraw[fill=custom-blue, draw=black] (5,0) rectangle (11,5);
+\filldraw[fill=custom-green, draw=black] (6,5) rectangle (10,11);
+\filldraw[fill=custom-red, draw=black] (6,11) rectangle (11,15);
+\filldraw[fill=custom-green, draw=black] (11,0) rectangle (15,6);
+\filldraw[fill=custom-red, draw=black] (10,6) rectangle (15,10);
+\filldraw[fill=custom-red, draw=black] (11,10) rectangle (15,15);
+        \end{tikzpicture}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.113\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.090]
+\filldraw[fill=custom-blue, draw=black] (0,0) rectangle (5,6);
+\filldraw[fill=custom-blue, draw=black] (0,6) rectangle (6,11);
+\filldraw[fill=custom-green, draw=black] (0,11) rectangle (6,15);
+\filldraw[fill=custom-blue, draw=black] (5,0) rectangle (11,5);
+\filldraw[fill=custom-green, draw=black] (6,5) rectangle (10,11);
+\filldraw[fill=custom-red, draw=black] (6,11) rectangle (11,15);
+\filldraw[fill=custom-green, draw=black] (11,0) rectangle (15,6);
+\filldraw[fill=custom-red, draw=black] (10,6) rectangle (15,10);
+\filldraw[fill=custom-red, draw=black] (11,10) rectangle (15,15);
+        \end{tikzpicture}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.113\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.090]
+\filldraw[fill=custom-blue, draw=black] (0,0) rectangle (5,6);
+\filldraw[fill=custom-blue, draw=black] (0,6) rectangle (6,11);
+\filldraw[fill=custom-green, draw=black] (0,11) rectangle (6,15);
+\filldraw[fill=custom-blue, draw=black] (5,0) rectangle (11,5);
+\filldraw[fill=custom-green, draw=black] (6,5) rectangle (10,11);
+\filldraw[fill=custom-red, draw=black] (6,11) rectangle (11,15);
+\filldraw[fill=custom-green, draw=black] (11,0) rectangle (15,6);
+\filldraw[fill=custom-red, draw=black] (10,6) rectangle (15,10);
+\filldraw[fill=custom-red, draw=black] (11,10) rectangle (15,15);
+        \end{tikzpicture}
+    \end{subfigure}
+    \par\medskip
+    \begin{subfigure}[b]{0.113\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.090]
+\filldraw[fill=custom-green, draw=black] (0,0) rectangle (6,4);
+\filldraw[fill=custom-red, draw=black] (0,4) rectangle (4,9);
+\filldraw[fill=custom-blue, draw=black] (0,9) rectangle (5,15);
+\filldraw[fill=custom-red, draw=black] (6,0) rectangle (10,5);
+\filldraw[fill=custom-red, draw=black] (4,5) rectangle (9,9);
+\filldraw[fill=custom-green, draw=black] (5,9) rectangle (9,15);
+\filldraw[fill=custom-blue, draw=black] (10,0) rectangle (15,6);
+\filldraw[fill=custom-blue, draw=black] (9,6) rectangle (15,11);
+\filldraw[fill=custom-green, draw=black] (9,11) rectangle (15,15);
+        \end{tikzpicture}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.113\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.090]
+\filldraw[fill=custom-green, draw=black] (0,0) rectangle (6,4);
+\filldraw[fill=custom-red, draw=black] (0,4) rectangle (4,9);
+\filldraw[fill=custom-blue, draw=black] (0,9) rectangle (5,15);
+\filldraw[fill=custom-red, draw=black] (6,0) rectangle (10,5);
+\filldraw[fill=custom-red, draw=black] (4,5) rectangle (9,9);
+\filldraw[fill=custom-green, draw=black] (5,9) rectangle (9,15);
+\filldraw[fill=custom-blue, draw=black] (10,0) rectangle (15,6);
+\filldraw[fill=custom-green, draw=black] (9,6) rectangle (15,10);
+\filldraw[fill=custom-blue, draw=black] (9,10) rectangle (15,15);
+        \end{tikzpicture}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.113\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.090]
+\filldraw[fill=custom-red, draw=black] (0,0) rectangle (4,5);
+\filldraw[fill=custom-green, draw=black] (0,5) rectangle (4,11);
+\filldraw[fill=custom-red, draw=black] (0,11) rectangle (5,15);
+\filldraw[fill=custom-green, draw=black] (4,0) rectangle (10,4);
+\filldraw[fill=custom-blue, draw=black] (4,4) rectangle (10,9);
+\filldraw[fill=custom-green, draw=black] (5,9) rectangle (9,15);
+\filldraw[fill=custom-red, draw=black] (10,0) rectangle (15,4);
+\filldraw[fill=custom-blue, draw=black] (10,4) rectangle (15,10);
+\filldraw[fill=custom-blue, draw=black] (9,10) rectangle (15,15);
+        \end{tikzpicture}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.113\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.090]
+\filldraw[fill=custom-red, draw=black] (0,0) rectangle (4,5);
+\filldraw[fill=custom-red, draw=black] (0,5) rectangle (5,9);
+\filldraw[fill=custom-blue, draw=black] (0,9) rectangle (5,15);
+\filldraw[fill=custom-green, draw=black] (4,0) rectangle (10,4);
+\filldraw[fill=custom-red, draw=black] (5,4) rectangle (9,9);
+\filldraw[fill=custom-green, draw=black] (5,9) rectangle (9,15);
+\filldraw[fill=custom-blue, draw=black] (10,0) rectangle (15,6);
+\filldraw[fill=custom-blue, draw=black] (9,6) rectangle (15,11);
+\filldraw[fill=custom-green, draw=black] (9,11) rectangle (15,15);
+        \end{tikzpicture}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.113\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.090]
+\filldraw[fill=custom-red, draw=black] (0,0) rectangle (4,5);
+\filldraw[fill=custom-red, draw=black] (0,5) rectangle (5,9);
+\filldraw[fill=custom-blue, draw=black] (0,9) rectangle (5,15);
+\filldraw[fill=custom-green, draw=black] (4,0) rectangle (10,4);
+\filldraw[fill=custom-red, draw=black] (5,4) rectangle (9,9);
+\filldraw[fill=custom-green, draw=black] (5,9) rectangle (9,15);
+\filldraw[fill=custom-blue, draw=black] (10,0) rectangle (15,6);
+\filldraw[fill=custom-green, draw=black] (9,6) rectangle (15,10);
+\filldraw[fill=custom-blue, draw=black] (9,10) rectangle (15,15);
+        \end{tikzpicture}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.113\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.090]
+\filldraw[fill=custom-red, draw=black] (0,0) rectangle (5,4);
+\filldraw[fill=custom-green, draw=black] (0,4) rectangle (4,10);
+\filldraw[fill=custom-blue, draw=black] (0,10) rectangle (6,15);
+\filldraw[fill=custom-red, draw=black] (5,0) rectangle (9,5);
+\filldraw[fill=custom-red, draw=black] (4,5) rectangle (9,9);
+\filldraw[fill=custom-blue, draw=black] (6,9) rectangle (11,15);
+\filldraw[fill=custom-blue, draw=black] (9,0) rectangle (15,5);
+\filldraw[fill=custom-green, draw=black] (9,5) rectangle (15,9);
+\filldraw[fill=custom-green, draw=black] (11,9) rectangle (15,15);
+        \end{tikzpicture}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.113\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.090]
+\filldraw[fill=custom-red, draw=black] (0,0) rectangle (5,4);
+\filldraw[fill=custom-green, draw=black] (0,4) rectangle (4,10);
+\filldraw[fill=custom-blue, draw=black] (0,10) rectangle (6,15);
+\filldraw[fill=custom-red, draw=black] (5,0) rectangle (9,5);
+\filldraw[fill=custom-red, draw=black] (4,5) rectangle (9,9);
+\filldraw[fill=custom-green, draw=black] (6,9) rectangle (10,15);
+\filldraw[fill=custom-blue, draw=black] (9,0) rectangle (15,5);
+\filldraw[fill=custom-green, draw=black] (9,5) rectangle (15,9);
+\filldraw[fill=custom-blue, draw=black] (10,9) rectangle (15,15);
+        \end{tikzpicture}
+    \end{subfigure}
+    \par\medskip
+    \begin{subfigure}[b]{0.113\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.090]
+\filldraw[fill=custom-red, draw=black] (0,0) rectangle (5,4);
+\filldraw[fill=custom-green, draw=black] (0,4) rectangle (4,10);
+\filldraw[fill=custom-red, draw=black] (0,10) rectangle (4,15);
+\filldraw[fill=custom-green, draw=black] (5,0) rectangle (11,4);
+\filldraw[fill=custom-blue, draw=black] (4,4) rectangle (9,10);
+\filldraw[fill=custom-blue, draw=black] (4,10) rectangle (10,15);
+\filldraw[fill=custom-red, draw=black] (11,0) rectangle (15,5);
+\filldraw[fill=custom-green, draw=black] (9,5) rectangle (15,9);
+\filldraw[fill=custom-blue, draw=black] (10,9) rectangle (15,15);
+        \end{tikzpicture}
+        \caption*{8}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.113\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.090]
+\filldraw[fill=custom-red, draw=black] (0,0) rectangle (5,4);
+\filldraw[fill=custom-green, draw=black] (0,4) rectangle (4,10);
+\filldraw[fill=custom-red, draw=black] (0,10) rectangle (4,15);
+\filldraw[fill=custom-green, draw=black] (5,0) rectangle (11,4);
+\filldraw[fill=custom-blue, draw=black] (4,4) rectangle (10,9);
+\filldraw[fill=custom-blue, draw=black] (4,9) rectangle (9,15);
+\filldraw[fill=custom-red, draw=black] (11,0) rectangle (15,5);
+\filldraw[fill=custom-blue, draw=black] (10,5) rectangle (15,11);
+\filldraw[fill=custom-green, draw=black] (9,11) rectangle (15,15);
+        \end{tikzpicture}
+        \caption*{9}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.113\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.090]
+\filldraw[fill=custom-green, draw=black] (0,0) rectangle (4,6);
+\filldraw[fill=custom-red, draw=black] (0,6) rectangle (5,10);
+\filldraw[fill=custom-blue, draw=black] (0,10) rectangle (6,15);
+\filldraw[fill=custom-red, draw=black] (4,0) rectangle (9,4);
+\filldraw[fill=custom-red, draw=black] (5,4) rectangle (9,9);
+\filldraw[fill=custom-blue, draw=black] (6,9) rectangle (11,15);
+\filldraw[fill=custom-blue, draw=black] (9,0) rectangle (15,5);
+\filldraw[fill=custom-green, draw=black] (9,5) rectangle (15,9);
+\filldraw[fill=custom-green, draw=black] (11,9) rectangle (15,15);
+        \end{tikzpicture}
+        \caption*{10}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.113\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.090]
+\filldraw[fill=custom-green, draw=black] (0,0) rectangle (6,4);
+\filldraw[fill=custom-green, draw=black] (0,4) rectangle (4,10);
+\filldraw[fill=custom-red, draw=black] (0,10) rectangle (4,15);
+\filldraw[fill=custom-red, draw=black] (6,0) rectangle (11,4);
+\filldraw[fill=custom-blue, draw=black] (4,4) rectangle (9,10);
+\filldraw[fill=custom-blue, draw=black] (4,10) rectangle (10,15);
+\filldraw[fill=custom-red, draw=black] (11,0) rectangle (15,5);
+\filldraw[fill=custom-green, draw=black] (9,5) rectangle (15,9);
+\filldraw[fill=custom-blue, draw=black] (10,9) rectangle (15,15);
+        \end{tikzpicture}
+        \caption*{11}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.113\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.090]
+\filldraw[fill=custom-green, draw=black] (0,0) rectangle (6,4);
+\filldraw[fill=custom-green, draw=black] (0,4) rectangle (4,10);
+\filldraw[fill=custom-red, draw=black] (0,10) rectangle (4,15);
+\filldraw[fill=custom-red, draw=black] (6,0) rectangle (11,4);
+\filldraw[fill=custom-blue, draw=black] (4,4) rectangle (10,9);
+\filldraw[fill=custom-blue, draw=black] (4,9) rectangle (9,15);
+\filldraw[fill=custom-red, draw=black] (11,0) rectangle (15,5);
+\filldraw[fill=custom-blue, draw=black] (10,5) rectangle (15,11);
+\filldraw[fill=custom-green, draw=black] (9,11) rectangle (15,15);
+        \end{tikzpicture}
+        \caption*{12}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.113\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.090]
+\filldraw[fill=custom-green, draw=black] (0,0) rectangle (4,6);
+\filldraw[fill=custom-red, draw=black] (0,6) rectangle (4,11);
+\filldraw[fill=custom-red, draw=black] (0,11) rectangle (5,15);
+\filldraw[fill=custom-green, draw=black] (4,0) rectangle (10,4);
+\filldraw[fill=custom-blue, draw=black] (4,4) rectangle (10,9);
+\filldraw[fill=custom-green, draw=black] (5,9) rectangle (9,15);
+\filldraw[fill=custom-red, draw=black] (10,0) rectangle (15,4);
+\filldraw[fill=custom-blue, draw=black] (10,4) rectangle (15,10);
+\filldraw[fill=custom-blue, draw=black] (9,10) rectangle (15,15);
+        \end{tikzpicture}
+        \caption*{13}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.113\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.090]
+\filldraw[fill=custom-green, draw=black] (0,0) rectangle (4,6);
+\filldraw[fill=custom-red, draw=black] (0,6) rectangle (4,11);
+\filldraw[fill=custom-red, draw=black] (0,11) rectangle (5,15);
+\filldraw[fill=custom-green, draw=black] (4,0) rectangle (10,4);
+\filldraw[fill=custom-blue, draw=black] (4,4) rectangle (9,10);
+\filldraw[fill=custom-blue, draw=black] (5,10) rectangle (11,15);
+\filldraw[fill=custom-red, draw=black] (10,0) rectangle (15,4);
+\filldraw[fill=custom-blue, draw=black] (9,4) rectangle (15,9);
+\filldraw[fill=custom-green, draw=black] (11,9) rectangle (15,15);
+        \end{tikzpicture}
+        \caption*{14}
+    \end{subfigure}
+    \par\bigskip\bigskip
+    \begin{subfigure}[b]{0.113\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.090]
+\filldraw[fill=custom-blue, draw=black] (0,0) rectangle (5,6);
+\filldraw[fill=custom-blue, draw=black] (0,6) rectangle (6,11);
+\filldraw[fill=custom-green, draw=black] (0,11) rectangle (6,15);
+\filldraw[fill=custom-blue, draw=black] (5,0) rectangle (11,5);
+\filldraw[fill=custom-green, draw=black] (6,5) rectangle (10,11);
+\filldraw[fill=custom-red, draw=black] (6,11) rectangle (11,15);
+\filldraw[fill=custom-green, draw=black] (11,0) rectangle (15,6);
+\filldraw[fill=custom-red, draw=black] (10,6) rectangle (15,10);
+\filldraw[fill=custom-red, draw=black] (11,10) rectangle (15,15);
+        \end{tikzpicture}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.113\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.090]
+\filldraw[fill=custom-blue, draw=black] (0,0) rectangle (5,6);
+\filldraw[fill=custom-blue, draw=black] (0,6) rectangle (6,11);
+\filldraw[fill=custom-green, draw=black] (0,11) rectangle (6,15);
+\filldraw[fill=custom-blue, draw=black] (5,0) rectangle (11,5);
+\filldraw[fill=custom-green, draw=black] (6,5) rectangle (10,11);
+\filldraw[fill=custom-red, draw=black] (6,11) rectangle (11,15);
+\filldraw[fill=custom-green, draw=black] (11,0) rectangle (15,6);
+\filldraw[fill=custom-red, draw=black] (10,6) rectangle (15,10);
+\filldraw[fill=custom-red, draw=black] (11,10) rectangle (15,15);
+        \end{tikzpicture}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.113\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.090]
+\filldraw[fill=custom-blue, draw=black] (0,0) rectangle (5,6);
+\filldraw[fill=custom-blue, draw=black] (0,6) rectangle (6,11);
+\filldraw[fill=custom-green, draw=black] (0,11) rectangle (6,15);
+\filldraw[fill=custom-blue, draw=black] (5,0) rectangle (11,5);
+\filldraw[fill=custom-green, draw=black] (6,5) rectangle (10,11);
+\filldraw[fill=custom-red, draw=black] (6,11) rectangle (11,15);
+\filldraw[fill=custom-green, draw=black] (11,0) rectangle (15,6);
+\filldraw[fill=custom-red, draw=black] (10,6) rectangle (15,10);
+\filldraw[fill=custom-red, draw=black] (11,10) rectangle (15,15);
+        \end{tikzpicture}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.113\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.090]
+\filldraw[fill=custom-blue, draw=black] (0,0) rectangle (5,6);
+\filldraw[fill=custom-blue, draw=black] (0,6) rectangle (6,11);
+\filldraw[fill=custom-green, draw=black] (0,11) rectangle (6,15);
+\filldraw[fill=custom-green, draw=black] (5,0) rectangle (9,6);
+\filldraw[fill=custom-red, draw=black] (6,6) rectangle (10,11);
+\filldraw[fill=custom-red, draw=black] (6,11) rectangle (11,15);
+\filldraw[fill=custom-blue, draw=black] (9,0) rectangle (15,5);
+\filldraw[fill=custom-red, draw=black] (10,5) rectangle (15,9);
+\filldraw[fill=custom-green, draw=black] (11,9) rectangle (15,15);
+        \end{tikzpicture}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.113\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.090]
+\filldraw[fill=custom-blue, draw=black] (0,0) rectangle (5,6);
+\filldraw[fill=custom-blue, draw=black] (0,6) rectangle (6,11);
+\filldraw[fill=custom-green, draw=black] (0,11) rectangle (6,15);
+\filldraw[fill=custom-green, draw=black] (5,0) rectangle (9,6);
+\filldraw[fill=custom-red, draw=black] (6,6) rectangle (11,10);
+\filldraw[fill=custom-red, draw=black] (6,10) rectangle (10,15);
+\filldraw[fill=custom-blue, draw=black] (9,0) rectangle (15,5);
+\filldraw[fill=custom-green, draw=black] (11,5) rectangle (15,11);
+\filldraw[fill=custom-red, draw=black] (10,11) rectangle (15,15);
+        \end{tikzpicture}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.113\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.090]
+\filldraw[fill=custom-blue, draw=black] (0,0) rectangle (5,6);
+\filldraw[fill=custom-blue, draw=black] (0,6) rectangle (6,11);
+\filldraw[fill=custom-green, draw=black] (0,11) rectangle (6,15);
+\filldraw[fill=custom-green, draw=black] (5,0) rectangle (11,4);
+\filldraw[fill=custom-blue, draw=black] (6,4) rectangle (11,10);
+\filldraw[fill=custom-red, draw=black] (6,10) rectangle (10,15);
+\filldraw[fill=custom-green, draw=black] (11,0) rectangle (15,6);
+\filldraw[fill=custom-red, draw=black] (11,6) rectangle (15,11);
+\filldraw[fill=custom-red, draw=black] (10,11) rectangle (15,15);
+        \end{tikzpicture}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.113\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.090]
+\filldraw[fill=custom-blue, draw=black] (0,0) rectangle (5,6);
+\filldraw[fill=custom-blue, draw=black] (0,6) rectangle (6,11);
+\filldraw[fill=custom-green, draw=black] (0,11) rectangle (6,15);
+\filldraw[fill=custom-green, draw=black] (5,0) rectangle (11,4);
+\filldraw[fill=custom-blue, draw=black] (6,4) rectangle (11,10);
+\filldraw[fill=custom-red, draw=black] (6,10) rectangle (10,15);
+\filldraw[fill=custom-green, draw=black] (11,0) rectangle (15,6);
+\filldraw[fill=custom-red, draw=black] (11,6) rectangle (15,11);
+\filldraw[fill=custom-red, draw=black] (10,11) rectangle (15,15);
+        \end{tikzpicture}
+    \end{subfigure}
+    \par\medskip
+    \begin{subfigure}[b]{0.113\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.090]
+\filldraw[fill=custom-red, draw=black] (0,0) rectangle (5,4);
+\filldraw[fill=custom-green, draw=black] (0,4) rectangle (4,10);
+\filldraw[fill=custom-red, draw=black] (0,10) rectangle (4,15);
+\filldraw[fill=custom-green, draw=black] (5,0) rectangle (11,4);
+\filldraw[fill=custom-blue, draw=black] (4,4) rectangle (9,10);
+\filldraw[fill=custom-blue, draw=black] (4,10) rectangle (10,15);
+\filldraw[fill=custom-red, draw=black] (11,0) rectangle (15,5);
+\filldraw[fill=custom-green, draw=black] (9,5) rectangle (15,9);
+\filldraw[fill=custom-blue, draw=black] (10,9) rectangle (15,15);
+        \end{tikzpicture}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.113\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.090]
+\filldraw[fill=custom-red, draw=black] (0,0) rectangle (5,4);
+\filldraw[fill=custom-green, draw=black] (0,4) rectangle (4,10);
+\filldraw[fill=custom-red, draw=black] (0,10) rectangle (4,15);
+\filldraw[fill=custom-green, draw=black] (5,0) rectangle (11,4);
+\filldraw[fill=custom-blue, draw=black] (4,4) rectangle (10,9);
+\filldraw[fill=custom-blue, draw=black] (4,9) rectangle (9,15);
+\filldraw[fill=custom-red, draw=black] (11,0) rectangle (15,5);
+\filldraw[fill=custom-blue, draw=black] (10,5) rectangle (15,11);
+\filldraw[fill=custom-green, draw=black] (9,11) rectangle (15,15);
+        \end{tikzpicture}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.113\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.090]
+\filldraw[fill=custom-red, draw=black] (0,0) rectangle (5,4);
+\filldraw[fill=custom-red, draw=black] (0,4) rectangle (4,9);
+\filldraw[fill=custom-blue, draw=black] (0,9) rectangle (5,15);
+\filldraw[fill=custom-green, draw=black] (5,0) rectangle (11,4);
+\filldraw[fill=custom-blue, draw=black] (4,4) rectangle (10,9);
+\filldraw[fill=custom-green, draw=black] (5,9) rectangle (9,15);
+\filldraw[fill=custom-red, draw=black] (11,0) rectangle (15,5);
+\filldraw[fill=custom-blue, draw=black] (10,5) rectangle (15,11);
+\filldraw[fill=custom-green, draw=black] (9,11) rectangle (15,15);
+        \end{tikzpicture}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.113\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.090]
+\filldraw[fill=custom-green, draw=black] (0,0) rectangle (4,6);
+\filldraw[fill=custom-red, draw=black] (0,6) rectangle (5,10);
+\filldraw[fill=custom-blue, draw=black] (0,10) rectangle (6,15);
+\filldraw[fill=custom-blue, draw=black] (4,0) rectangle (10,5);
+\filldraw[fill=custom-green, draw=black] (5,5) rectangle (11,9);
+\filldraw[fill=custom-blue, draw=black] (6,9) rectangle (11,15);
+\filldraw[fill=custom-red, draw=black] (10,0) rectangle (15,4);
+\filldraw[fill=custom-green, draw=black] (11,4) rectangle (15,10);
+\filldraw[fill=custom-red, draw=black] (11,10) rectangle (15,15);
+        \end{tikzpicture}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.113\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.090]
+\filldraw[fill=custom-green, draw=black] (0,0) rectangle (4,6);
+\filldraw[fill=custom-red, draw=black] (0,6) rectangle (5,10);
+\filldraw[fill=custom-blue, draw=black] (0,10) rectangle (6,15);
+\filldraw[fill=custom-blue, draw=black] (4,0) rectangle (10,5);
+\filldraw[fill=custom-green, draw=black] (5,5) rectangle (11,9);
+\filldraw[fill=custom-blue, draw=black] (6,9) rectangle (11,15);
+\filldraw[fill=custom-red, draw=black] (10,0) rectangle (15,4);
+\filldraw[fill=custom-red, draw=black] (11,4) rectangle (15,9);
+\filldraw[fill=custom-green, draw=black] (11,9) rectangle (15,15);
+        \end{tikzpicture}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.113\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.090]
+\filldraw[fill=custom-green, draw=black] (0,0) rectangle (4,6);
+\filldraw[fill=custom-red, draw=black] (0,6) rectangle (4,11);
+\filldraw[fill=custom-red, draw=black] (0,11) rectangle (5,15);
+\filldraw[fill=custom-blue, draw=black] (4,0) rectangle (10,5);
+\filldraw[fill=custom-green, draw=black] (4,5) rectangle (10,9);
+\filldraw[fill=custom-green, draw=black] (5,9) rectangle (9,15);
+\filldraw[fill=custom-red, draw=black] (10,0) rectangle (15,4);
+\filldraw[fill=custom-blue, draw=black] (10,4) rectangle (15,10);
+\filldraw[fill=custom-blue, draw=black] (9,10) rectangle (15,15);
+        \end{tikzpicture}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.113\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.090]
+\filldraw[fill=custom-red, draw=black] (0,0) rectangle (4,5);
+\filldraw[fill=custom-green, draw=black] (0,5) rectangle (4,11);
+\filldraw[fill=custom-red, draw=black] (0,11) rectangle (5,15);
+\filldraw[fill=custom-blue, draw=black] (4,0) rectangle (10,5);
+\filldraw[fill=custom-green, draw=black] (4,5) rectangle (10,9);
+\filldraw[fill=custom-green, draw=black] (5,9) rectangle (9,15);
+\filldraw[fill=custom-red, draw=black] (10,0) rectangle (15,4);
+\filldraw[fill=custom-blue, draw=black] (10,4) rectangle (15,10);
+\filldraw[fill=custom-blue, draw=black] (9,10) rectangle (15,15);
+        \end{tikzpicture}
+    \end{subfigure}
+    \par\medskip
+    \begin{subfigure}[b]{0.113\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.090]
+\filldraw[fill=custom-green, draw=black] (0,0) rectangle (6,4);
+\filldraw[fill=custom-red, draw=black] (0,4) rectangle (4,9);
+\filldraw[fill=custom-blue, draw=black] (0,9) rectangle (5,15);
+\filldraw[fill=custom-red, draw=black] (6,0) rectangle (10,5);
+\filldraw[fill=custom-red, draw=black] (4,5) rectangle (9,9);
+\filldraw[fill=custom-green, draw=black] (5,9) rectangle (9,15);
+\filldraw[fill=custom-blue, draw=black] (10,0) rectangle (15,6);
+\filldraw[fill=custom-blue, draw=black] (9,6) rectangle (15,11);
+\filldraw[fill=custom-green, draw=black] (9,11) rectangle (15,15);
+        \end{tikzpicture}
+        \caption*{15}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.113\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.090]
+\filldraw[fill=custom-green, draw=black] (0,0) rectangle (6,4);
+\filldraw[fill=custom-red, draw=black] (0,4) rectangle (4,9);
+\filldraw[fill=custom-blue, draw=black] (0,9) rectangle (5,15);
+\filldraw[fill=custom-red, draw=black] (6,0) rectangle (10,5);
+\filldraw[fill=custom-red, draw=black] (4,5) rectangle (9,9);
+\filldraw[fill=custom-green, draw=black] (5,9) rectangle (9,15);
+\filldraw[fill=custom-blue, draw=black] (10,0) rectangle (15,6);
+\filldraw[fill=custom-green, draw=black] (9,6) rectangle (15,10);
+\filldraw[fill=custom-blue, draw=black] (9,10) rectangle (15,15);
+        \end{tikzpicture}
+        \caption*{16}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.113\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.090]
+\filldraw[fill=custom-green, draw=black] (0,0) rectangle (6,4);
+\filldraw[fill=custom-green, draw=black] (0,4) rectangle (4,10);
+\filldraw[fill=custom-red, draw=black] (0,10) rectangle (4,15);
+\filldraw[fill=custom-red, draw=black] (6,0) rectangle (10,5);
+\filldraw[fill=custom-red, draw=black] (4,5) rectangle (9,9);
+\filldraw[fill=custom-blue, draw=black] (4,9) rectangle (9,15);
+\filldraw[fill=custom-blue, draw=black] (10,0) rectangle (15,6);
+\filldraw[fill=custom-green, draw=black] (9,6) rectangle (15,10);
+\filldraw[fill=custom-blue, draw=black] (9,10) rectangle (15,15);
+        \end{tikzpicture}
+        \caption*{17}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.113\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.090]
+\filldraw[fill=custom-red, draw=black] (0,0) rectangle (5,4);
+\filldraw[fill=custom-green, draw=black] (0,4) rectangle (4,10);
+\filldraw[fill=custom-red, draw=black] (0,10) rectangle (4,15);
+\filldraw[fill=custom-red, draw=black] (5,0) rectangle (9,5);
+\filldraw[fill=custom-blue, draw=black] (4,5) rectangle (9,11);
+\filldraw[fill=custom-green, draw=black] (4,11) rectangle (10,15);
+\filldraw[fill=custom-green, draw=black] (9,0) rectangle (15,4);
+\filldraw[fill=custom-blue, draw=black] (9,4) rectangle (15,9);
+\filldraw[fill=custom-blue, draw=black] (10,9) rectangle (15,15);
+        \end{tikzpicture}
+        \caption*{18}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.113\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.090]
+\filldraw[fill=custom-red, draw=black] (0,0) rectangle (5,4);
+\filldraw[fill=custom-green, draw=black] (0,4) rectangle (4,10);
+\filldraw[fill=custom-red, draw=black] (0,10) rectangle (4,15);
+\filldraw[fill=custom-red, draw=black] (5,0) rectangle (9,5);
+\filldraw[fill=custom-blue, draw=black] (4,5) rectangle (9,11);
+\filldraw[fill=custom-green, draw=black] (4,11) rectangle (10,15);
+\filldraw[fill=custom-green, draw=black] (9,0) rectangle (15,4);
+\filldraw[fill=custom-blue, draw=black] (9,4) rectangle (15,9);
+\filldraw[fill=custom-blue, draw=black] (10,9) rectangle (15,15);
+        \end{tikzpicture}
+        \caption*{19}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.113\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.090]
+\filldraw[fill=custom-red, draw=black] (0,0) rectangle (5,4);
+\filldraw[fill=custom-green, draw=black] (0,4) rectangle (4,10);
+\filldraw[fill=custom-blue, draw=black] (0,10) rectangle (6,15);
+\filldraw[fill=custom-red, draw=black] (5,0) rectangle (9,5);
+\filldraw[fill=custom-red, draw=black] (4,5) rectangle (9,9);
+\filldraw[fill=custom-blue, draw=black] (6,9) rectangle (11,15);
+\filldraw[fill=custom-blue, draw=black] (9,0) rectangle (15,5);
+\filldraw[fill=custom-green, draw=black] (9,5) rectangle (15,9);
+\filldraw[fill=custom-green, draw=black] (11,9) rectangle (15,15);
+        \end{tikzpicture}
+        \caption*{20}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.113\textwidth}
+        \centering
+        \begin{tikzpicture}[scale=0.090]
+\filldraw[fill=custom-green, draw=black] (0,0) rectangle (4,6);
+\filldraw[fill=custom-red, draw=black] (0,6) rectangle (5,10);
+\filldraw[fill=custom-blue, draw=black] (0,10) rectangle (6,15);
+\filldraw[fill=custom-red, draw=black] (4,0) rectangle (9,4);
+\filldraw[fill=custom-red, draw=black] (5,4) rectangle (9,9);
+\filldraw[fill=custom-blue, draw=black] (6,9) rectangle (11,15);
+\filldraw[fill=custom-blue, draw=black] (9,0) rectangle (15,5);
+\filldraw[fill=custom-green, draw=black] (9,5) rectangle (15,9);
+\filldraw[fill=custom-green, draw=black] (11,9) rectangle (15,15);
+        \end{tikzpicture}
+        \caption*{21}
+    \end{subfigure}
+\end{figure}

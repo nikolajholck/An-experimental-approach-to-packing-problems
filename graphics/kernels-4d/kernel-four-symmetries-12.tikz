@@ -1,0 +1,4 @@
+\filldraw[fill=custom-blue, draw=black] (11,7) rectangle (19,19);
+\filldraw[fill=custom-orange, draw=black] (10,19) rectangle (19,29);
+\filldraw[fill=custom-orange, draw=black] (19,9) rectangle (28,19);
+\filldraw[fill=custom-blue, draw=black] (19,19) rectangle (27,31);

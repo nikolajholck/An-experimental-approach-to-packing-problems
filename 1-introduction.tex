@@ -1,0 +1,124 @@
+\section{Introduction}
+\noindent In \cite{Hoffman1981} Dean G. Hoffman proposes a packing problem based on the inequality of the arithmetic mean and geometric mean. The following introduction is immensely inspired by his presentation of it.
+
+Is it possible to pack four $7$-by-$8$ rectangles inside a square whose sides have a length of $15$? Notice that each rectangle has an area of $7 \cdot 8 = 56$, while the area of the square is $15^2 = 225$. Thus, the leftover area is just $225 - 4 \cdot 56 = 1$, so there is a very limited room for maneuver. Nevertheless, it is in fact possible to pack the rectangles inside the square by organizing them like in \cref{fig:2d-concrete-packing}.
+\begin{figure}[ht]
+    \centering
+        \begin{tikzpicture}[scale=0.30]
+            \draw (0, 0) rectangle (15, 15);
+            \filldraw[fill=custom-red, draw=black] (0, 0) rectangle (7, 8);
+            \filldraw[fill=custom-green, draw=black] (7, 0) rectangle (15, 7);
+            \filldraw[fill=custom-blue, draw=black] (8, 7) rectangle (15, 15);
+            \filldraw[fill=custom-orange, draw=black] (0, 8) rectangle (8, 15);
+            \draw[decorate,decoration={brace, raise=2, amplitude=4}] (0, 8)  -- node[midway, left=0.15]{$7$} (0, 15);
+            \draw[decorate,decoration={brace, raise=2, amplitude=4}] (0, 15)  -- node[midway, above=0.15]{$8$} (8, 15);
+            \draw[decorate,decoration={brace, raise=2, amplitude=4, mirror}] (15, 0)  -- node[midway, right=0.15]{$15$} (15, 15);
+            \draw[very thin] (0, 0) grid (15, 15);
+        \end{tikzpicture}
+    \caption{Packing of four $7$-by-$8$ rectangles inside a $15$-by-$15$ square.}
+    \label{fig:2d-concrete-packing}
+\end{figure}
+
+We can generalize this problem. Let $x$ and $y$ be two positive real numbers. Is it possible to pack four $x$-by-$y$ rectangles inside a square whose sides have a length of $x + y$? The area of each rectangle is $xy$, while the area of the square is $(x + y)^2$. We will certainly not be able to fit the rectangles if their combined area exceeds the area of the square. Thus, we do not stand a chance unless $4xy \leq (x + y)^2$. Fortunately, there is still a chance of finding a packing, since $0 \leq (x - y)^2 = (x + y)^2 - 4xy$.
+Inspired by \cref{fig:2d-concrete-packing}, we can solve this generalized problem as well. Figure \ref{fig:universal-packing-2d} shows how to pack the four rectangles inside the square, depending of the relative sizes of $x$ and $y$.
+
+\begin{figure}[ht]
+    \centering
+    \begin{subfigure}[b]{0.3\textwidth}
+        \centering
+            \begin{tikzpicture}[scale=0.60]
+                \draw (0, 0) rectangle (5, 5);
+                \filldraw[fill=custom-red, draw=black] (0, 0) rectangle (2, 3);
+                \filldraw[fill=custom-red, draw=black] (2, 0) rectangle (5, 2);
+                \filldraw[fill=custom-red, draw=black] (3, 2) rectangle (5, 5);
+                \filldraw[fill=custom-red, draw=black] (0, 3) rectangle (3, 5);
+                \draw[decorate,decoration={brace, raise=2pt, amplitude=4pt}] (0, 3)  -- node[midway, left=3pt]{$x_1$} (0, 5);
+                \draw[decorate,decoration={brace, raise=2pt, amplitude=4pt}] (0, 5)  -- node[midway, above=3pt]{$x_2$} (3, 5);
+            \end{tikzpicture}
+        \caption{$x_1 < x_2$}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.3\textwidth}
+        \centering
+            \begin{tikzpicture}[scale=0.60]
+                \draw (0, 0) rectangle (5, 5);
+                \filldraw[fill=custom-red, draw=black] (0, 0) rectangle (2.5, 2.5);
+                \filldraw[fill=custom-red, draw=black] (2.5, 0) rectangle (5, 2.5);
+                \filldraw[fill=custom-red, draw=black] (2.5, 2.5) rectangle (5, 5);
+                \filldraw[fill=custom-red, draw=black] (0, 2.5) rectangle (2.5, 5);
+                \draw[decorate,decoration={brace, raise=2pt, amplitude=4pt}] (0, 2.5)  -- node[midway, left=3pt]{$x_1$} (0, 5);
+                \draw[decorate,decoration={brace, raise=2pt, amplitude=4pt}] (0, 5)  -- node[midway, above=3pt]{$x_2$} (2.5, 5);
+            \end{tikzpicture}
+        \caption{$x_1 = x_2$}
+        \label{fig:2d-packing-squares}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.3\textwidth}
+        \centering
+            \begin{tikzpicture}[scale=0.60]
+                \draw (0, 0) rectangle (5, 5);
+                \filldraw[fill=custom-red, draw=black] (0, 0) rectangle (3, 2);
+                \filldraw[fill=custom-red, draw=black] (3, 0) rectangle (5, 3);
+                \filldraw[fill=custom-red, draw=black] (2, 3) rectangle (5, 5);
+                \filldraw[fill=custom-red, draw=black] (0, 2) rectangle (2, 5);
+                \draw[decorate,decoration={brace, raise=2pt, amplitude=4pt}] (0, 2)  -- node[midway, left=3pt]{$x_1$} (0, 5);
+                \draw[decorate,decoration={brace, raise=2pt, amplitude=4pt}] (0, 5)  -- node[midway, above=3pt]{$x_2$} (2, 5);
+            \end{tikzpicture}
+        \caption{$x_1 > x_2$}
+    \end{subfigure}
+    \caption{Solution to the two-dimensional packing problem.}
+    \label{fig:universal-packing-2d}
+\end{figure}
+There is an elegant way to generalize this packing problem to higher dimensions. It is based on the AM-GM inequality, which states that for any $n$ non-negative real numbers $x_1, x_2, \dotsc, x_n$, then
+\begin{equation}\label{eq:am-gm-ineq}
+\sqrt[n]{x_1 \cdot x_2 \dotsm x_n} \leq \frac{x_1 + x_2 + \dotsb + x_n}{n}
+\end{equation}
+with equality if and only if $x_1 = x_2 = \dotsb = x_n$. The left-hand side is called the \textit{geometric mean}\index{Geometric mean} while the right-hand side is the familiar \textit{arithmetic mean}\index{Arithmetic mean}. We can turn this inequality into a packing problem by multiplying both sides by $n$, and then raising both sides to the power of $n$. This yields
+\[
+n^n \paren{x_1 \cdot x_2 \dotsm x_n} \leq \paren{x_1 + x_2 + \dotsb + x_n}^n.
+\]
+Observe that $x_1 \cdot x_2 \dotsm x_n$ is the hypervolume of an $n$-dimensional hyperrectangle with dimensions $x_1 \times x_2 \times \dotsb \times x_n$ and that $\paren{x_1 + x_2 + \dotsb + x_n}^n$ is the hypervolume of an $n$-dimensional hypercube whose sides have length $x_1 + x_2 + \dotsb + x_n$. So, is it always possible to pack $n^n$ such hyperrectangles inside the $n$-dimensional hypercube? We say that a dimension is \textit{good}\index{Good dimension} if the answer to this question is yes. The above inequality does not guarantee that the hyperrectangles will fit, but only that their combined hypervolume will not exceed the hypervolume of the hypercube.
+
+We have just seen that 2 is a good dimension and in fact so is 3. In the three-dimensional case there are $3^3 = 27$ bricks and \cref{fig:universal-packing-3d} gives a general recipe for constructing a packing. There are in fact 21 such recipes if we ignore reflections and/or rotations.
+
+\begin{figure}[ht]
+    \centering
+    \begin{subfigure}[b]{0.3\textwidth}
+        \centering
+            \begin{tikzpicture}[scale=0.2]
+                \input{graphics/self-dual-0.tikz}
+            \end{tikzpicture}
+        \caption{Bottom square.}
+        \label{fig:3d-special-square}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.3\textwidth}
+        \centering
+            \begin{tikzpicture}[scale=0.2]
+                \input{graphics/self-dual-1.tikz}
+            \end{tikzpicture}
+        \caption{Middle square.}
+    \end{subfigure}
+    ~
+    \begin{subfigure}[b]{0.3\textwidth}
+        \centering
+            \begin{tikzpicture}[scale=0.2]
+                \input{graphics/self-dual-2.tikz}
+            \end{tikzpicture}
+        \caption{Top square.}
+    \end{subfigure}
+    \caption{Solution to the three-dimensional packing problem. Let $\paren{x_1, x_2, x_3}$ be a dimension tuple with $x_1 \leq x_2 \leq x_3$. Then the $x_1$-by-$x_2$, $x_1$-by-$x_3$ and $x_2$-by-$x_3$ faces are colored red, green and blue, respectively.}
+    \label{fig:universal-packing-3d}
+\end{figure}
+
+What about higher dimensions? This packing problem has the extraordinary property that if $m$ and $n$ are good dimensions, then $mn$ is good as well. Hence, 4 is a good dimension. It is unknown whether 5 is a good dimension.
+
+The aim of this thesis is to cast light on some of the most interesting unanswered questions of Hoffman's multi\-dimensional packing problem, namely how many packings there are in the four-dimensional case and whether 5 is a good dimension. With the ambition of increasing our knowledge of this problem, we will use experimental mathematics to investigate it.
+
+Experimental mathematics as described in \cite[p. 5-6]{eilers_johansen_2017} is inspired by the methodology of the fields of science where experiments play an essential role in obtaining knowledge. While no amount of experimental data can prove a hypothesis as a mathematical truth (unless it has finitely many cases which can be checked one at a time), it can still play a significant role in guiding the research process.
+
+An experimental approach might provide valuable insights into a mathematical problem---insights which can help us put forward conjectures, find counterexamples and gain an understanding, which may ultimately help us formulate a proof. There is a close interplay with theoretical investigations since, in this way, we can examine the implications of our findings, refine our hypotheses and subsequently conduct more experiments. These experiments could, in theory, be carried out by hand. However, the rapidly growing capabilities of modern computers enable us to perform much more complicated and computationally demanding experiments, which might not previously have been practically feasible to carry out. This continuous expansion of the practical possibilities of experimental mathematics only makes the approach more appealing and promising.
+
+Thanks to Dean G. Hoffman for providing important insights into the inner workings of this packing problem and thanks to Trine K. Boomsma for helping approach the problem using mixed-integer programming and constraint satisfaction.
+
+The repository containing most of the code developed during this project is available at \url{https://github.com/nikolajholck/hoffman}.

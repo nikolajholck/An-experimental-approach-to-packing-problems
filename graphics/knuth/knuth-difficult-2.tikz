@@ -1,0 +1,12 @@
+\filldraw[fill=custom-red, draw=black] (0,0) rectangle (4,3);
+\filldraw[fill=custom-red, draw=black] (0,3) rectangle (4,6);
+\filldraw[fill=custom-red, draw=black] (0,6) rectangle (4,9);
+\filldraw[fill=custom-green, draw=black] (0,9) rectangle (5,12);
+
+\filldraw[fill=custom-blue, draw=black] (4,0) rectangle (8,5);
+\filldraw[fill=custom-blue, draw=black] (8,0) rectangle (12,5);
+
+\filldraw[fill=custom-red, draw=black] (4,5) rectangle (7,9);
+\filldraw[fill=custom-green, draw=black] (7,5) rectangle (12,8);
+\filldraw[fill=custom-red, draw=black] (5,9) rectangle (9,12);
+\filldraw[fill=custom-red, draw=black] (9,8) rectangle (12,12);

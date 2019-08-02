@@ -1,0 +1,349 @@
+\section{Experiments in the three-dimensional case}
+\noindent Let us attempt to find all of the three-dimensional universal packings using a computer program. We seek an algorithm which outputs the maps from $G_3$ to $S_3$ which are universal packings. We will refer to such a map as a solution. However, in order to count the number of unique universal packings we will not count a solution if we have already counted an equivalent solution. In the three-dimensional case we will refer to the hyperrectangles as bricks. We will approach this task using two different approaches, namely dynamic programming/memoization and backtracking.
+
+\subsection{Dynamic programming}
+The idea behind dynamic programming \cite[p. 359]{cormen_leiserson_rivest_stein_2009} is to solve a problem by combining the solutions of a number of simpler subproblems. We solve each of these subproblems once and store their solutions. Whenever one of these subproblems occurs again, then instead of recomputing its solution, we will simply look it up. Thus, dynamic programming uses additional memory to save computation time. The idea of storing solutions to the subproblems instead of recomputing them is called ``memoization'' \cite[p. 365]{cormen_leiserson_rivest_stein_2009}.
+
+In order to apply this method to our problem, we need to specify what our subproblems are. This leads to the definition of a subgrid.
+
+\begin{definition}[Subgrid]\index{Subgrid}
+Suppose $U$ is a subset of $G_n = \curly{1, 2, \dotsc, n}^n$ obtained by fixing $k$ entries of the elements in $G_n$ and let $m = n - k$. We say that $U$ is an $m$-dimensional \textit{subgrid} of $G_n$.
+\end{definition}
+
+\noindent Observe that a one-dimensional subgrid corresponds to a grid line. Suppose $U$ is an $m$-dimensional subgrid of $G_n$ and suppose $P\colon U \to S_n$. Given some $n$-dimensional dimension tuple, we can---without going into details---extend the procedure from the definition of a Hoffman packing to produce what we will refer to as a \textit{subpacking}\index{Subpacking} consisting of $m$-dimensional hyperrectangles. It is also straight forward to extend the notion of equivalent subpackings. We will refer to a subpacking as a line, square and cube if $m = 1, 2$ and $3$, respectively.
+
+The first idea that springs to mind for applying dynamic programming to this problem is to first figure out every possible line and store these. Then use these lines to construct every possible square and store them. Finally, we use these squares to construct all possible cubes, that is all solutions to our problem.
+
+\begin{observation}
+Using a computer program we have produced all lines, squares and cubes of the dimension tuple $(4, 5, 6)$. The results are presented in \cref{table:3d-dp-counts}. There is one subtlety in relation to combining solutions of the subproblems. When we have constructed a line there are two options left for the width of each line segment when combining lines to construct a square. We will refer to this as \textit{specialization}\index{Specialization}. There are three line segments on a line, and hence there are really $6 \cdot 2^3 = 48$ specialized lines. Given a square there is only one option left for which height to assign each rectangle. Thus, in the three-dimensional case we can think of a square as already specialized.
+
+\begin{table}[ht]
+\centering
+\caption{Number of lines, squares (satisfying the Subgrid criterion \labelcref{criterion:subgrid-criterion}) and cubes of the dimension tuple $(4, 5, 6)$. Numbers in parentheses state the counts ignoring symmetries.}
+\label{table:3d-dp-counts}
+\bgroup
+\def\arraystretch{1.1}
+\begin{tabular}{|c|c|c|}
+\hline
+Lines   & Squares  & Cubes     \\ \hline
+$6$ (3) & $624$ (78) & $1\,008$ (21) \\ \hline
+\end{tabular}
+\egroup
+\end{table}
+\end{observation}
+
+\subsection{Backtracking}
+Backtracking is a method for solving a problem by incrementally constructing a candidate solution, but ``backtracking'' when we can predict that this candidate can not possibly be completed to a solution. The usefulness of this technique relies on being able to predict failure early on and that such a test is relatively quick to perform. This enables us to efficiently traverse the search tree and prune the branches along the way.
+
+The immediate way to apply backtracking to this problem is by placing one brick at a time and every time testing whether it might still be possible to complete the partial candidate to a solution. If there is still hope, we carry on and place another brick. If not, we remove the latest brick and register this rejection. If all orientations of a brick have been rejected, we backtrack, that is we remove the second latest brick and register this rejection. If all $3^3 = 27$ bricks have been successfully placed we save the solution. In order to continue searching for more solutions we can remove the last brick and artificially register this as a rejection.
+
+In practise we represent a brick by its anchor point and dimension tuple. Placing a brick corresponds to inserting this information into a three-dimensional array structure where each array index represents a grid point coordinate. In order to determine and assign an anchor point to the brick, we need the bricks ``before'' it to be assigned beforehand. We can ensure this by considering the lexicographical ordering of the grid point coordinates and placing the bricks according to this ordering.
+\begin{figure}[ht]
+    \centering
+    \begin{tikzpicture}
+        \begin{axis}[
+            height=0.7\textwidth,
+            width=\textwidth,
+            xmin=0, xmax=330,
+            ymin=0, ymax=30,
+            xlabel=Iteration,
+            ylabel=Number of bricks placed,
+            grid=both,
+            legend style={at={(0.99,0.018)},
+            anchor=south east}
+        ]
+
+            \addplot+[
+                draw=custom-red,
+                mark=none,
+                mark last,
+                mark options={
+                    scale=1,
+                    fill=custom-red
+                }
+            ]
+            table{data/backtrack-3d-simple.dat};
+            \addlegendentry{Procedure A}
+
+            \addplot+[
+                draw=custom-green,
+                mark=none,
+                mark last,
+                mark options={
+                    scale=1,
+                    fill=custom-green
+                }
+            ]
+            table{data/backtrack-3d-corners.dat};
+            \addlegendentry{Procedure B}
+
+            \addplot+[
+                draw=custom-blue,
+                mark=none,
+                mark last,
+                mark options={
+                    scale=1,
+                    fill=custom-blue
+                }
+            ]
+            table{data/backtrack-3d-subspaces.dat};
+            \addlegendentry{Procedure C}
+
+            \addplot+[
+                draw=custom-orange,
+                mark=none,
+                mark last,
+                mark options={
+                    scale=1,
+                    fill=custom-orange
+                }
+            ]
+            table{data/backtrack-3d-corners-subspaces.dat};
+            \addlegendentry{Procedure D}
+        \end{axis}
+    \end{tikzpicture}
+    \caption{Plot of the number of bricks placed after a certain number of iterations in the three-dimensional case depending on the different test procedures. Here, we terminate as soon as a solution is found, i.e.\ 27 bricks have been successfully placed.}
+    \label{fig:backtracking-3d}
+\end{figure}
+During the course of this project, it has been possible to gradually improve the predictive power of the procedure which tests whether a partial candidate can not possibly be completed into a solution. The four procedures tried out are described in \cref{table:backtracking-procedures}.
+\begin{table}[ht]
+\centering
+\caption{Description of the four procedures used to predict whether a partial candidate can not possibly be completed.}
+\label{table:backtracking-procedures}
+\bgroup
+\def\arraystretch{1.1}
+\begin{tabular}{|c|p{0.7\textwidth}|}
+\hline
+Procedure  & Description \\ \hline
+A & Checks whether the Line criterion \labelcref{criterion:line-criterion} is violated or whether two neighbouring bricks are overlapping. \\ \hline
+B & Checks all from procedure A and also whether there are sharp corners like in \cref{fig:3d-sharp-corners}. \\ \hline
+C & Checks all from procedure A and also whether the Subgrid criterion \labelcref{criterion:subgrid-criterion} is violated. \\ \hline
+D & Checks all of the above. \\ \hline
+\end{tabular}
+\egroup
+\end{table}
+Procedure D is a notable improvement over the naive procedure A requiring 53\% fewer iterations to find a single solution and 42\% fewer iterations to traverse the entire search tree and find all solutions. The details can be found in \cref{table:backtracking-3d}. This improvement and the significance of the different criteria is illustrated in \cref{fig:backtracking-3d}. While the running times of the procedures are different, we choose to compare number of iterations, since this gives a better indication of the branch pruning capabilities.
+
+\begin{table}[ht]
+\centering
+\caption{Number of iterations needed to find a single solution and all solutions, respectively, in the three-dimensional case depending on the different test procedures.}
+\label{table:backtracking-3d}
+\bgroup
+\def\arraystretch{1.1}
+\begin{tabular}{|l|c|c|c|c|}
+\hline
+Procedure  & A  & B & C & D \\ \hline
+One solution  & $327$     & $313$     & $166$       & $152$         \\ \hline
+All solutions & $646\,009$ & $500\,185$ & $471\,569$   & $371\,560$ \\ \hline
+\end{tabular}
+\egroup
+\end{table}
+
+\subsection{Results and analysis of solutions}
+
+By \cref{ex:3d-rdts} the set $\curly{\paren{4, 5, 6}}$ is a RDTS for $n = 3$, so it follows by \cref{thm:line-and-neighbour-gives-hoffman-packing} that any unique Hoffman packing of $\paren{4, 5, 6}$ satisfying the Line criterion \labelcref{criterion:line-criterion} is in fact a unique universal packing.
+
+\begin{observation}\label[observation]{obs:3d-universal-packings}
+Using the dynamic programming and backtracking approaches both yielded the same number of unique Hoffman packings of the dimension tuple $\paren{4, 5, 6}$, namely 21. These are presented in \cref{appendix-A}. Thus, the answer to \cref{q:count} is 21 for $n = 3$. In fact, this enables us to give the first proof that $3$ is a good dimension in \cref{thm:three-is-good}.
+\end{observation}
+
+\noindent We can define the \textit{distance}\index{Universal packing!distance between} between two universal packings $P_1$ and $P_2$ as the smallest number of function values of $P_1$ which we need to alter (intuitively, the smallest number of hyperrectangles we need to modify) such that the resulting map is equivalent to $P_2$ for any dimension tuple satisfying Hoffman's inequality. This defines a metric $l$ on the unique universal packings.
+
+\begin{observation}\label[observation]{obs:3d-distances}
+We have computed the distances between representatives from each of the 21 unique universal packings in the three-dimensional case. It turns out that the distance between any two non-equivalent universal packings $P_1$ and $P_2$ satisfies $6 \leq l(P_1, P_2) \leq 17$. In fact for any universal packing $P$, there exists a non-equivalent universal packing $P'$ such that $l(P, P') = 6$. Intuitively, we can always remove up to 5 arbitrary bricks from a universal packing and still have only one way to complete this partial solution.
+\end{observation}
+
+\noindent The importance of the above observation is unclear. However, we mention it as we speculate that a future and more thorough examination might reveal more knowledge of the problem. It might also be rewarding to compare it to the analysis of the 21 unique universal packings in \cite[p. 913--915]{berlekamp_conway_guy_2004}.
+
+Suppose $\sigma$ is a permutation in $S_n$. We say that a universal packing $P$ is \textit{stable}\index{Universal packing!stable under permutation} under the permutation $\sigma$ if $P'\colon G_n \to S_n$ defined by
+\[
+P'(p) = P(p) \circ \sigma
+\]
+for all $p$ in $G_n$ is a universal packing. Note that we can determine whether a unique universal packing exhibits such a property by examining a representative.
+
+\begin{observation}
+We have examined whether the 21 unique universal packings in the three-dimensional case are stable under any permutation from $S_3$. Trivially, all 21 universal packings are stable under the identity permutation. In addition, 17 (numbered 1--17 in \cref{appendix-A}) of the unique universal packings are stable under the reversing permutation, i.e.
+\[
+\sigma =
+\begin{pmatrix}
+  1 & 2 & 3 \\
+  3 & 2 & 1
+\end{pmatrix}.
+\]
+Note that performing this operation twice, will undo it, since $\sigma^2$ is the identity. This operation associates 16 of the unique universal packings in pairs, while one of the unique universal packings exhibits the remarkable property that performing this operation on a representative yields a universal packing, which is equivalent to the representative. This particular packing can be seen in \cref{fig:universal-packing-3d}. These results are consistent with \cite[p. 5]{Spiridonov_2003} and \cite[p. 914]{berlekamp_conway_guy_2004} where the phenomenon is described as ``duality'' of packings. Interestingly, by looking at the packings in \cref{appendix-A} we have also noticed that all of these packings contain the square seen in \cref{fig:3d-special-square} and we have checked that the remaining packings 18--21 do not. Also, we found that no universal packing is stable under any other permutation from $S_3$.
+\end{observation}
+
+\noindent The above observation shows that ``duality'' is not a necessary condition for being a universal packing, but we speculate that it might be possible to exploit this phenomenon to improve the branch pruning when searching for a solution in higher dimensions. Requiring this property and using procedure D, we found the 17 unique universal packings in $349\,027$ iterations, which is a reduction by 6\%. However, it did not reduce the number of iterations needed to find the first solution.
+
+\subsection{Comparison of the two approaches}
+Both implementations take a split second to complete their search. Let us consider the advantages of the backtracking approach as opposed to dynamic programming. First of all, backtracking is well suited for showing the existence of a solution, since it performs only the work needed to obtain it. This is certainly not the case for the gradual solving in the bottom-up dynamic programming approach, where all lines are produced, then all squares and so on. Also, the backtracking approach has a tiny memory footprint, since it does not store solutions to subproblems. This will also let the implementation take better advantage of the caching capabilities in modern computer processors.
+
+Secondly, with backtracking it is possible to discard symmetries, i.e.\ different equivalent packings, early on. If $n$ is odd then any universal packing will have a hyperrectangle in its ``middle'' and we can discard all rotations by fixing this hyperrectangle. If $n$ is even then we can still somewhat reduce the number of symmetries by fixing a group of hyperrectangles around the ``middle'', but---as we will see in the four-dimensional case---we need to be careful to get this right. It is not clear how one should go about doing something similar using dynamic programming, since we do not know which symmetries of a subproblem might be needed to solve the more complex problem beforehand. Hence, we can not discard these until the end.
+
+However, the backtracking approach has one major drawback, namely that it is very difficult to say something meaningful about its progress. Using dynamic programming it is possible to provide a somewhat reasonable estimate on the amount of work left as we will provide in the four-dimensional case later.
+
+Another advantage of the dynamic programming approach is that it is well suited for parallelization, since subproblems of the same size can be solved independently. For instance multiple threads can work together to construct all squares. However, as we will see shortly in the four-dimensional case, attempting to reduce the number of symmetries naturally divides the problems into independent problems, which the backtracking approach might be best suited for.
+
+\subsection{Producing a packing of any dimension tuple using universal packing}\label{sec:truely-universal-packing}
+The motive behind introducing the notion of a universal packing was twofold. First, we wanted the number of packings to be independent of the choice of dimension tuple; and secondly, because for $n \leq 3$ such a packing actually provides a ``recipe'' for constructing a packing of \textit{any} increasing dimension tuple, thereby proving these dimensions to be good. We put forward the following conjecture.
+
+\begin{conjecture}\label[conjecture]{conjecture:universal}
+Suppose $P \colon G_n \to S_n$ is a universal packing. Then $P$ produces a packing of any increasing dimension tuple. In particular $n$ is a good dimension.
+\end{conjecture}
+
+\noindent The truth of this conjecture is not too important for $n = 4$, since we know $4$ to be a good dimension by \cref{thm:multiplication-of-packings}. However, it would enable us to relax the definition of a universal packing to better suit its name and also further justify our formulation of \cref{q:count}. But most importantly, for $n = 5$ and larger primes, this would help pave the way of showing such a dimension to be good. First, one would determine a RDTS of dimension tuples satisfying Hoffman's inequality, then find a Hoffman packing of all these (and satisfying the Line criterion \labelcref{criterion:line-criterion}). Finally, one would promote it to be a universal packing by \cref{thm:line-and-neighbour-gives-hoffman-packing} and the dimension of interest would be good by the conjecture above.
+
+Proving the above conjecture loosely speaking comes down to showing that any pair of hyperrectangles in a pseudo-packing are non-overlapping under the assumption of the Line criterion \labelcref{criterion:line-criterion} and that any pair of hyperrectangles associated with neighbouring grid points are non-overlapping. Intuitively, this seems obvious. However, when producing a pseudo-packing of a dimension tuple not satisfying Hoffman's inequality, then the hyperrectangle associated with a grid point does not necessarily contain this grid point. Hence, the intuition of ``neighbouring hyperrectangles'' might be deceiving. Apart from this intuition, the basis for proposing this conjecture is that we prove it for $n \leq 3$ below and the failed attempt to disprove it in the four-dimensional case which is documented in \cref{obs:4d-universal-counterexamples}.
+
+The following proof works for $n \leq 3$, but it does not seem very straightforward to generalize it to higher dimensions, since even the case $n = 3$ is quite tedious.
+
+\begin{proof}[Proof of \cref{conjecture:universal} for $n \leq 3$]
+The case $n = 1$ is trivial. If $n = 2$ the only universal packing (up to equivalence) is the one illustrated in \cref{fig:universal-packing-2d}, which clearly produces a packing of any increasing dimension tuple. Suppose $n = 3$ and suppose $d = \paren{x_1, x_2, x_3}$ is an increasing dimension tuple and let $(B, C)$ be the pseudo-packing of $d$ produced by $P$. Note that $P$ satisfies the Line criterion \labelcref{criterion:line-criterion} by \cref{prop:universal-packing-has-unique-lines}. Note that by \cref{prop:exists-representative-satisfying-hoffman-ineq} there exists a RDTS for consisting of dimension tuples satisfying Hoffman's inequality (for instance the one presented in \cref{ex:3d-rdts}). Hence, $P$ satisfies the No neighbour overlap criterion \labelcref{criterion:no-neighbour-overlap-criterion} for each of these dimension tuples by \cref{prop:hoffman-packing-satisfies-nnoc}. Since they constitute a RDTS, then $P$ must also satisfy this criterion for $d$.
+
+Notice that the Line criterion \labelcref{criterion:line-criterion} guarantees that the hyperrectangles in $B$ will be contained in the surrounding hypercube $C$ by \cref{prop:under-stuffed-contains-rects}. Next, we show that the hyperrectangles are pairwise non-overlapping. Take two distinct grid point coordinates $p$ and $q$ in $G_3$ and let $R_p$ and $R_q$ denote their associated bricks in $B$. Let
+\[
+\delta = \max_{i = 1}^{n} \abs{p_i - q_i},
+\]
+and note that $\delta$ is either $1$ or $2$. If $\delta = 1$, then $p$ and $q$ are neighbours and we are done due to the No neighbour overlap criterion \labelcref{criterion:no-neighbour-overlap-criterion} being satisfied for $d$. Suppose $\delta = 2$. Now, we assume that $p_i < q_i$ for all suitable $i$ and consider only the following case of $\Delta = q - p$, namely
+\[
+\paren{2, 0, 0}, \quad \paren{2, 1, 0}, \quad \paren{2, 1, 1}, \quad
+\paren{2, 2, 0}, \quad \paren{2, 2, 1} \quad \text{and} \quad \paren{2, 2, 2}.
+\]
+Observe that we can do so without loss of generality, since we can always reflect and/or rotate the packing such that we end up in one of the above cases.
+
+In the following we use the same notation as in the construction of a Hoffman packing, i.e.\ for a grid point $g$ in $G_3$, then $a(g)$ and $b(g)$ are the left and right interval endpoints of the associated hyperrectangle $R_g$ and $w(g) = b(g) - a(g)$ is the dimension tuple of the hyperrectangle $R_g$.
+
+First, observe that for $R_p$ and $R_q$ to be overlapping along a dimension $k \in \curly{1, 2, 3}$ where $\abs{p_k - q_k} = 2$, then $w(p)_k = x_3 = w(q)_k$. Otherwise if for instance $w(q)_k$ is either $x_1$ or $x_2$ then
+\[
+b(p)_k = w(p)_k \leq x_3 \leq x_1 + x_2 + x_3 - w(q)_k = a(q)_k.
+\]
+Hence, if we are in one of the three last case there can not be any overlap, since $p$ and $q$ differ by $2$ along two dimensions. Also, the first case $\Delta = \paren{2, 0, 0}$ is straightforward, since $b(p)_1 \leq a(q)_1$ by construction of the pseudo-packing.
+
+Next consider $\Delta = \paren{2, 1, 0}$ and suppose for contradiction that $R_p$ and $R_q$ are overlapping. Then in particular
+\[
+a(q)_1 < b(p)_1 \quad \text{and} \quad a(q)_2 < b(p)_2.
+\]
+It is helpful to glance at \cref{fig:conj-n2} for this next bit. Consider the grid point coordinate $r = p + \paren{1, 1, 0} = q + \paren{-1, 0, 0}$. By the No neighbour overlap criterion \labelcref{criterion:no-neighbour-overlap-criterion}
+\[
+b(p)_1 \leq a(r)_1 \quad \text{or} \quad b(p)_2 \leq a(r)_2,
+\]
+but $b(p)_1 \leq a(r)_1$ can not be the case, since $a(r)_1 \leq b(r)_1 = a(q)_1 < b(p)_1$. Then $b(p)_2 \leq a(r)_2$ must be the case. Next, consider the grid point coordinate $s = p + \paren{1, 0, 0} = q + \paren{-1, -1, 0}$ and note that $b(s)_2 = a(r)_2$. Now, notice that
+\[
+a(q)_1 < b(p)_1 = a(s)_1 \leq b(s)_1
+\quad \text{and} \quad
+a(q)_2 < b(p)_2 \leq a(r)_2 = b(s)_2,
+\]
+which contradicts $P$ satisfying the No neighbour overlap criterion for $s$ and $q$.
+\begin{figure}[ht]
+    \centering
+    \begin{tikzpicture}[scale=1.2]
+        \draw [-Stealth] (0, 0) -- ++(3.3, 0) node [right] {$x$};
+        \draw [-Stealth] (0, 0) -- ++(0, 3.3) node [above] {$y$};
+
+        \draw[dotted] (0, 0) -- ++(3, 0) -- ++(0, 3) -- ++(-3, 0) -- cycle;
+        \draw (0, 0) -- ++(1, 0) -- ++(0, 0.9) -- ++(-1, 0) -- cycle;
+        \draw (1, 0) -- ++(0.9, 0) -- ++(0, 1) -- ++(-0.9, 0) -- cycle;
+        \draw (1.1, 1) -- ++(0.9, 0) -- ++(0, 1) -- ++(-0.9, 0) -- cycle;
+        \draw (2, 1.1) -- ++(1, 0) -- ++(0, 0.9) -- ++(-1, 0) -- cycle;
+        \node at (0.5, 0.45) {$R_p$};
+        \node at (1.45, 0.45) {$R_s$};
+        \node at (1.55, 1.5) {$R_r$};
+        \node at (2.5, 1.5) {$R_q$};
+
+        \draw[dotted] (1, 1) -- ++(-1.3, 0);
+        \draw[dotted] (1, 0) -- ++(0, -0.3);
+        \draw[dotted] (2, 1) -- ++(0, -1.3);
+
+        \node [above, yshift=17pt, rotate=90] at (-0.3, 1) {$b(s)_2 = a(r)_2$};
+        \node [below, xshift=-18pt] at (1, -0.3) {$b(p)_1 = a(s)_1$};
+        \node [below, xshift=17pt] at (2, -0.3) {$b(r)_1 = a(q)_1$};
+    \end{tikzpicture}
+    \caption{Abstract relations between the interval endpoints of the bricks in the case $\Delta = \paren{2, 1, 0}$. This figure is highly distorted, since $R_p$ and $R_q$ are assumed to be overlapping in the proof.}
+    \label{fig:conj-n2}
+\end{figure}
+Finally, consider the case $\Delta = \paren{2, 1, 1}$ and suppose for contradiction that $R_p$ and $R_q$ are overlapping. Note that $R_p$ and $R_q$ must be positioned in one of the two ways illustrated in \cref{fig:conj-n3}. First, consider the case illustrated in \cref{fig:conj-n3-corner} where $R_p$ is in a corner and $R_q$ is in the middle of the opposite side. Note that $w(p)_1 = w(q)_1 = x_3$ for these bricks to overlap along the $x$-axis. Then for the bricks to overlap along the $y$-axis $w(p)_2 = x_2$ and $a(q)_2 = x_1$. But then $w(p)_3 = x_1$ and $R_p$ can not be overlapping with $R_q$, since there is a brick below $R_q$ with a height of at least $x_1$.
+\begin{figure}[ht]
+    \centering
+    \begin{subfigure}[b]{0.47\textwidth}
+        \centering
+            \begin{tikzpicture}[scale=1.1, z={(230:0.4cm)}]
+                \boxfront{0}{0}{0}{3}{3}{3}{dotted}
+                \draw [-Stealth] (0, 0, 0) -- ++(3.3, 0, 0) node [right] {$x$};
+                \draw [-Stealth] (0, 0, 0) -- ++(0, 3.3, 0) node [above] {$z$};
+                \draw [-Stealth] (0, 0, 0) -- ++(0, 0, 3.3) node [below, left] {$y$};
+
+                \boxfront{2}{0}{1}{1}{1}{1}{lightgray}
+                \boxback{2}{0}{1}{1}{1}{1}{lightgray, dotted}
+                \boxfront{2}{0}{0}{1}{1}{1}{lightgray}
+                \boxfront{1}{0}{0}{1}{1}{1}{lightgray}
+                \boxfront{2}{1}{0}{1}{1}{1}{lightgray}
+                \boxback{2}{1}{0}{1}{1}{1}{lightgray, dotted}
+
+                \boxfront{0}{0}{0}{1}{1}{1}{custom-red}
+                \boxback{0}{0}{0}{1}{1}{1}{custom-red, dotted}
+                \node at (0.5, 0.5, 0.5) {$R_p$};
+
+                \boxfront{2}{1}{1}{1}{1}{1}{custom-blue}
+                \boxback{2}{1}{1}{1}{1}{1}{custom-blue, dotted}
+                \node at (2.5, 1.5, 1.5) {$R_q$};
+
+                \draw[decorate,decoration={brace, raise=2pt, amplitude=4pt}] (0, 1, 0) -- node[midway, above=3pt]{$x_3$} (1, 1, 0);
+                \draw[decorate,decoration={brace, raise=2pt, amplitude=4pt, mirror}] (0, 1, 0) -- node[midway, xshift=-9pt, yshift=9pt]{$x_2$} (0, 1, 1);
+                \draw[decorate,decoration={brace, raise=2pt, amplitude=4pt}] (0, 0, 1) -- node[midway, left=3pt]{$x_1$} (0, 1, 1);
+
+                \draw[decorate,decoration={brace, raise=2pt, amplitude=4pt}] (2, 2, 2) -- node[midway, above=3pt]{$x_3$} (3, 2, 2);
+                \draw[decorate,decoration={brace, raise=2pt, amplitude=4pt}] (3, 2, 0) -- node[midway, xshift=9pt, yshift=-9pt]{$x_1$} (3, 2, 1);
+                \draw[decorate,decoration={brace, raise=2pt, amplitude=4pt, mirror}] (3, 0, 2) -- node[midway, right=3pt]{$\lightning$} (3, 1, 2);
+            \end{tikzpicture}
+        \caption{$R_p$ is in a corner and $R_q$ is in the middle of the opposite side.}
+        \label{fig:conj-n3-corner}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.47\textwidth}
+        \centering
+            \begin{tikzpicture}[scale=1.1, z={(230:0.4cm)}]
+                \boxfront{0}{0}{0}{3}{3}{3}{dotted}
+                \draw [-Stealth] (0, 0, 0) -- ++(3.3, 0, 0) node [right] {$x$};
+                \draw [-Stealth] (0, 0, 0) -- ++(0, 3.3, 0) node [above] {$z$};
+                \draw [-Stealth] (0, 0, 0) -- ++(0, 0, 3.3) node [below, left] {$y$};
+
+                \boxfront{0}{0}{2}{1}{1}{1}{lightgray}
+                \boxfront{1}{0}{2}{1}{1}{1}{lightgray}
+                \boxfront{2}{0}{2}{1}{1}{1}{lightgray}
+                \boxback{1}{0}{2}{1}{1}{1}{lightgray, dotted}
+                \boxback{2}{0}{2}{1}{1}{1}{lightgray, dotted}
+
+                \boxfront{0}{0}{1}{1}{1}{1}{custom-red}
+                \boxback{0}{0}{1}{1}{1}{1}{custom-red, dotted}
+                \node at (0.5, 0.5, 1.5) {$R_p$};
+
+                \boxfront{2}{1}{2}{1}{1}{1}{custom-blue}
+                \boxback{2}{1}{2}{1}{1}{1}{custom-blue, dotted}
+                \node at (2.5, 1.5, 2.5) {$R_q$};
+
+                \draw[decorate,decoration={brace, raise=2pt, amplitude=4pt}] (0, 1, 1) -- node[midway, above=3pt]{$x_3$} (1, 1, 1);
+                \draw[decorate,decoration={brace, raise=2pt, amplitude=4pt, mirror}] (1, 0, 1) -- node[midway, right=3pt]{$x_1$} (1, 1, 1);
+                \draw[decorate,decoration={brace, raise=2pt, amplitude=4pt, mirror}] (0, 1, 1) -- node[midway, xshift=-9pt, yshift=9pt]{$x_2$} (0, 1, 2);
+                \draw[decorate,decoration={brace, raise=2pt, amplitude=4pt, mirror}] (0, 1, 2) -- node[midway, xshift=-9pt, yshift=9pt]{$x_1$} (0, 1, 3);
+
+                \draw[decorate,decoration={brace, raise=2pt, amplitude=4pt}] (2, 2, 2) -- node[midway, above=3pt]{$x_3$} (3, 2, 2);
+                \draw[decorate,decoration={brace, raise=2pt, amplitude=4pt, mirror}] (2, 2, 2) -- node[midway, xshift=-9pt, yshift=9pt]{$x_2$} (2, 2, 3);
+                \draw[decorate,decoration={brace, raise=2pt, amplitude=4pt, mirror}] (3, 0, 3) -- node[midway, right=3pt]{$\lightning$} (3, 1, 3);
+            \end{tikzpicture}
+        \caption{$R_p$ and $R_q$ are each in the middle of an edge.}
+        \label{fig:conj-n3-edge}
+    \end{subfigure}
+    \caption{The two possible constellations of the bricks $R_p$ and $R_q$ in the case $\Delta = \paren{2, 1, 1}$. The figures are highly distorted, since $R_p$ and $R_q$ are assumed to be overlapping in the proof.}
+    \label{fig:conj-n3}
+\end{figure}
+
+Next, consider the case illustrated in \cref{fig:conj-n3-edge} where $R_p$ and $R_q$ are each positioned in the middle of an edge. Again, along the $x$-axis $w(p)_1 = w(q)_1 = x_3$ for these bricks to overlap. Then for the bricks to overlap along the $y$-axis $w(q)_2 = x_2$ and the brick in front of $R_p$ must have an extent of $x_1$ along the $y$-axis. But then $w(p)_2 = x_2$, so $w(p)_3 = x_1$ and again $R_p$ can not be overlapping with $R_q$, since there is a brick below $R_q$ with a height of at least $x_1$. Hence, the bricks are pairwise non-overlapping, whereby $(B, C)$ is a packing of $d$ as desired.
+\end{proof}
+
+\begin{corollary}\label[corollary]{thm:three-is-good}
+$3$ is a good dimension.
+\end{corollary}
+
+\begin{proof}
+Take some representative $P$ of the 21 unique universal packings found in \cref{obs:3d-universal-packings}. Then by the proof above, $P$ produces a packing of any increasing dimension tuple. Hence, $P$ serves as a ``recipe'' for constructing a packing of \textit{any} dimension tuple, whereby $3$ is a good dimension.
+\end{proof}

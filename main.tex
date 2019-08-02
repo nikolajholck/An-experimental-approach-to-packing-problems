@@ -1,0 +1,211 @@
+\documentclass[a4paper, 10pt]{amsart}   % Alternatively use 'article'
+\usepackage[english, science, titlepage]{ku-frontpage/package} % KU front page.
+\usepackage[english]{babel}          % Configure hyphenation.
+\usepackage[utf8]{inputenc}          % Allow e.g. danish letters.
+\usepackage[T1]{fontenc}             % Proper copy-paste and hyphenation of accented characters.
+
+\usepackage{url}                     % Handle urls.
+\usepackage{amsmath, amsthm, amsopn} % Load math packages.
+\usepackage{amssymb}                 % Load additional symbols, such as \blacksquare
+\usepackage{tikz-cd}                 % Commutative diagrams.
+\usepackage{pgfplots}
+\usepackage{graphicx}                % Include figures.
+\usepackage{subcaption}              % Sub figures.
+\usepackage{placeins}                % Float barrier
+%\usepackage{geometry}               % Change margins.
+\usepackage{faktor}                  % Nice algebraic quotients.
+\usepackage{xfrac}                   % Nice in-line fraction.
+\usepackage{url}                     % Nice URLs.
+\usepackage{mathtools}
+\usepackage{stmaryrd}                % Lightning.
+\usepackage{xargs}                   % Use more than one optional parameter in a new commands.
+\usepackage{xcolor}                  % Coloured text etc.
+\usepackage{enumerate}
+\makeindex                           % Index (some document classes might also need \usepackage{makeidx})
+\usetikzlibrary{calc}
+\usetikzlibrary{plotmarks}
+\usetikzlibrary{positioning}
+\usepgfplotslibrary{fillbetween}
+%\usepgfplotslibrary{external}
+%\tikzexternalize 
+\pgfplotsset{compat=1.9} 
+
+\captionsetup[subfigure]{labelfont=rm} % Configure sub-figure numbering.
+
+%%% Theorem environments
+\renewcommand{\qedsymbol}{$\blacksquare$}
+\theoremstyle{definition}
+\newtheorem{theorem}{Theorem}[section]  % Add [section] to also index by section.
+\newtheorem{question}[theorem]{Question}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{criterion}[theorem]{Criterion}
+\newtheorem{observation}[theorem]{Observation}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem*{remark*}{Remark}
+
+\usepackage[capitalize, noabbrev, nameinlink]{cleveref}
+\crefname{question}{Question}{Questions}
+\crefname{lemma}{Lemma}{Lemmas}
+\crefname{proposition}{Proposition}{Propositions}
+\crefname{corollary}{Corollary}{Corollaries}
+\crefname{definition}{Definition}{Definitions}
+\crefname{example}{Example}{Examples}
+\crefname{conjecture}{Conjecture}{Conjectures}
+\crefname{criterion}{Criterion}{Criteria}
+\crefname{observation}{Observation}{Observations}
+\crefname{remark}{Remark}{Remarks}
+
+\usepackage[colorinlistoftodos, prependcaption, textsize=tiny]{todonotes} % Add todos.
+\newcommandx{\unsure}[2][1=]{\todo[linecolor=red,backgroundcolor=red!25,bordercolor=red,#1]{#2}}
+\newcommandx{\change}[2][1=]{\todo[linecolor=blue,backgroundcolor=blue!25,bordercolor=blue,#1]{#2}}
+\newcommandx{\info}[2][1=]{\todo[linecolor=OliveGreen,backgroundcolor=OliveGreen!25,bordercolor=OliveGreen,#1]{#2}}
+\newcommandx{\improvement}[2][1=]{\todo[linecolor=violet,backgroundcolor=violet!25,bordercolor=violet,#1]{#2}}
+\newcommandx{\soren}[2][1=]{\todo[linecolor=orange,backgroundcolor=orange!25,bordercolor=orange,#1]{\textbf{Søren Eilers: }#2}}
+
+\definecolor{custom-red}{RGB}{236, 31, 38}
+\definecolor{custom-green}{RGB}{121, 193, 68}
+\definecolor{custom-blue}{RGB}{0, 125, 199}
+\definecolor{custom-orange}{RGB}{244, 112, 37}
+\definecolor{custom-yellow}{RGB}{252, 223, 7}
+\definecolor{custom-violet}{RGB}{138, 40, 143}
+
+\newcommand{\boxfront}[7]{
+    \pgfmathsetmacro{\ax}{#1}
+    \pgfmathsetmacro{\ay}{#2}
+    \pgfmathsetmacro{\az}{#3}
+    \pgfmathsetmacro{\wx}{#4}
+    \pgfmathsetmacro{\wy}{#5}
+    \pgfmathsetmacro{\wz}{#6}
+    \draw[#7] (\ax + \wx, \ay + \wy, \az + \wz) -- ++(-\wx, 0, 0) -- ++(0, -\wy, 0) -- ++(\wx, 0, 0);
+    \draw[#7] (\ax + \wx, \ay + \wy, \az + \wz) -- ++(0, -\wy, 0) -- ++(0, 0, -\wz) -- ++(0, \wy, 0);
+    \draw[#7] (\ax + \wx, \ay + \wy, \az + \wz) -- ++(0, 0, -\wz) -- ++(-\wx, 0, 0) -- ++(0, 0, \wz);
+}
+\newcommand{\boxback}[7]{
+    \pgfmathsetmacro{\ax}{#1}
+    \pgfmathsetmacro{\ay}{#2}
+    \pgfmathsetmacro{\az}{#3}
+    \pgfmathsetmacro{\wx}{#4}
+    \pgfmathsetmacro{\wy}{#5}
+    \pgfmathsetmacro{\wz}{#6}
+    \draw[#7] (\ax, \ay, \az) -- ++(\wx, 0, 0)
+    (\ax, \ay, \az) -- ++(0, \wy, 0)
+    (\ax, \ay, \az) -- ++(0, 0, \wz);
+}
+
+%%% Characters
+\let\epsilon\varepsilon
+\let\phi\varphi
+
+%%% Discrete math
+\DeclarePairedDelimiter\ceil{\lceil}{\rceil}
+\DeclarePairedDelimiter\floor{\lfloor}{\rfloor}
+
+%%% Number systems
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\C}{\mathbb{C}}
+
+%%% Brackets
+\newcommand{\curly}[1]{ \left\{ #1 \right\} }
+\newcommand{\paren}[1]{ \left( #1 \right) }
+
+%%% Addition math operators
+\DeclareMathOperator{\id}{id}           % Identity function.
+\DeclareMathOperator{\im}{im}           % Image of function.
+\DeclareMathOperator{\Span}{span}       % Span of X.
+
+%%% Logic
+\renewcommand{\iff}{\Leftrightarrow}    % Short iff arrow.
+\renewcommand{\implies}{\Rightarrow}    % Left arrow.
+\renewcommand{\impliedby}{\Leftarrow}   % Right arrow.
+
+%%% Analysis
+\newcommand{\norm}[1]{\lVert #1 \rVert}                  % Norm.
+\newcommand{\abs}[1]{\lvert#1\rvert}                     % Absolute value.
+\renewcommand{\vec}[1]{\mathbf{#1}}
+
+%%% Title page setup
+\assignment{An Experimental Approach to Packing Problems}
+\author{Nikolaj Ingemann von Holck}
+
+\title{Bachelor thesis}
+\subtitle{}
+\date{January 12, 2018}
+\advisor{Advisor: Søren Eilers}
+
+\begin{document}
+
+\pgfplotsset{
+    mark last/.style={
+        scatter,
+        scatter src=x,
+        scatter/@pre marker code/.code={
+            \pgfmathtruncatemacro\usemark{
+                \coordindex==(\numcoords-1)
+            }
+            \ifnum\usemark=0
+                \pgfplotsset{mark=none}
+            \fi
+        },
+        scatter/@post marker code/.code={}
+    }
+}
+
+%%% Title page
+\maketitle
+\newpage
+
+% Intentionally blank page
+\null\thispagestyle{empty}
+\newpage
+
+%%% Abstract
+\thispagestyle{empty}
+\include{0-abstract}
+\newpage
+
+% Intentionally blank page
+\null\thispagestyle{empty}
+\newpage
+
+%%% Table of contents
+\pagenumbering{arabic}
+\thispagestyle{empty}
+\tableofcontents
+\clearpage
+
+%%% Sections with content
+\include{1-introduction}
+\include{2-problem-formulation}
+\include{3-universal-packings}
+\include{4-three-dimensional}
+\include{5-four-dimensional}
+\include{6-five-dimensional}
+
+%%% Appendices
+\makeatletter
+\setlength{\@fptop}{0pt plus 1fil}
+\setlength{\@fpbot}{0pt plus 1fil}
+\makeatother
+\appendix
+\include{A-appendix-A}
+\include{B-appendix-B}
+
+%%% Bibliography
+\nocite{*}
+\bibliographystyle{alpha}
+\bibliography{bibliography.bib}
+\clearpage
+
+%%% Index
+\printindex
+
+\end{document}
